@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Events;
+using UnityEngine.InputSystem;
 using System.Collections;
 
 public class UIManager : MonoBehaviour
@@ -64,7 +65,7 @@ public class UIManager : MonoBehaviour
 
     private void Update()
     {
-        if (canvas.interactable && Input.GetMouseButtonDown(0))
+        if (canvas.interactable && InputSystem.actions.FindAction("Click").WasPressedThisFrame())
         {
             if (visibleStart)
             {
@@ -91,9 +92,17 @@ public class UIManager : MonoBehaviour
         visibleStart = true;
     }
 
+    int gameOverCounter = 0;
     public void OnGameOver()
     {
         StartCoroutine(ShowRestart());
+
+        gameOverCounter++;
+        if(gameOverCounter >= 3)
+        {
+            gameOverCounter = 0;
+            GoogleAdMobController.Instance.ShowInterstitialAd();
+        }
     }
 
     private IEnumerator ShowRestart()

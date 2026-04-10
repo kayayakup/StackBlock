@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.InputSystem;
 using System.Collections;
 
 public class GameManager : MonoBehaviour
@@ -50,7 +51,7 @@ public class GameManager : MonoBehaviour
     {
         if (gameOver) return;
         
-        if (Input.GetMouseButtonDown(0))
+        if (InputSystem.actions.FindAction("Click").WasPressedThisFrame())
         {
             gameOver = stack.StopDynamicPlatform();
 
