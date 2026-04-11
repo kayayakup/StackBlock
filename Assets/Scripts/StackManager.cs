@@ -294,7 +294,7 @@ public class StackManager : MonoBehaviour
         cameraAnimation.Invoke(0, true, false);
         platform.SetActive(false);
 
-        score.current = 0;
+        score.ResetState();
         platforms.Clear();
     }
 }

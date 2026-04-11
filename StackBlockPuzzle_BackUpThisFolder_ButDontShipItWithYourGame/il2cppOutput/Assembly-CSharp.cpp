@@ -3014,7 +3014,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXProjectileScript_Start_m0E1FB70AED6D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:16>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:16>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___projectileParticle;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
 		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -3031,7 +3031,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXProjectileScript_Start_m0E1FB70AED6D
 		L_5 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4(L_0, L_2, L_4, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
 		__this->___projectileParticle = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___projectileParticle), (void*)L_5);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:17>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:17>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___projectileParticle;
 		NullCheck(L_6);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
@@ -3040,7 +3040,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXProjectileScript_Start_m0E1FB70AED6D
 		L_8 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_7);
 		Transform_set_parent_m9BD5E563B539DD5BEC342736B03F97B38A243234(L_7, L_8, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:18>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:18>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->___muzzleParticle;
 		bool L_10;
 		L_10 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_9, NULL);
@@ -3050,7 +3050,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXProjectileScript_Start_m0E1FB70AED6D
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:20>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:20>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->___muzzleParticle;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12;
 		L_12 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -3067,14 +3067,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXProjectileScript_Start_m0E1FB70AED6D
 		L_16 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4(L_11, L_13, L_15, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
 		__this->___muzzleParticle = L_16;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___muzzleParticle), (void*)L_16);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:21>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:21>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = __this->___muzzleParticle;
 		Object_Destroy_m064F2A066491D2DC4FFCFBDBE5FCFFB807A04436(L_17, (1.5f), NULL);
 	}
 
 IL_0081:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:23>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:23>
 		return;
 	}
 }
@@ -3106,7 +3106,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXProjectileScript_FixedUpdate_m2FB7E6
 	int32_t V_7 = 0;
 	ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* V_8 = NULL;
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:27>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:27>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_0;
 		L_0 = Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8(__this, Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8_RuntimeMethod_var);
 		NullCheck(L_0);
@@ -3121,7 +3121,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXProjectileScript_FixedUpdate_m2FB7E6
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:29>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:29>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
 		L_3 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_4;
@@ -3137,7 +3137,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXProjectileScript_FixedUpdate_m2FB7E6
 
 IL_0036:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:35>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:35>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
 		L_7 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_7);
@@ -3152,7 +3152,7 @@ IL_0036:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:36>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:36>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10;
 		L_10 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_10);
@@ -3167,14 +3167,14 @@ IL_0036:
 
 IL_005b:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:38>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:38>
 		float L_13 = __this->___colliderRadius;
 		V_1 = L_13;
 	}
 
 IL_0062:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:40>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:40>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_14;
 		L_14 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_14);
@@ -3184,7 +3184,7 @@ IL_0062:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16;
 		L_16 = Rigidbody_get_linearVelocity_m367F5415641E5FB968440A91BAE2FCB8CAEA2C8C(L_15, NULL);
 		V_2 = L_16;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:41>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:41>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_17;
 		L_17 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_17);
@@ -3199,7 +3199,7 @@ IL_0062:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:42>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:42>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21;
@@ -3215,11 +3215,11 @@ IL_0062:
 
 IL_009b:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:43>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:43>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25;
 		L_25 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_2), NULL);
 		V_2 = L_25;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:45>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:45>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_26;
 		L_26 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_26);
@@ -3234,7 +3234,7 @@ IL_009b:
 		float L_30;
 		L_30 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		V_3 = ((float)il2cpp_codegen_multiply(L_29, L_30));
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:47>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:47>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_31;
 		L_31 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_31);
@@ -3252,7 +3252,7 @@ IL_009b:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:49>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:49>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_37;
 		L_37 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_38;
@@ -3266,7 +3266,7 @@ IL_009b:
 		L_42 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_38, L_41, NULL);
 		NullCheck(L_37);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_37, L_42, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:51>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:51>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_43 = __this->___impactParticle;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_44;
 		L_44 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -3283,25 +3283,25 @@ IL_009b:
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_49;
 		L_49 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4(L_43, L_45, L_48, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
 		V_5 = L_49;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:53>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:53>
 		ParticleSystemU5BU5D_tC5E33DA557C9C2064085128B3530C5F04D48F6E6* L_50;
 		L_50 = Component_GetComponentsInChildren_TisParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1_m4A6A34D7CF3ABDD3C27C0FB3017B5B0D05AF407D(__this, Component_GetComponentsInChildren_TisParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1_m4A6A34D7CF3ABDD3C27C0FB3017B5B0D05AF407D_RuntimeMethod_var);
 		V_6 = L_50;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:55>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:55>
 		V_7 = 1;
 		goto IL_017f;
 	}
 
 IL_013c:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:57>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:57>
 		ParticleSystemU5BU5D_tC5E33DA557C9C2064085128B3530C5F04D48F6E6* L_51 = V_6;
 		int32_t L_52 = V_7;
 		NullCheck(L_51);
 		int32_t L_53 = L_52;
 		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_54 = (L_51)->GetAt(static_cast<il2cpp_array_size_t>(L_53));
 		V_8 = L_54;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:59>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:59>
 		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_55 = V_8;
 		NullCheck(L_55);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_56;
@@ -3318,14 +3318,14 @@ IL_013c:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:61>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:61>
 		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_59 = V_8;
 		NullCheck(L_59);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_60;
 		L_60 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_59, NULL);
 		NullCheck(L_60);
 		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_60, (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:62>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:62>
 		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_61 = V_8;
 		NullCheck(L_61);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_62;
@@ -3336,14 +3336,14 @@ IL_013c:
 
 IL_0179:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:55>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:55>
 		int32_t L_63 = V_7;
 		V_7 = ((int32_t)il2cpp_codegen_add(L_63, 1));
 	}
 
 IL_017f:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:55>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:55>
 		int32_t L_64 = V_7;
 		ParticleSystemU5BU5D_tC5E33DA557C9C2064085128B3530C5F04D48F6E6* L_65 = V_6;
 		NullCheck(L_65);
@@ -3353,14 +3353,14 @@ IL_017f:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:66>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:66>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_66 = __this->___projectileParticle;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_m064F2A066491D2DC4FFCFBDBE5FCFFB807A04436(L_66, (3.0f), NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:67>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:67>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_67 = V_5;
 		Object_Destroy_m064F2A066491D2DC4FFCFBDBE5FCFFB807A04436(L_67, (3.5f), NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:68>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:68>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_68;
 		L_68 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_68, NULL);
@@ -3368,7 +3368,7 @@ IL_017f:
 
 IL_01ae:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:70>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:70>
 		return;
 	}
 }
@@ -3376,9 +3376,9 @@ IL_01ae:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXProjectileScript__ctor_mA40725837A6D1433D09D449D6AAFD1B47C127268 (ETFXProjectileScript_tA2947F5586F8DC4C799B267781C47DBC0F53B25B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:10>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:10>
 		__this->___colliderRadius = (1.0f);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:12>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs:12>
 		__this->___collideOffset = (0.150000006f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -3403,10 +3403,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXSceneManager_LoadScene2DDemo_m166AEE
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:15>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:15>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteralCE8DBC7FFF52925F8AED0C5F50AEF43ABA6C6C36, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:16>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:16>
 		return;
 	}
 }
@@ -3421,10 +3421,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXSceneManager_LoadSceneCards_mB6F24EF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:18>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:18>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral01228D97468F93F4C08D34049F3BE2138BFA15D8, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:19>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:19>
 		return;
 	}
 }
@@ -3439,10 +3439,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXSceneManager_LoadSceneCombat_mCE7140
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:21>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:21>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteralF2A170901896DA9E535CB9AFD05D068A6DC3ED07, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:22>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:22>
 		return;
 	}
 }
@@ -3457,10 +3457,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXSceneManager_LoadSceneDecals_mA158CA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:24>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:24>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral35976FFCA294560D7E4C40F81B41248FED8AD19E, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:25>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:25>
 		return;
 	}
 }
@@ -3475,10 +3475,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXSceneManager_LoadSceneDecals2_m184A7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:27>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:27>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral5183CC718F042548CB17830F335CA1300798F98F, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:28>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:28>
 		return;
 	}
 }
@@ -3493,10 +3493,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXSceneManager_LoadSceneEmojis_m6B2D44
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:30>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:30>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral9D108E69F651AE4F1653BCDCAA8D2C79B865B23A, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:31>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:31>
 		return;
 	}
 }
@@ -3511,10 +3511,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXSceneManager_LoadSceneEmojis2_m66665
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:33>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:33>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteralA48328E12C38ADB209E5965BAF23D6A254F32EAA, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:34>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:34>
 		return;
 	}
 }
@@ -3529,10 +3529,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXSceneManager_LoadSceneExplosions_mD7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:36>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:36>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral6FA6337DF8B49626C6F4D96CF07FF45586BDA214, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:37>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:37>
 		return;
 	}
 }
@@ -3547,10 +3547,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXSceneManager_LoadSceneExplosions2_m5
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:39>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:39>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral551232956AEF66634A14B2FA7D5E43036EBAE5AE, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:40>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:40>
 		return;
 	}
 }
@@ -3565,10 +3565,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXSceneManager_LoadSceneFire_m265A0FE0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:42>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:42>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral16B50E8F5851EEBF64831B0EAFD15BD9FCC57686, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:43>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:43>
 		return;
 	}
 }
@@ -3583,10 +3583,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXSceneManager_LoadSceneFire2_mC60D6D1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:45>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:45>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteralD1679F19DA567DC41D2778CF07FA2C003E100369, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:46>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:46>
 		return;
 	}
 }
@@ -3601,10 +3601,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXSceneManager_LoadSceneFire3_m612F024
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:48>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:48>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteralDF246C2C30DD050AD1D57A21AAC461FA49F6D42E, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:49>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:49>
 		return;
 	}
 }
@@ -3619,10 +3619,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXSceneManager_LoadSceneFireworks_m7A3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:51>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:51>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral8DDB709CD0A40DF83139466BDB36786AAE75EE8F, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:52>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:52>
 		return;
 	}
 }
@@ -3637,10 +3637,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXSceneManager_LoadSceneFlares_mBA39D7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:54>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:54>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteralEF0887D90DE9B75255B1C019432AC465E5794CEB, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:55>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:55>
 		return;
 	}
 }
@@ -3655,10 +3655,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXSceneManager_LoadSceneMagic_m4FD8415
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:57>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:57>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral542C20BA146CC0FFF0BACCD64CCB27638EE2C535, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:58>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:58>
 		return;
 	}
 }
@@ -3673,10 +3673,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXSceneManager_LoadSceneMagic2_mE2E16D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:60>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:60>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteralBF872ADFA6D009455788B01E0039910ABAA9AEE9, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:61>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:61>
 		return;
 	}
 }
@@ -3691,10 +3691,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXSceneManager_LoadSceneMagic3_mD289F0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:63>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:63>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral2A5F1D79B12F1C52B9B1E470CFFAFFA221390695, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:64>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:64>
 		return;
 	}
 }
@@ -3709,10 +3709,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXSceneManager_LoadSceneMainDemo_m70F4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:66>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:66>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral5046BA9E70AC20B6F9AC56F496268F4CA54CB71D, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:67>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:67>
 		return;
 	}
 }
@@ -3727,10 +3727,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXSceneManager_LoadSceneMissiles_mB99E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:69>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:69>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral4907D619835F2CCA72462CBD2E9117F3D50AA239, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:70>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:70>
 		return;
 	}
 }
@@ -3745,10 +3745,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXSceneManager_LoadScenePortals_m1B241
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:72>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:72>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral3FA3643AE00785D4AAC8D94F75DBEC31C591CD8C, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:73>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:73>
 		return;
 	}
 }
@@ -3763,10 +3763,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXSceneManager_LoadScenePortals2_m3ACA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:75>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:75>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral3567C3794ABE76DD48E35F1DF7FC710B55520C9E, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:76>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:76>
 		return;
 	}
 }
@@ -3781,10 +3781,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXSceneManager_LoadScenePowerups_m17C3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:78>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:78>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral342FE8A631B1691BFAFBC5238E49C17B7A0188F8, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:79>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:79>
 		return;
 	}
 }
@@ -3799,10 +3799,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXSceneManager_LoadScenePowerups2_m794
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:81>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:81>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral7DF7A265B2E2742BE4BF8DF078EB839FD342B9E9, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:82>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:82>
 		return;
 	}
 }
@@ -3817,10 +3817,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXSceneManager_LoadSceneSparkles_m88CD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:84>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:84>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral55DCD3C41D65D7C0C6131E9F887E925D3D93D999, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:85>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:85>
 		return;
 	}
 }
@@ -3835,10 +3835,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXSceneManager_LoadSceneSwordCombat_m9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:87>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:87>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteralE720B9F5A19BBE91E81F3577B920642AEA974C49, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:88>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:88>
 		return;
 	}
 }
@@ -3853,10 +3853,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXSceneManager_LoadSceneSwordCombat2_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:90>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:90>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral2940DE8D75B2E8B88DD329CDDC03D118CF148C79, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:91>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:91>
 		return;
 	}
 }
@@ -3871,10 +3871,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXSceneManager_LoadSceneMoney_mBECE1A2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:93>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:93>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteralE5B46BB36C025A58C6B5C47AF145C69CC35BB955, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:94>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:94>
 		return;
 	}
 }
@@ -3889,10 +3889,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXSceneManager_LoadSceneHealing_mBEC91
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:96>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:96>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteralBAAA90AC733B7E7E42D2C8D1D639DDE68DFECD7F, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:97>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:97>
 		return;
 	}
 }
@@ -3907,10 +3907,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXSceneManager_LoadSceneWind_mA896516E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:99>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:99>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral2E9A7309AEEF5B192FD019E712D2973C5AF4E319, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:100>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:100>
 		return;
 	}
 }
@@ -3928,7 +3928,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXSceneManager_Update_m837F7099F9821C1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:105>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:105>
 		bool L_0;
 		L_0 = Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2(((int32_t)108), NULL);
 		if (!L_0)
@@ -3937,10 +3937,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXSceneManager_Update_m837F7099F9821C1
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:107>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:107>
 		bool L_1 = __this->___GUIHide;
 		__this->___GUIHide = (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:109>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:109>
 		bool L_2 = __this->___GUIHide;
 		if (!L_2)
 		{
@@ -3948,7 +3948,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXSceneManager_Update_m837F7099F9821C1
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:111>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:111>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
 		L_3 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral1EFF1CA3F95D2B3E9378D139FADBCDD0308F8162, NULL);
 		NullCheck(L_3);
@@ -3961,7 +3961,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXSceneManager_Update_m837F7099F9821C1
 
 IL_0037:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:115>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:115>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
 		L_5 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral1EFF1CA3F95D2B3E9378D139FADBCDD0308F8162, NULL);
 		NullCheck(L_5);
@@ -3973,7 +3973,7 @@ IL_0037:
 
 IL_004c:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:118>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:118>
 		bool L_7;
 		L_7 = Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2(((int32_t)106), NULL);
 		if (!L_7)
@@ -3982,10 +3982,10 @@ IL_004c:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:120>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:120>
 		bool L_8 = __this->___GUIHide2;
 		__this->___GUIHide2 = (bool)((((int32_t)L_8) == ((int32_t)0))? 1 : 0);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:122>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:122>
 		bool L_9 = __this->___GUIHide2;
 		if (!L_9)
 		{
@@ -3993,7 +3993,7 @@ IL_004c:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:124>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:124>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10;
 		L_10 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteralFC075BC3DFE942623230E78DC9D41126E9C003CA, NULL);
 		NullCheck(L_10);
@@ -4006,7 +4006,7 @@ IL_004c:
 
 IL_0083:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:128>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:128>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12;
 		L_12 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteralFC075BC3DFE942623230E78DC9D41126E9C003CA, NULL);
 		NullCheck(L_12);
@@ -4018,7 +4018,7 @@ IL_0083:
 
 IL_0098:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:131>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:131>
 		bool L_14;
 		L_14 = Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2(((int32_t)104), NULL);
 		if (!L_14)
@@ -4027,10 +4027,10 @@ IL_0098:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:133>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:133>
 		bool L_15 = __this->___GUIHide3;
 		__this->___GUIHide3 = (bool)((((int32_t)L_15) == ((int32_t)0))? 1 : 0);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:135>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:135>
 		bool L_16 = __this->___GUIHide3;
 		if (!L_16)
 		{
@@ -4038,7 +4038,7 @@ IL_0098:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:137>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:137>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17;
 		L_17 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral0C9FF3B3141F5DF7D803B4AA8CC203B64A33D903, NULL);
 		NullCheck(L_17);
@@ -4051,7 +4051,7 @@ IL_0098:
 
 IL_00cf:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:141>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:141>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19;
 		L_19 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral0C9FF3B3141F5DF7D803B4AA8CC203B64A33D903, NULL);
 		NullCheck(L_19);
@@ -4063,7 +4063,7 @@ IL_00cf:
 
 IL_00e4:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:144>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:144>
 		bool L_21;
 		L_21 = Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2(((int32_t)107), NULL);
 		if (!L_21)
@@ -4072,10 +4072,10 @@ IL_00e4:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:146>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:146>
 		bool L_22 = __this->___GUIHide4;
 		__this->___GUIHide4 = (bool)((((int32_t)L_22) == ((int32_t)0))? 1 : 0);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:148>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:148>
 		bool L_23 = __this->___GUIHide3;
 		if (!L_23)
 		{
@@ -4083,7 +4083,7 @@ IL_00e4:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:150>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:150>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24;
 		L_24 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral1A7FFC98C7BE33F9BD92522989C848CB308F744A, NULL);
 		NullCheck(L_24);
@@ -4096,7 +4096,7 @@ IL_00e4:
 
 IL_011a:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:154>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:154>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_26;
 		L_26 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral1A7FFC98C7BE33F9BD92522989C848CB308F744A, NULL);
 		NullCheck(L_26);
@@ -4108,7 +4108,7 @@ IL_011a:
 
 IL_012f:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:157>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs:157>
 		return;
 	}
 }
@@ -4147,21 +4147,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleEffectsLibrary_Awake_mF2AC0D8364
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:8>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:8>
 		((ParticleEffectsLibrary_t8C20BBF02959C886134EFB5E30D855D639885B57_StaticFields*)il2cpp_codegen_static_fields_for(ParticleEffectsLibrary_t8C20BBF02959C886134EFB5E30D855D639885B57_il2cpp_TypeInfo_var))->___GlobalAccess = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&((ParticleEffectsLibrary_t8C20BBF02959C886134EFB5E30D855D639885B57_StaticFields*)il2cpp_codegen_static_fields_for(ParticleEffectsLibrary_t8C20BBF02959C886134EFB5E30D855D639885B57_il2cpp_TypeInfo_var))->___GlobalAccess), (void*)__this);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:10>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:10>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_0 = (List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D*)il2cpp_codegen_object_new(List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D_il2cpp_TypeInfo_var);
 		List_1__ctor_mDC3E95DC5C927A867B9B42EDE1945F909B894268(L_0, List_1__ctor_mDC3E95DC5C927A867B9B42EDE1945F909B894268_RuntimeMethod_var);
 		__this->___currentActivePEList = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentActivePEList), (void*)L_0);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:12>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:12>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_1 = __this->___ParticleEffectPrefabs;
 		NullCheck(L_1);
 		__this->___TotalEffects = ((int32_t)(((RuntimeArray*)L_1)->max_length));
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:14>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:14>
 		__this->___CurrentParticleEffectNum = 1;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:17>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:17>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_2 = __this->___ParticleEffectSpawnOffsets;
 		NullCheck(L_2);
 		int32_t L_3 = __this->___TotalEffects;
@@ -4171,14 +4171,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleEffectsLibrary_Awake_mF2AC0D8364
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:18>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:18>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteralB4B98DFD193C6BB1F1EE1FC7E48E5D716980E761, NULL);
 	}
 
 IL_0040:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:20>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:20>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_4 = __this->___ParticleEffectPrefabs;
 		NullCheck(L_4);
 		int32_t L_5 = __this->___TotalEffects;
@@ -4188,14 +4188,14 @@ IL_0040:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:21>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:21>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteralC36E2206A2F7EED468C9DBF8C86A794A7BEF655A, NULL);
 	}
 
 IL_005a:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:25>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:25>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_6 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)6);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_7 = L_6;
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_8 = __this->___ParticleEffectPrefabs;
@@ -4233,7 +4233,7 @@ IL_005a:
 		L_22 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_21, NULL);
 		__this->___effectNameString = L_22;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___effectNameString), (void*)L_22);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:26>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:26>
 		return;
 	}
 }
@@ -4241,7 +4241,7 @@ IL_005a:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleEffectsLibrary_Start_mEB46C3D6FAF9CDCE0C134F6E807DBF702519CDC9 (ParticleEffectsLibrary_t8C20BBF02959C886134EFB5E30D855D639885B57* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:45>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:45>
 		return;
 	}
 }
@@ -4258,7 +4258,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ParticleEffectsLibrary_GetCurrentPE
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:48>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:48>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)6);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = L_0;
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_2 = __this->___ParticleEffectPrefabs;
@@ -4315,7 +4315,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleEffectsLibrary_PreviousParticleE
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:53>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:53>
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_0 = __this->___ParticleEffectLifetimes;
 		int32_t L_1 = __this->___CurrentParticleEffectIndex;
 		NullCheck(L_0);
@@ -4327,7 +4327,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleEffectsLibrary_PreviousParticleE
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:54>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:54>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_4 = __this->___currentActivePEList;
 		NullCheck(L_4);
 		int32_t L_5;
@@ -4338,14 +4338,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleEffectsLibrary_PreviousParticleE
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:55>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:55>
 		V_0 = 0;
 		goto IL_0054;
 	}
 
 IL_0026:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:56>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:56>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_6 = __this->___currentActivePEList;
 		int32_t L_7 = V_0;
 		NullCheck(L_6);
@@ -4360,7 +4360,7 @@ IL_0026:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:57>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:57>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_10 = __this->___currentActivePEList;
 		int32_t L_11 = V_0;
 		NullCheck(L_10);
@@ -4375,14 +4375,14 @@ IL_0026:
 
 IL_0050:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:55>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:55>
 		int32_t L_14 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_14, 1));
 	}
 
 IL_0054:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:55>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:55>
 		int32_t L_15 = V_0;
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_16 = __this->___currentActivePEList;
 		NullCheck(L_16);
@@ -4394,7 +4394,7 @@ IL_0054:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:60>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:60>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_18 = __this->___currentActivePEList;
 		NullCheck(L_18);
 		List_1_Clear_m62240D3AFAD9D2125A87C35D5324B9451929FDF1_inline(L_18, List_1_Clear_m62240D3AFAD9D2125A87C35D5324B9451929FDF1_RuntimeMethod_var);
@@ -4402,7 +4402,7 @@ IL_0054:
 
 IL_006d:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:65>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:65>
 		int32_t L_19 = __this->___CurrentParticleEffectIndex;
 		if ((((int32_t)L_19) <= ((int32_t)0)))
 		{
@@ -4410,7 +4410,7 @@ IL_006d:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:66>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:66>
 		int32_t L_20 = __this->___CurrentParticleEffectIndex;
 		__this->___CurrentParticleEffectIndex = ((int32_t)il2cpp_codegen_subtract(L_20, 1));
 		goto IL_0094;
@@ -4418,17 +4418,17 @@ IL_006d:
 
 IL_0086:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:68>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:68>
 		int32_t L_21 = __this->___TotalEffects;
 		__this->___CurrentParticleEffectIndex = ((int32_t)il2cpp_codegen_subtract(L_21, 1));
 	}
 
 IL_0094:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:70>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:70>
 		int32_t L_22 = __this->___CurrentParticleEffectIndex;
 		__this->___CurrentParticleEffectNum = ((int32_t)il2cpp_codegen_add(L_22, 1));
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:73>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:73>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_23 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)6);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_24 = L_23;
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_25 = __this->___ParticleEffectPrefabs;
@@ -4466,7 +4466,7 @@ IL_0094:
 		L_39 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_38, NULL);
 		__this->___effectNameString = L_39;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___effectNameString), (void*)L_39);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:74>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:74>
 		return;
 	}
 }
@@ -4488,7 +4488,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleEffectsLibrary_NextParticleEffec
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:77>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:77>
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_0 = __this->___ParticleEffectLifetimes;
 		int32_t L_1 = __this->___CurrentParticleEffectIndex;
 		NullCheck(L_0);
@@ -4500,7 +4500,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleEffectsLibrary_NextParticleEffec
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:78>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:78>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_4 = __this->___currentActivePEList;
 		NullCheck(L_4);
 		int32_t L_5;
@@ -4511,14 +4511,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleEffectsLibrary_NextParticleEffec
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:79>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:79>
 		V_0 = 0;
 		goto IL_0054;
 	}
 
 IL_0026:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:80>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:80>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_6 = __this->___currentActivePEList;
 		int32_t L_7 = V_0;
 		NullCheck(L_6);
@@ -4533,7 +4533,7 @@ IL_0026:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:81>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:81>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_10 = __this->___currentActivePEList;
 		int32_t L_11 = V_0;
 		NullCheck(L_10);
@@ -4548,14 +4548,14 @@ IL_0026:
 
 IL_0050:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:79>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:79>
 		int32_t L_14 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_14, 1));
 	}
 
 IL_0054:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:79>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:79>
 		int32_t L_15 = V_0;
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_16 = __this->___currentActivePEList;
 		NullCheck(L_16);
@@ -4567,7 +4567,7 @@ IL_0054:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:84>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:84>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_18 = __this->___currentActivePEList;
 		NullCheck(L_18);
 		List_1_Clear_m62240D3AFAD9D2125A87C35D5324B9451929FDF1_inline(L_18, List_1_Clear_m62240D3AFAD9D2125A87C35D5324B9451929FDF1_RuntimeMethod_var);
@@ -4575,7 +4575,7 @@ IL_0054:
 
 IL_006d:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:89>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:89>
 		int32_t L_19 = __this->___CurrentParticleEffectIndex;
 		int32_t L_20 = __this->___TotalEffects;
 		if ((((int32_t)L_19) >= ((int32_t)((int32_t)il2cpp_codegen_subtract(L_20, 1)))))
@@ -4584,7 +4584,7 @@ IL_006d:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:90>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:90>
 		int32_t L_21 = __this->___CurrentParticleEffectIndex;
 		__this->___CurrentParticleEffectIndex = ((int32_t)il2cpp_codegen_add(L_21, 1));
 		goto IL_0094;
@@ -4592,16 +4592,16 @@ IL_006d:
 
 IL_008d:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:92>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:92>
 		__this->___CurrentParticleEffectIndex = 0;
 	}
 
 IL_0094:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:94>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:94>
 		int32_t L_22 = __this->___CurrentParticleEffectIndex;
 		__this->___CurrentParticleEffectNum = ((int32_t)il2cpp_codegen_add(L_22, 1));
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:97>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:97>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_23 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)6);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_24 = L_23;
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_25 = __this->___ParticleEffectPrefabs;
@@ -4639,7 +4639,7 @@ IL_0094:
 		L_39 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_38, NULL);
 		__this->___effectNameString = L_39;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___effectNameString), (void*)L_39);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:98>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:98>
 		return;
 	}
 }
@@ -4666,7 +4666,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleEffectsLibrary_SpawnParticleEffe
 	String_t* G_B3_1 = NULL;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* G_B3_2 = NULL;
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:103>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:103>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_positionInWorldToSpawn;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_1 = __this->___ParticleEffectSpawnOffsets;
 		int32_t L_2 = __this->___CurrentParticleEffectIndex;
@@ -4676,7 +4676,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleEffectsLibrary_SpawnParticleEffe
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
 		L_5 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_0, L_4, NULL);
 		__this->___spawnPosition = L_5;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:104>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:104>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_6 = __this->___ParticleEffectPrefabs;
 		int32_t L_7 = __this->___CurrentParticleEffectIndex;
 		NullCheck(L_6);
@@ -4698,7 +4698,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleEffectsLibrary_SpawnParticleEffe
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17;
 		L_17 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4(L_9, L_10, L_16, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
 		V_0 = L_17;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:105>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:105>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = V_0;
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_19 = __this->___ParticleEffectPrefabs;
 		int32_t L_20 = __this->___CurrentParticleEffectIndex;
@@ -4740,7 +4740,7 @@ IL_006c:
 		L_25 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(G_B3_1, G_B3_0, NULL);
 		NullCheck(G_B3_2);
 		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(G_B3_2, L_25, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:107>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:107>
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_26 = __this->___ParticleEffectLifetimes;
 		int32_t L_27 = __this->___CurrentParticleEffectIndex;
 		NullCheck(L_26);
@@ -4752,7 +4752,7 @@ IL_006c:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:108>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:108>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_30 = __this->___currentActivePEList;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_31 = V_0;
 		NullCheck(L_31);
@@ -4764,7 +4764,7 @@ IL_006c:
 
 IL_009b:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:110>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:110>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_33 = __this->___currentActivePEList;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_34 = V_0;
 		NullCheck(L_34);
@@ -4772,7 +4772,7 @@ IL_009b:
 		L_35 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_34, NULL);
 		NullCheck(L_33);
 		List_1_Add_m36829EC89855C8C23CEDA8C5F5B12B76ADFE2248_inline(L_33, L_35, List_1_Add_m36829EC89855C8C23CEDA8C5F5B12B76ADFE2248_RuntimeMethod_var);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:112>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:112>
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_36 = __this->___ParticleEffectLifetimes;
 		int32_t L_37 = __this->___CurrentParticleEffectIndex;
 		NullCheck(L_36);
@@ -4784,7 +4784,7 @@ IL_009b:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:113>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:113>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_40 = V_0;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_41 = __this->___ParticleEffectLifetimes;
 		int32_t L_42 = __this->___CurrentParticleEffectIndex;
@@ -4797,7 +4797,7 @@ IL_009b:
 
 IL_00d3:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:115>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:115>
 		return;
 	}
 }
@@ -4811,10 +4811,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleEffectsLibrary__ctor_m79285CB8E8
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:40>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:40>
 		__this->___effectNameString = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___effectNameString), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:100>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs:100>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
 		L_0 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		__this->___spawnPosition = L_0;
@@ -4848,7 +4848,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PEButtonScript_Start_mBAE6F283CF1BF84900
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/PEButtonScript.cs:20>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/PEButtonScript.cs:20>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_0);
@@ -4856,7 +4856,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PEButtonScript_Start_mBAE6F283CF1BF84900
 		L_1 = GameObject_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mB997CBF78A37938DC1624352E12D0205078CB290(L_0, GameObject_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mB997CBF78A37938DC1624352E12D0205078CB290_RuntimeMethod_var);
 		__this->___myButton = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___myButton), (void*)L_1);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/PEButtonScript.cs:21>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/PEButtonScript.cs:21>
 		return;
 	}
 }
@@ -4870,16 +4870,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PEButtonScript_OnPointerEnter_m13D52C4BB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/PEButtonScript.cs:25>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/PEButtonScript.cs:25>
 		UICanvasManager_t1235F60DFCA28FAA0ED74D43873B10F00E8002FB* L_0 = ((UICanvasManager_t1235F60DFCA28FAA0ED74D43873B10F00E8002FB_StaticFields*)il2cpp_codegen_static_fields_for(UICanvasManager_t1235F60DFCA28FAA0ED74D43873B10F00E8002FB_il2cpp_TypeInfo_var))->___GlobalAccess;
 		NullCheck(L_0);
 		L_0->___MouseOverButton = (bool)1;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/PEButtonScript.cs:26>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/PEButtonScript.cs:26>
 		UICanvasManager_t1235F60DFCA28FAA0ED74D43873B10F00E8002FB* L_1 = ((UICanvasManager_t1235F60DFCA28FAA0ED74D43873B10F00E8002FB_StaticFields*)il2cpp_codegen_static_fields_for(UICanvasManager_t1235F60DFCA28FAA0ED74D43873B10F00E8002FB_il2cpp_TypeInfo_var))->___GlobalAccess;
 		int32_t L_2 = __this->___ButtonType;
 		NullCheck(L_1);
 		UICanvasManager_UpdateToolTip_mFA1330F8A25B3437AADA88116C2B3AF9B9A43256(L_1, L_2, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/PEButtonScript.cs:27>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/PEButtonScript.cs:27>
 		return;
 	}
 }
@@ -4893,15 +4893,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PEButtonScript_OnPointerExit_m74437A2567
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/PEButtonScript.cs:31>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/PEButtonScript.cs:31>
 		UICanvasManager_t1235F60DFCA28FAA0ED74D43873B10F00E8002FB* L_0 = ((UICanvasManager_t1235F60DFCA28FAA0ED74D43873B10F00E8002FB_StaticFields*)il2cpp_codegen_static_fields_for(UICanvasManager_t1235F60DFCA28FAA0ED74D43873B10F00E8002FB_il2cpp_TypeInfo_var))->___GlobalAccess;
 		NullCheck(L_0);
 		L_0->___MouseOverButton = (bool)0;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/PEButtonScript.cs:32>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/PEButtonScript.cs:32>
 		UICanvasManager_t1235F60DFCA28FAA0ED74D43873B10F00E8002FB* L_1 = ((UICanvasManager_t1235F60DFCA28FAA0ED74D43873B10F00E8002FB_StaticFields*)il2cpp_codegen_static_fields_for(UICanvasManager_t1235F60DFCA28FAA0ED74D43873B10F00E8002FB_il2cpp_TypeInfo_var))->___GlobalAccess;
 		NullCheck(L_1);
 		UICanvasManager_ClearToolTip_m49C6117C20B9614BB602042D8A9DECF1AB68BC9C(L_1, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/PEButtonScript.cs:33>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/PEButtonScript.cs:33>
 		return;
 	}
 }
@@ -4915,12 +4915,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PEButtonScript_OnButtonClicked_mAAE0BE73
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/PEButtonScript.cs:37>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/PEButtonScript.cs:37>
 		UICanvasManager_t1235F60DFCA28FAA0ED74D43873B10F00E8002FB* L_0 = ((UICanvasManager_t1235F60DFCA28FAA0ED74D43873B10F00E8002FB_StaticFields*)il2cpp_codegen_static_fields_for(UICanvasManager_t1235F60DFCA28FAA0ED74D43873B10F00E8002FB_il2cpp_TypeInfo_var))->___GlobalAccess;
 		int32_t L_1 = __this->___ButtonType;
 		NullCheck(L_0);
 		UICanvasManager_UIButtonClick_m46983844912FADCFDDBA0455339B5E2162CB801C(L_0, L_1, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/PEButtonScript.cs:38>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/PEButtonScript.cs:38>
 		return;
 	}
 }
@@ -4950,10 +4950,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UICanvasManager_Awake_mC3050903833E679EA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:8>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:8>
 		((UICanvasManager_t1235F60DFCA28FAA0ED74D43873B10F00E8002FB_StaticFields*)il2cpp_codegen_static_fields_for(UICanvasManager_t1235F60DFCA28FAA0ED74D43873B10F00E8002FB_il2cpp_TypeInfo_var))->___GlobalAccess = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&((UICanvasManager_t1235F60DFCA28FAA0ED74D43873B10F00E8002FB_StaticFields*)il2cpp_codegen_static_fields_for(UICanvasManager_t1235F60DFCA28FAA0ED74D43873B10F00E8002FB_il2cpp_TypeInfo_var))->___GlobalAccess), (void*)__this);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:9>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:9>
 		return;
 	}
 }
@@ -4968,7 +4968,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UICanvasManager_Start_mF34E919B169144CB9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:17>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:17>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___PENameText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -4979,7 +4979,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UICanvasManager_Start_mF34E919B169144CB9
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:18>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:18>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_2 = __this->___PENameText;
 		ParticleEffectsLibrary_t8C20BBF02959C886134EFB5E30D855D639885B57* L_3 = ((ParticleEffectsLibrary_t8C20BBF02959C886134EFB5E30D855D639885B57_StaticFields*)il2cpp_codegen_static_fields_for(ParticleEffectsLibrary_t8C20BBF02959C886134EFB5E30D855D639885B57_il2cpp_TypeInfo_var))->___GlobalAccess;
 		NullCheck(L_3);
@@ -4991,7 +4991,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UICanvasManager_Start_mF34E919B169144CB9
 
 IL_0023:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:19>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:19>
 		return;
 	}
 }
@@ -4999,7 +4999,7 @@ IL_0023:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UICanvasManager_Update_mFD93AA63AD21FF943446DAD0C8BF3AD4275CD482 (UICanvasManager_t1235F60DFCA28FAA0ED74D43873B10F00E8002FB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:25>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:25>
 		bool L_0 = __this->___MouseOverButton;
 		if (L_0)
 		{
@@ -5007,7 +5007,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UICanvasManager_Update_mFD93AA63AD21FF94
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:27>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:27>
 		bool L_1;
 		L_1 = Input_GetMouseButtonUp_mBE89CC9C69BBEA9A863819E77EA54411B0476ED6(0, NULL);
 		if (!L_1)
@@ -5016,13 +5016,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UICanvasManager_Update_mFD93AA63AD21FF94
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:29>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:29>
 		UICanvasManager_SpawnCurrentParticleEffect_m2A1BB27F11451D24EE32BB3F30A8E9A3B007DDB5(__this, NULL);
 	}
 
 IL_0016:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:33>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:33>
 		bool L_2;
 		L_2 = Input_GetKeyUp_m9A962E395811A9901E7E05F267E198A533DBEF2F(((int32_t)97), NULL);
 		if (!L_2)
@@ -5031,13 +5031,13 @@ IL_0016:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:34>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:34>
 		UICanvasManager_SelectPreviousPE_mABAFDA327ADCC81AC8691CB70066BACB881D2781(__this, NULL);
 	}
 
 IL_0025:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:36>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:36>
 		bool L_3;
 		L_3 = Input_GetKeyUp_m9A962E395811A9901E7E05F267E198A533DBEF2F(((int32_t)100), NULL);
 		if (!L_3)
@@ -5046,13 +5046,13 @@ IL_0025:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:37>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:37>
 		UICanvasManager_SelectNextPE_m8D79E72664DD30A066DFC2A9CE024F5D568F2FC4(__this, NULL);
 	}
 
 IL_0034:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:39>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:39>
 		return;
 	}
 }
@@ -5068,7 +5068,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UICanvasManager_UpdateToolTip_mFA1330F8A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:42>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:42>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___ToolTipText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -5079,7 +5079,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UICanvasManager_UpdateToolTip_mFA1330F8A
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:43>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:43>
 		int32_t L_2 = ___0_toolTipType;
 		if ((!(((uint32_t)L_2) == ((uint32_t)1))))
 		{
@@ -5087,7 +5087,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UICanvasManager_UpdateToolTip_mFA1330F8A
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:44>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:44>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_3 = __this->___ToolTipText;
 		NullCheck(L_3);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_3, _stringLiteral45F58255B95DE1B8D542021758DDAB3E1F464AE1);
@@ -5096,7 +5096,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UICanvasManager_UpdateToolTip_mFA1330F8A
 
 IL_0023:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:46>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:46>
 		int32_t L_4 = ___0_toolTipType;
 		if ((!(((uint32_t)L_4) == ((uint32_t)2))))
 		{
@@ -5104,7 +5104,7 @@ IL_0023:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:47>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:47>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_5 = __this->___ToolTipText;
 		NullCheck(L_5);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_5, _stringLiteral4F6D9789D9A0D7483B15CB01BD0BEA1419B65721);
@@ -5112,7 +5112,7 @@ IL_0023:
 
 IL_0037:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:50>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:50>
 		return;
 	}
 }
@@ -5127,7 +5127,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UICanvasManager_ClearToolTip_m49C6117C20
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:52>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:52>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___ToolTipText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -5138,7 +5138,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UICanvasManager_ClearToolTip_m49C6117C20
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:53>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:53>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_2 = __this->___ToolTipText;
 		NullCheck(L_2);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_2, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
@@ -5146,7 +5146,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UICanvasManager_ClearToolTip_m49C6117C20
 
 IL_001e:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:55>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:55>
 		return;
 	}
 }
@@ -5161,11 +5161,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UICanvasManager_SelectPreviousPE_mABAFDA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:59>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:59>
 		ParticleEffectsLibrary_t8C20BBF02959C886134EFB5E30D855D639885B57* L_0 = ((ParticleEffectsLibrary_t8C20BBF02959C886134EFB5E30D855D639885B57_StaticFields*)il2cpp_codegen_static_fields_for(ParticleEffectsLibrary_t8C20BBF02959C886134EFB5E30D855D639885B57_il2cpp_TypeInfo_var))->___GlobalAccess;
 		NullCheck(L_0);
 		ParticleEffectsLibrary_PreviousParticleEffect_m64E26B750D13C94BBA08E689744844E190550830(L_0, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:60>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:60>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_1 = __this->___PENameText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -5176,7 +5176,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UICanvasManager_SelectPreviousPE_mABAFDA
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:61>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:61>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_3 = __this->___PENameText;
 		ParticleEffectsLibrary_t8C20BBF02959C886134EFB5E30D855D639885B57* L_4 = ((ParticleEffectsLibrary_t8C20BBF02959C886134EFB5E30D855D639885B57_StaticFields*)il2cpp_codegen_static_fields_for(ParticleEffectsLibrary_t8C20BBF02959C886134EFB5E30D855D639885B57_il2cpp_TypeInfo_var))->___GlobalAccess;
 		NullCheck(L_4);
@@ -5188,7 +5188,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UICanvasManager_SelectPreviousPE_mABAFDA
 
 IL_002d:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:62>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:62>
 		return;
 	}
 }
@@ -5203,11 +5203,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UICanvasManager_SelectNextPE_m8D79E72664
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:65>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:65>
 		ParticleEffectsLibrary_t8C20BBF02959C886134EFB5E30D855D639885B57* L_0 = ((ParticleEffectsLibrary_t8C20BBF02959C886134EFB5E30D855D639885B57_StaticFields*)il2cpp_codegen_static_fields_for(ParticleEffectsLibrary_t8C20BBF02959C886134EFB5E30D855D639885B57_il2cpp_TypeInfo_var))->___GlobalAccess;
 		NullCheck(L_0);
 		ParticleEffectsLibrary_NextParticleEffect_mC2497E960308324CF6ED87F2248E5ABBBFAC372D(L_0, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:66>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:66>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_1 = __this->___PENameText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -5218,7 +5218,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UICanvasManager_SelectNextPE_m8D79E72664
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:67>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:67>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_3 = __this->___PENameText;
 		ParticleEffectsLibrary_t8C20BBF02959C886134EFB5E30D855D639885B57* L_4 = ((ParticleEffectsLibrary_t8C20BBF02959C886134EFB5E30D855D639885B57_StaticFields*)il2cpp_codegen_static_fields_for(ParticleEffectsLibrary_t8C20BBF02959C886134EFB5E30D855D639885B57_il2cpp_TypeInfo_var))->___GlobalAccess;
 		NullCheck(L_4);
@@ -5230,7 +5230,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UICanvasManager_SelectNextPE_m8D79E72664
 
 IL_002d:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:68>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:68>
 		return;
 	}
 }
@@ -5245,7 +5245,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UICanvasManager_SpawnCurrentParticleEffe
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:73>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:73>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0;
 		L_0 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
@@ -5253,7 +5253,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UICanvasManager_SpawnCurrentParticleEffe
 		NullCheck(L_0);
 		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_2;
 		L_2 = Camera_ScreenPointToRay_m2887B9A49880B7AB670C57D66B67D6A6689FE315(L_0, L_1, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:74>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:74>
 		RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* L_3 = (RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5*)(&__this->___rayHit);
 		il2cpp_codegen_runtime_class_init_inline(Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -5264,7 +5264,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UICanvasManager_SpawnCurrentParticleEffe
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:75>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:75>
 		ParticleEffectsLibrary_t8C20BBF02959C886134EFB5E30D855D639885B57* L_5 = ((ParticleEffectsLibrary_t8C20BBF02959C886134EFB5E30D855D639885B57_StaticFields*)il2cpp_codegen_static_fields_for(ParticleEffectsLibrary_t8C20BBF02959C886134EFB5E30D855D639885B57_il2cpp_TypeInfo_var))->___GlobalAccess;
 		RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* L_6 = (RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5*)(&__this->___rayHit);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
@@ -5275,7 +5275,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UICanvasManager_SpawnCurrentParticleEffe
 
 IL_0031:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:77>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:77>
 		return;
 	}
 }
@@ -5302,17 +5302,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UICanvasManager_UIButtonClick_m469838449
 
 IL_0009:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:87>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:87>
 		UICanvasManager_SelectPreviousPE_mABAFDA327ADCC81AC8691CB70066BACB881D2781(__this, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:88>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:88>
 		return;
 	}
 
 IL_0010:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:91>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:91>
 		UICanvasManager_SelectNextPE_m8D79E72664DD30A066DFC2A9CE024F5D568F2FC4(__this, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:97>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs:97>
 		return;
 	}
 }
@@ -5342,7 +5342,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BackgroundCanvas_Awake_mDF84424C13C64BC9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/BackgroundCanvas.cs:18>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/BackgroundCanvas.cs:18>
 		RawImageU5BU5D_tCF8D2C9175896CDEA0650874FCEA19472CBD6997* L_0 = __this->___background;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
 		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -5355,7 +5355,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BackgroundCanvas_Awake_mDF84424C13C64BC9
 		NullCheck(L_0);
 		ArrayElementTypeCheck (L_0, L_3);
 		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179*)L_3);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/BackgroundCanvas.cs:19>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/BackgroundCanvas.cs:19>
 		RawImageU5BU5D_tCF8D2C9175896CDEA0650874FCEA19472CBD6997* L_4 = __this->___background;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
 		L_5 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -5368,7 +5368,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BackgroundCanvas_Awake_mDF84424C13C64BC9
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_7);
 		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(1), (RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179*)L_7);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/BackgroundCanvas.cs:20>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/BackgroundCanvas.cs:20>
 		return;
 	}
 }
@@ -5376,23 +5376,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BackgroundCanvas_Awake_mDF84424C13C64BC9
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BackgroundCanvas_Start_m9B91085A3F8B0518FE837622A55AC19B145645F0 (BackgroundCanvas_tBF66CF45E2E37453A5E644DD49C7BA08BAE418C9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/BackgroundCanvas.cs:24>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/BackgroundCanvas.cs:24>
 		BackgroundCanvas_SetBackgroundTexture_mD659D9B8653F02B86DFBAF94077E601639E90250(__this, 0, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/BackgroundCanvas.cs:25>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/BackgroundCanvas.cs:25>
 		BackgroundCanvas_SetBackgroundTexture_mD659D9B8653F02B86DFBAF94077E601639E90250(__this, 1, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/BackgroundCanvas.cs:27>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/BackgroundCanvas.cs:27>
 		RawImageU5BU5D_tCF8D2C9175896CDEA0650874FCEA19472CBD6997* L_0 = __this->___background;
 		NullCheck(L_0);
 		int32_t L_1 = 1;
 		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_2 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_1));
 		NullCheck(L_2);
 		VirtualActionInvoker3< float, float, bool >::Invoke(49, L_2, (0.0f), (0.0f), (bool)1);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/BackgroundCanvas.cs:28>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/BackgroundCanvas.cs:28>
 		RuntimeObject* L_3;
 		L_3 = BackgroundCanvas_ChangeBackgroundGradient_mC115436A8F982ACC6970E5DEE7556F4481031125(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_4;
 		L_4 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_3, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/BackgroundCanvas.cs:29>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/BackgroundCanvas.cs:29>
 		return;
 	}
 }
@@ -5410,16 +5410,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BackgroundCanvas_SetBackgroundTexture_mD
 	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* V_0 = NULL;
 	ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* V_1 = NULL;
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/BackgroundCanvas.cs:33>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/BackgroundCanvas.cs:33>
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_0 = (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4*)il2cpp_codegen_object_new(Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4_il2cpp_TypeInfo_var);
 		Texture2D__ctor_m3BA82E87442B7F69E118477069AE11101B9DF796(L_0, 1, 2, NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/BackgroundCanvas.cs:34>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/BackgroundCanvas.cs:34>
 		il2cpp_codegen_runtime_class_init_inline(ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_il2cpp_TypeInfo_var);
 		ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* L_1;
 		L_1 = ColorManager_GetPlatformColors_m97FD65955EC6AFDB8FFA7F43BD6332ACFDACF9A4(NULL);
 		V_1 = L_1;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/BackgroundCanvas.cs:36>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/BackgroundCanvas.cs:36>
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_2 = V_0;
 		ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* L_3 = (ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389*)(ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389*)SZArrayNew(ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389_il2cpp_TypeInfo_var, (uint32_t)2);
 		ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* L_4 = L_3;
@@ -5438,11 +5438,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BackgroundCanvas_SetBackgroundTexture_mD
 		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(1), (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F)L_11);
 		NullCheck(L_2);
 		Texture2D_SetPixels_mAE0CDFA15FA96F840D7FFADC31405D8AF20D9073(L_2, L_8, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/BackgroundCanvas.cs:38>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/BackgroundCanvas.cs:38>
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_12 = V_0;
 		NullCheck(L_12);
 		Texture2D_Apply_mA014182C9EE0BBF6EEE3B286854F29E50EB972DC(L_12, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/BackgroundCanvas.cs:39>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/BackgroundCanvas.cs:39>
 		RawImageU5BU5D_tCF8D2C9175896CDEA0650874FCEA19472CBD6997* L_13 = __this->___background;
 		int32_t L_14 = ___0_index;
 		NullCheck(L_13);
@@ -5451,7 +5451,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BackgroundCanvas_SetBackgroundTexture_mD
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_17 = V_0;
 		NullCheck(L_16);
 		RawImage_set_texture_mC016318C95CC17A826D57DD219DBCB6DFD295C02(L_16, L_17, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/BackgroundCanvas.cs:41>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/BackgroundCanvas.cs:41>
 		RawImageU5BU5D_tCF8D2C9175896CDEA0650874FCEA19472CBD6997* L_18 = __this->___background;
 		int32_t L_19 = ___0_index;
 		NullCheck(L_18);
@@ -5462,7 +5462,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BackgroundCanvas_SetBackgroundTexture_mD
 		L_22 = RawImage_get_texture_m84CCFDF78F6886F73EBE5A7C78D6E9C3CA903813_inline(L_21, NULL);
 		NullCheck(L_22);
 		Texture_set_wrapMode_m1F74A690E3883EC9C5C371D502D09642F15D0F7E(L_22, 1, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/BackgroundCanvas.cs:42>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/BackgroundCanvas.cs:42>
 		RawImageU5BU5D_tCF8D2C9175896CDEA0650874FCEA19472CBD6997* L_23 = __this->___background;
 		int32_t L_24 = ___0_index;
 		NullCheck(L_23);
@@ -5473,7 +5473,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BackgroundCanvas_SetBackgroundTexture_mD
 		L_27 = RawImage_get_texture_m84CCFDF78F6886F73EBE5A7C78D6E9C3CA903813_inline(L_26, NULL);
 		NullCheck(L_27);
 		Texture_set_filterMode_mE423E58C0C16D059EA62BA87AD70F44AEA50CCC9(L_27, 1, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/BackgroundCanvas.cs:43>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/BackgroundCanvas.cs:43>
 		return;
 	}
 }
@@ -5506,11 +5506,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BackgroundCanvas__ctor_m823D594180C86C16
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/BackgroundCanvas.cs:8>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/BackgroundCanvas.cs:8>
 		__this->___crossFadeDuration = (5.0f);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/BackgroundCanvas.cs:11>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/BackgroundCanvas.cs:11>
 		__this->___backgroundDelay = (60.0f);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/BackgroundCanvas.cs:13>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/BackgroundCanvas.cs:13>
 		RawImageU5BU5D_tCF8D2C9175896CDEA0650874FCEA19472CBD6997* L_0 = (RawImageU5BU5D_tCF8D2C9175896CDEA0650874FCEA19472CBD6997*)(RawImageU5BU5D_tCF8D2C9175896CDEA0650874FCEA19472CBD6997*)SZArrayNew(RawImageU5BU5D_tCF8D2C9175896CDEA0650874FCEA19472CBD6997_il2cpp_TypeInfo_var, (uint32_t)2);
 		__this->___background = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___background), (void*)L_0);
@@ -5580,7 +5580,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CChangeBackgroundGradientU3Ed__7_MoveN
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/BackgroundCanvas.cs:47>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/BackgroundCanvas.cs:47>
 		BackgroundCanvas_tBF66CF45E2E37453A5E644DD49C7BA08BAE418C9* L_4 = V_1;
 		NullCheck(L_4);
 		float L_5 = L_4->___backgroundDelay;
@@ -5595,17 +5595,17 @@ IL_0017:
 IL_0038:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/BackgroundCanvas.cs:49>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/BackgroundCanvas.cs:49>
 		BackgroundCanvas_tBF66CF45E2E37453A5E644DD49C7BA08BAE418C9* L_7 = V_1;
 		NullCheck(L_7);
 		int32_t L_8 = L_7->___currentIndex;
 		V_2 = ((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_subtract(L_8, 1)), (-1)));
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/BackgroundCanvas.cs:50>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/BackgroundCanvas.cs:50>
 		BackgroundCanvas_tBF66CF45E2E37453A5E644DD49C7BA08BAE418C9* L_9 = V_1;
 		int32_t L_10 = V_2;
 		NullCheck(L_9);
 		BackgroundCanvas_SetBackgroundTexture_mD659D9B8653F02B86DFBAF94077E601639E90250(L_9, L_10, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/BackgroundCanvas.cs:52>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/BackgroundCanvas.cs:52>
 		BackgroundCanvas_tBF66CF45E2E37453A5E644DD49C7BA08BAE418C9* L_11 = V_1;
 		NullCheck(L_11);
 		RawImageU5BU5D_tCF8D2C9175896CDEA0650874FCEA19472CBD6997* L_12 = L_11->___background;
@@ -5620,7 +5620,7 @@ IL_0038:
 		float L_18 = L_17->___crossFadeDuration;
 		NullCheck(L_16);
 		VirtualActionInvoker3< float, float, bool >::Invoke(49, L_16, (0.0f), L_18, (bool)0);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/BackgroundCanvas.cs:53>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/BackgroundCanvas.cs:53>
 		BackgroundCanvas_tBF66CF45E2E37453A5E644DD49C7BA08BAE418C9* L_19 = V_1;
 		NullCheck(L_19);
 		RawImageU5BU5D_tCF8D2C9175896CDEA0650874FCEA19472CBD6997* L_20 = L_19->___background;
@@ -5633,12 +5633,12 @@ IL_0038:
 		float L_25 = L_24->___crossFadeDuration;
 		NullCheck(L_23);
 		VirtualActionInvoker3< float, float, bool >::Invoke(49, L_23, (1.0f), L_25, (bool)0);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/BackgroundCanvas.cs:55>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/BackgroundCanvas.cs:55>
 		BackgroundCanvas_tBF66CF45E2E37453A5E644DD49C7BA08BAE418C9* L_26 = V_1;
 		int32_t L_27 = V_2;
 		NullCheck(L_26);
 		L_26->___currentIndex = L_27;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/BackgroundCanvas.cs:56>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/BackgroundCanvas.cs:56>
 		BackgroundCanvas_tBF66CF45E2E37453A5E644DD49C7BA08BAE418C9* L_28 = V_1;
 		BackgroundCanvas_tBF66CF45E2E37453A5E644DD49C7BA08BAE418C9* L_29 = V_1;
 		NullCheck(L_29);
@@ -5647,7 +5647,7 @@ IL_0038:
 		NullCheck(L_28);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_31;
 		L_31 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(L_28, L_30, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/BackgroundCanvas.cs:57>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/BackgroundCanvas.cs:57>
 		return (bool)0;
 	}
 }
@@ -5688,12 +5688,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CChangeBackgroundGradientU3E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraManager_Awake_m8C26B088D4AAD67BC12BF89FBCFAC501813DAE7C (CameraManager_t27CFDF23ED636E9025EFEA9A5E8B0004355206BB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:21>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:21>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0;
 		L_0 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
 		__this->___camera = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___camera), (void*)L_0);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:22>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:22>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
 		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_1);
@@ -5701,13 +5701,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraManager_Awake_m8C26B088D4AAD67BC12
 		L_2 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_1, NULL);
 		float L_3 = L_2.___y;
 		__this->___initialHeight = L_3;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:23>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:23>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_4 = __this->___camera;
 		NullCheck(L_4);
 		float L_5;
 		L_5 = Camera_get_orthographicSize_m7950C5627086253E02992A43ADFE59039DB473F8(L_4, NULL);
 		__this->___initialSize = L_5;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:24>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:24>
 		return;
 	}
 }
@@ -5719,14 +5719,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraManager_CheckCameraAnimation_m7889
 	float V_2 = 0.0f;
 	float V_3 = 0.0f;
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:28>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:28>
 		int32_t L_0 = ___0_platforms;
 		float L_1;
 		L_1 = floorf(((float)(((float)L_0)/(15.0f))));
 		float L_2;
 		L_2 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(L_1, (4.0f), NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:30>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:30>
 		bool L_3 = ___1_gameOver;
 		if (!L_3)
 		{
@@ -5741,11 +5741,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraManager_CheckCameraAnimation_m7889
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:32>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:33>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:34>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:35>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:36>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:32>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:33>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:34>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:35>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:36>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
 		L_5 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
@@ -5771,7 +5771,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraManager_CheckCameraAnimation_m7889
 
 IL_0055:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:38>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:38>
 		bool L_14 = ___2_explode;
 		if (!L_14)
 		{
@@ -5779,10 +5779,10 @@ IL_0055:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:40>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:40>
 		float L_15 = V_0;
 		V_1 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_15, (2.5f))), (5.0f)));
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:41>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:41>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16;
 		L_16 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_16);
@@ -5791,13 +5791,13 @@ IL_0055:
 		float L_18 = L_17.___y;
 		float L_19 = V_1;
 		V_2 = ((float)il2cpp_codegen_add(L_18, L_19));
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:43>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:43>
 		float L_20 = V_2;
 		RuntimeObject* L_21;
 		L_21 = CameraManager_AnimateVertically_m85932E5C83A5B78A374C211E2C0B09C5BB7602B4(__this, L_20, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_22;
 		L_22 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_21, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:44>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:44>
 		float L_23 = __this->___initialSize;
 		RuntimeObject* L_24;
 		L_24 = CameraManager_AnimateSize_m25E175651DDE3533E5A5AEB4205CA9F51EA5162C(__this, L_23, NULL);
@@ -5808,7 +5808,7 @@ IL_0055:
 
 IL_009b:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:46>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:46>
 		bool L_26 = ___1_gameOver;
 		if (L_26)
 		{
@@ -5824,11 +5824,11 @@ IL_009b:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:48>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:48>
 		int32_t L_29 = ___0_platforms;
 		int32_t L_30 = __this->___followPlatform;
 		V_3 = ((float)il2cpp_codegen_multiply(((float)((int32_t)il2cpp_codegen_subtract(L_29, L_30))), (0.200000003f)));
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:49>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:49>
 		float L_31 = __this->___initialHeight;
 		float L_32 = V_3;
 		RuntimeObject* L_33;
@@ -5840,7 +5840,7 @@ IL_009b:
 
 IL_00cd:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:51>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:51>
 		bool L_35 = ___1_gameOver;
 		if (!L_35)
 		{
@@ -5855,14 +5855,14 @@ IL_00cd:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:53>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:53>
 		float L_37 = V_0;
 		CameraManager_ZoomOut_m98EA58813E55A3BD0177874A7B01B05484A1200E(__this, L_37, NULL);
 	}
 
 IL_00df:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:55>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:55>
 		return;
 	}
 }
@@ -5872,21 +5872,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraManager_ZoomOut_m98EA58813E55A3BD0
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:59>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:59>
 		float L_0 = ___0_zoomLevel;
 		V_0 = ((float)il2cpp_codegen_multiply(L_0, (3.0f)));
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:60>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:60>
 		float L_1 = V_0;
 		float L_2 = ___0_zoomLevel;
 		V_1 = ((float)il2cpp_codegen_subtract(L_1, ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_2, (0.5f))), (1.0f)))));
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:62>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:62>
 		float L_3 = __this->___initialHeight;
 		float L_4 = V_0;
 		RuntimeObject* L_5;
 		L_5 = CameraManager_AnimateVertically_m85932E5C83A5B78A374C211E2C0B09C5BB7602B4(__this, ((float)il2cpp_codegen_add(L_3, L_4)), NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_6;
 		L_6 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_5, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:63>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:63>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_7 = __this->___camera;
 		NullCheck(L_7);
 		float L_8;
@@ -5896,7 +5896,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraManager_ZoomOut_m98EA58813E55A3BD0
 		L_10 = CameraManager_AnimateSize_m25E175651DDE3533E5A5AEB4205CA9F51EA5162C(__this, ((float)il2cpp_codegen_add(L_8, L_9)), NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_11;
 		L_11 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_10, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:64>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:64>
 		return;
 	}
 }
@@ -5950,9 +5950,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CameraManager_AnimateSize_m25E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraManager__ctor_m765956D95C636CA8C1829BF6C0892A8AF76739C0 (CameraManager_t27CFDF23ED636E9025EFEA9A5E8B0004355206BB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:7>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:7>
 		__this->___animationDuration = (0.5f);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:10>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:10>
 		__this->___followPlatform = 3;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -6014,11 +6014,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CAnimateSizeU3Ed__9_MoveNext_m52E76A38
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:86>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:86>
 		float L_4;
 		L_4 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		__this->___U3CstartTimeU3E5__2 = L_4;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:87>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:87>
 		CameraManager_t27CFDF23ED636E9025EFEA9A5E8B0004355206BB* L_5 = V_1;
 		NullCheck(L_5);
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_6 = L_5->___camera;
@@ -6026,7 +6026,7 @@ IL_0017:
 		float L_7;
 		L_7 = Camera_get_orthographicSize_m7950C5627086253E02992A43ADFE59039DB473F8(L_6, NULL);
 		__this->___U3CcurrentSizeU3E5__3 = L_7;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:88>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:88>
 		float L_8;
 		L_8 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		CameraManager_t27CFDF23ED636E9025EFEA9A5E8B0004355206BB* L_9 = V_1;
@@ -6038,7 +6038,7 @@ IL_0017:
 
 IL_004e:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:92>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:92>
 		float L_11;
 		L_11 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		float L_12 = __this->___U3CstartTimeU3E5__2;
@@ -6046,7 +6046,7 @@ IL_004e:
 		NullCheck(L_13);
 		float L_14 = L_13->___animationDuration;
 		V_2 = ((float)(((float)il2cpp_codegen_subtract(L_11, L_12))/L_14));
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:93>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:93>
 		CameraManager_t27CFDF23ED636E9025EFEA9A5E8B0004355206BB* L_15 = V_1;
 		NullCheck(L_15);
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_16 = L_15->___camera;
@@ -6057,7 +6057,7 @@ IL_004e:
 		L_20 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_17, L_18, L_19, NULL);
 		NullCheck(L_16);
 		Camera_set_orthographicSize_m76DD021032ACB3DDBD052B75EC66DCE3A7295A5C(L_16, L_20, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:94>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:94>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 1;
@@ -6071,7 +6071,7 @@ IL_008f:
 
 IL_0096:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:90>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:90>
 		float L_21;
 		L_21 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		float L_22 = __this->___U3CendTimeU3E5__4;
@@ -6081,14 +6081,14 @@ IL_0096:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:97>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:97>
 		CameraManager_t27CFDF23ED636E9025EFEA9A5E8B0004355206BB* L_23 = V_1;
 		NullCheck(L_23);
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_24 = L_23->___camera;
 		float L_25 = __this->___size;
 		NullCheck(L_24);
 		Camera_set_orthographicSize_m76DD021032ACB3DDBD052B75EC66DCE3A7295A5C(L_24, L_25, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:98>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:98>
 		return (bool)0;
 	}
 }
@@ -6173,18 +6173,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CAnimateVerticallyU3Ed__8_MoveNext_m47
 IL_001a:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:68>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:68>
 		float L_4;
 		L_4 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		__this->___U3CstartTimeU3E5__2 = L_4;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:69>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:69>
 		float L_5;
 		L_5 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		CameraManager_t27CFDF23ED636E9025EFEA9A5E8B0004355206BB* L_6 = V_1;
 		NullCheck(L_6);
 		float L_7 = L_6->___animationDuration;
 		__this->___U3CendTimeU3E5__3 = ((float)il2cpp_codegen_add(L_5, L_7));
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:71>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:71>
 		CameraManager_t27CFDF23ED636E9025EFEA9A5E8B0004355206BB* L_8 = V_1;
 		NullCheck(L_8);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9;
@@ -6193,7 +6193,7 @@ IL_001a:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
 		L_10 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_9, NULL);
 		__this->___U3CpositionU3E5__4 = L_10;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:72>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:72>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_11 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___U3CpositionU3E5__4);
 		float L_12 = L_11->___x;
 		float L_13 = __this->___y;
@@ -6208,7 +6208,7 @@ IL_001a:
 
 IL_0078:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:76>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:76>
 		float L_17;
 		L_17 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		float L_18 = __this->___U3CstartTimeU3E5__2;
@@ -6216,7 +6216,7 @@ IL_0078:
 		NullCheck(L_19);
 		float L_20 = L_19->___animationDuration;
 		V_2 = ((float)(((float)il2cpp_codegen_subtract(L_17, L_18))/L_20));
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:77>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:77>
 		CameraManager_t27CFDF23ED636E9025EFEA9A5E8B0004355206BB* L_21 = V_1;
 		NullCheck(L_21);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_22;
@@ -6228,7 +6228,7 @@ IL_0078:
 		L_26 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_23, L_24, L_25, NULL);
 		NullCheck(L_22);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_22, L_26, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:78>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:78>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 1;
@@ -6242,7 +6242,7 @@ IL_00b9:
 
 IL_00c0:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:74>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:74>
 		float L_27;
 		L_27 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		float L_28 = __this->___U3CendTimeU3E5__3;
@@ -6252,7 +6252,7 @@ IL_00c0:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:81>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:81>
 		CameraManager_t27CFDF23ED636E9025EFEA9A5E8B0004355206BB* L_29 = V_1;
 		NullCheck(L_29);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_30;
@@ -6260,7 +6260,7 @@ IL_00c0:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_31 = __this->___U3CtargetU3E5__5;
 		NullCheck(L_30);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_30, L_31, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/CameraManager.cs:82>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/CameraManager.cs:82>
 		return (bool)0;
 	}
 }
@@ -6307,7 +6307,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ColorManager.cs:20>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ColorManager.cs:20>
 		int32_t L_0 = ___0_platformIndex;
 		il2cpp_codegen_runtime_class_init_inline(ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_il2cpp_TypeInfo_var);
 		int32_t L_1 = ((ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_StaticFields*)il2cpp_codegen_static_fields_for(ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_il2cpp_TypeInfo_var))->___colorsAmount;
@@ -6317,7 +6317,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ColorManager.cs:22>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ColorManager.cs:22>
 		int32_t L_2 = ___0_platformIndex;
 		il2cpp_codegen_runtime_class_init_inline(ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_il2cpp_TypeInfo_var);
 		ColorManager_SetPlatformColors_m7DB051CDC4515BBF32F73DFEA2C05795E4D1D30E(L_2, NULL);
@@ -6325,13 +6325,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 
 IL_000e:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ColorManager.cs:25>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ColorManager.cs:26>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ColorManager.cs:27>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ColorManager.cs:28>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ColorManager.cs:29>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ColorManager.cs:30>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ColorManager.cs:31>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ColorManager.cs:25>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ColorManager.cs:26>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ColorManager.cs:27>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ColorManager.cs:28>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ColorManager.cs:29>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ColorManager.cs:30>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ColorManager.cs:31>
 		il2cpp_codegen_runtime_class_init_inline(ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_il2cpp_TypeInfo_var);
 		ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* L_3 = ((ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_StaticFields*)il2cpp_codegen_static_fields_for(ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_il2cpp_TypeInfo_var))->___platformColors;
 		NullCheck(L_3);
@@ -6375,23 +6375,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorManager_SetPlatformColors_m7DB051CD
 	int32_t G_B6_1 = 0;
 	ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* G_B6_2 = NULL;
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ColorManager.cs:36>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ColorManager.cs:36>
 		il2cpp_codegen_runtime_class_init_inline(ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_il2cpp_TypeInfo_var);
 		Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* L_0 = ((ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_StaticFields*)il2cpp_codegen_static_fields_for(ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_il2cpp_TypeInfo_var))->___random;
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = VirtualFuncInvoker2< int32_t, int32_t, int32_t >::Invoke(6, L_0, 5, ((int32_t)25));
 		((ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_StaticFields*)il2cpp_codegen_static_fields_for(ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_il2cpp_TypeInfo_var))->___colorBlocks = L_1;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ColorManager.cs:37>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ColorManager.cs:37>
 		int32_t L_2 = ((ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_StaticFields*)il2cpp_codegen_static_fields_for(ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_il2cpp_TypeInfo_var))->___colorsAmount;
 		int32_t L_3 = ((ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_StaticFields*)il2cpp_codegen_static_fields_for(ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_il2cpp_TypeInfo_var))->___colorBlocks;
 		((ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_StaticFields*)il2cpp_codegen_static_fields_for(ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_il2cpp_TypeInfo_var))->___colorsAmount = ((int32_t)il2cpp_codegen_add(L_2, L_3));
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ColorManager.cs:38>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ColorManager.cs:38>
 		int32_t L_4 = ___0_index;
 		((ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_StaticFields*)il2cpp_codegen_static_fields_for(ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_il2cpp_TypeInfo_var))->___lastPlatformIndex = L_4;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ColorManager.cs:40>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ColorManager.cs:41>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ColorManager.cs:42>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ColorManager.cs:40>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ColorManager.cs:41>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ColorManager.cs:42>
 		ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* L_5 = ((ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_StaticFields*)il2cpp_codegen_static_fields_for(ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_il2cpp_TypeInfo_var))->___platformColors;
 		int32_t L_6 = ___0_index;
 		if (!L_6)
@@ -6429,9 +6429,9 @@ IL_0043:
 	{
 		NullCheck(G_B3_2);
 		(G_B3_2)->SetAt(static_cast<il2cpp_array_size_t>(G_B3_1), (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F)G_B3_0);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ColorManager.cs:44>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ColorManager.cs:45>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ColorManager.cs:46>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ColorManager.cs:44>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ColorManager.cs:45>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ColorManager.cs:46>
 		il2cpp_codegen_runtime_class_init_inline(ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_il2cpp_TypeInfo_var);
 		ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* L_11 = ((ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_StaticFields*)il2cpp_codegen_static_fields_for(ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_il2cpp_TypeInfo_var))->___platformColors;
 		int32_t L_12 = ___0_index;
@@ -6470,14 +6470,14 @@ IL_0063:
 	{
 		NullCheck(G_B6_2);
 		(G_B6_2)->SetAt(static_cast<il2cpp_array_size_t>(G_B6_1), (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F)G_B6_0);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ColorManager.cs:48>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ColorManager.cs:48>
 		il2cpp_codegen_runtime_class_init_inline(ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_il2cpp_TypeInfo_var);
 		ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* L_17 = ((ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_StaticFields*)il2cpp_codegen_static_fields_for(ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_il2cpp_TypeInfo_var))->___platformColors;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_18;
 		L_18 = ColorManager_GetRandomColor_m6DDB82784F973C40FAD3B267AB6A4B4435936608(NULL);
 		NullCheck(L_17);
 		(L_17)->SetAt(static_cast<il2cpp_array_size_t>(2), (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F)L_18);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ColorManager.cs:49>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ColorManager.cs:49>
 		return;
 	}
 }
@@ -6492,7 +6492,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ColorManager.cs:52>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ColorManager.cs:52>
 		ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* L_0 = (ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389*)(ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389*)SZArrayNew(ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389_il2cpp_TypeInfo_var, (uint32_t)2);
 		ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* L_1 = L_0;
 		il2cpp_codegen_runtime_class_init_inline(ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_il2cpp_TypeInfo_var);
@@ -6516,7 +6516,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ColorManager_GetRandomColor_m6DDB82784F973C40FAD3B267AB6A4B4435936608 (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ColorManager.cs:55>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ColorManager.cs:55>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
 		L_0 = Random_ColorHSV_m60D106CD16CB419F712015C81A8AF4EDE65A55D1((0.0f), (1.0f), (0.100000001f), (1.0f), (0.25f), (1.0f), NULL);
 		return L_0;
@@ -6534,36 +6534,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorManager__cctor_mF3AF06C8C98DD560A05
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ColorManager.cs:5>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ColorManager.cs:5>
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		Color32__ctor_mC9C6B443F0C7CA3F8B174158B2AF6F05E18EAC4E_inline((&L_0), (uint8_t)((int32_t)255), (uint8_t)((int32_t)255), (uint8_t)((int32_t)255), (uint8_t)((int32_t)255), NULL);
 		((ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_StaticFields*)il2cpp_codegen_static_fields_for(ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_il2cpp_TypeInfo_var))->___SOLID_WHITE = L_0;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ColorManager.cs:6>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ColorManager.cs:6>
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_1;
 		memset((&L_1), 0, sizeof(L_1));
 		Color32__ctor_mC9C6B443F0C7CA3F8B174158B2AF6F05E18EAC4E_inline((&L_1), (uint8_t)((int32_t)255), (uint8_t)((int32_t)255), (uint8_t)((int32_t)255), (uint8_t)((int32_t)102), NULL);
 		((ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_StaticFields*)il2cpp_codegen_static_fields_for(ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_il2cpp_TypeInfo_var))->___SEMI_WHITE = L_1;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ColorManager.cs:8>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ColorManager.cs:8>
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		Color32__ctor_mC9C6B443F0C7CA3F8B174158B2AF6F05E18EAC4E_inline((&L_2), (uint8_t)((int32_t)255), (uint8_t)((int32_t)255), (uint8_t)((int32_t)255), (uint8_t)0, NULL);
 		((ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_StaticFields*)il2cpp_codegen_static_fields_for(ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_il2cpp_TypeInfo_var))->___TRANSPARENT = L_2;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ColorManager.cs:9>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ColorManager.cs:9>
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_3;
 		memset((&L_3), 0, sizeof(L_3));
 		Color32__ctor_mC9C6B443F0C7CA3F8B174158B2AF6F05E18EAC4E_inline((&L_3), (uint8_t)0, (uint8_t)0, (uint8_t)0, (uint8_t)((int32_t)255), NULL);
 		((ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_StaticFields*)il2cpp_codegen_static_fields_for(ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_il2cpp_TypeInfo_var))->___SOLID_BLACK = L_3;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ColorManager.cs:11>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ColorManager.cs:11>
 		Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* L_4 = (Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8*)il2cpp_codegen_object_new(Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8_il2cpp_TypeInfo_var);
 		Random__ctor_m151183BD4F021499A98B9DE8502DAD4B12DD16AC(L_4, NULL);
 		((ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_StaticFields*)il2cpp_codegen_static_fields_for(ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_il2cpp_TypeInfo_var))->___random = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&((ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_StaticFields*)il2cpp_codegen_static_fields_for(ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_il2cpp_TypeInfo_var))->___random), (void*)L_4);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ColorManager.cs:12>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ColorManager.cs:12>
 		ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* L_5 = (ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389*)(ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389*)SZArrayNew(ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389_il2cpp_TypeInfo_var, (uint32_t)3);
 		((ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_StaticFields*)il2cpp_codegen_static_fields_for(ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_il2cpp_TypeInfo_var))->___platformColors = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&((ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_StaticFields*)il2cpp_codegen_static_fields_for(ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_il2cpp_TypeInfo_var))->___platformColors), (void*)L_5);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ColorManager.cs:15>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ColorManager.cs:15>
 		((ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_StaticFields*)il2cpp_codegen_static_fields_for(ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_il2cpp_TypeInfo_var))->___colorsAmount = 0;
 		return;
 	}
@@ -6586,7 +6586,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GameManager.cs:19>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GameManager.cs:19>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_0 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		return L_0;
 	}
@@ -6603,7 +6603,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Awake_m4B6E8E2AF58C95C9A2A0C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GameManager.cs:25>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GameManager.cs:25>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_0 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -6626,12 +6626,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Awake_m4B6E8E2AF58C95C9A2A0C
 
 IL_001a:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GameManager.cs:27>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GameManager.cs:27>
 		StackManager_tF998678EAEF40C57CB6736713252C040C4DECC19* L_4;
 		L_4 = Component_GetComponent_TisStackManager_tF998678EAEF40C57CB6736713252C040C4DECC19_m485E6189050D7172999676C838E98C5672D0187E(__this, Component_GetComponent_TisStackManager_tF998678EAEF40C57CB6736713252C040C4DECC19_m485E6189050D7172999676C838E98C5672D0187E_RuntimeMethod_var);
 		__this->___stack = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___stack), (void*)L_4);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GameManager.cs:28>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GameManager.cs:28>
 		((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance), (void*)__this);
 		return;
@@ -6639,12 +6639,12 @@ IL_001a:
 
 IL_002d:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GameManager.cs:32>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GameManager.cs:32>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
 		L_5 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_5, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GameManager.cs:34>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GameManager.cs:34>
 		return;
 	}
 }
@@ -6652,9 +6652,9 @@ IL_002d:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Start_m87A71D65F3171A58DBDDBFB03832ADA65643D0E2 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GameManager.cs:38>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GameManager.cs:38>
 		GameManager_Initialize_m5B00034142201D36BFA348358665FFA92B250C8E(__this, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GameManager.cs:39>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GameManager.cs:39>
 		return;
 	}
 }
@@ -6669,12 +6669,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Initialize_m5B00034142201D36
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GameManager.cs:43>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GameManager.cs:43>
 		il2cpp_codegen_runtime_class_init_inline(ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_il2cpp_TypeInfo_var);
 		ColorManager_SetPlatformColors_m7DB051CDC4515BBF32F73DFEA2C05795E4D1D30E(0, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GameManager.cs:45>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GameManager.cs:46>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GameManager.cs:47>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GameManager.cs:45>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GameManager.cs:46>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GameManager.cs:47>
 		StackManager_tF998678EAEF40C57CB6736713252C040C4DECC19* L_0 = __this->___stack;
 		bool L_1 = __this->___gameStart;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -6685,7 +6685,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Initialize_m5B00034142201D36
 		L_3 = StackManager_CreateFirstPlatform_m5A62B1D6ABC34C31E3B88CBFE5D0BDD337B88A58(L_0, ((float)il2cpp_codegen_multiply(((float)L_2), (3.0f))), NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_4;
 		L_4 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_3, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GameManager.cs:48>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GameManager.cs:48>
 		return;
 	}
 }
@@ -6700,7 +6700,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Update_m7F29D8E933B8D21D2E67
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GameManager.cs:52>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GameManager.cs:52>
 		bool L_0 = __this->___gameOver;
 		if (!L_0)
 		{
@@ -6708,13 +6708,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Update_m7F29D8E933B8D21D2E67
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GameManager.cs:52>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GameManager.cs:52>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GameManager.cs:54>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GameManager.cs:54>
 		il2cpp_codegen_runtime_class_init_inline(InputSystem_t4120CA4FE7DCFD56AF9391933FC3F1F485350164_il2cpp_TypeInfo_var);
 		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_1;
 		L_1 = InputSystem_get_actions_mE8D99B32AF6B8AB69DCF5DBBEC60C0F010C79B6C(NULL);
@@ -6730,13 +6730,13 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GameManager.cs:56>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GameManager.cs:56>
 		StackManager_tF998678EAEF40C57CB6736713252C040C4DECC19* L_4 = __this->___stack;
 		NullCheck(L_4);
 		bool L_5;
 		L_5 = StackManager_StopDynamicPlatform_m17F51CB7194F725F369A8A2EA379A6E58A3DA292(L_4, NULL);
 		__this->___gameOver = L_5;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GameManager.cs:58>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GameManager.cs:58>
 		bool L_6 = __this->___gameOver;
 		if (!L_6)
 		{
@@ -6744,7 +6744,7 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GameManager.cs:60>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GameManager.cs:60>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_7 = __this->___onGameOver;
 		NullCheck(L_7);
 		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_7, NULL);
@@ -6752,7 +6752,7 @@ IL_0009:
 
 IL_0044:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GameManager.cs:63>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GameManager.cs:63>
 		return;
 	}
 }
@@ -6760,15 +6760,15 @@ IL_0044:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_OnStart_mCD0257B522B5A73C2BEDD0C5D0887DAB1B176DEE (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GameManager.cs:67>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GameManager.cs:67>
 		StackManager_tF998678EAEF40C57CB6736713252C040C4DECC19* L_0 = __this->___stack;
 		NullCheck(L_0);
 		StackManager_SpawnDynamicPlatform_m9F8921E91C77EE71989C1CD108266AB17C412CAA(L_0, (1.20000005f), (1.20000005f), (0.0f), NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GameManager.cs:68>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GameManager.cs:68>
 		__this->___gameStart = (bool)0;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GameManager.cs:69>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GameManager.cs:69>
 		__this->___gameOver = (bool)0;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GameManager.cs:70>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GameManager.cs:70>
 		return;
 	}
 }
@@ -6776,12 +6776,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_OnStart_mCD0257B522B5A73C2BE
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_OnRestart_mE81858FC1678612018E55EE4B7A689B7A6E49F59 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GameManager.cs:74>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GameManager.cs:74>
 		RuntimeObject* L_0;
 		L_0 = GameManager_Reset_mBEFC41E1B13C21ED6401F45C5D8416157D27BCA2(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_1;
 		L_1 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_0, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GameManager.cs:75>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GameManager.cs:75>
 		return;
 	}
 }
@@ -6815,7 +6815,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_OnDestroy_m15D42F0A634069A09
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GameManager.cs:88>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GameManager.cs:88>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_0 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -6826,14 +6826,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_OnDestroy_m15D42F0A634069A09
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GameManager.cs:90>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GameManager.cs:90>
 		((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance = (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance), (void*)(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6*)NULL);
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GameManager.cs:92>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GameManager.cs:92>
 		return;
 	}
 }
@@ -6847,14 +6847,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager__ctor_mF453CED520617BFB65C52
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GameManager.cs:9>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GameManager.cs:9>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977*)il2cpp_codegen_object_new(UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977_il2cpp_TypeInfo_var);
 		UnityEvent__ctor_m03D3E5121B9A6100351984D0CE3050B909CD3235(L_0, NULL);
 		__this->___onGameOver = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___onGameOver), (void*)L_0);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GameManager.cs:14>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GameManager.cs:14>
 		__this->___gameStart = (bool)1;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GameManager.cs:15>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GameManager.cs:15>
 		__this->___gameOver = (bool)1;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -6921,7 +6921,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CResetU3Ed__13_MoveNext_m7E81F6F80F29D
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GameManager.cs:79>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GameManager.cs:79>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_4 = V_1;
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_5 = V_1;
 		NullCheck(L_5);
@@ -6932,7 +6932,7 @@ IL_0017:
 		NullCheck(L_4);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_8;
 		L_8 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(L_4, L_7, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GameManager.cs:80>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GameManager.cs:80>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_9 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_9, (1.0f), NULL);
 		__this->___U3CU3E2__current = L_9;
@@ -6944,17 +6944,17 @@ IL_0017:
 IL_0049:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GameManager.cs:82>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GameManager.cs:82>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_10 = V_1;
 		NullCheck(L_10);
 		StackManager_tF998678EAEF40C57CB6736713252C040C4DECC19* L_11 = L_10->___stack;
 		NullCheck(L_11);
 		StackManager_Reset_mAF2BE4B3FAF7FEDA06F8F528CD087B21BD86BCCF(L_11, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GameManager.cs:83>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GameManager.cs:83>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_12 = V_1;
 		NullCheck(L_12);
 		GameManager_Initialize_m5B00034142201D36BFA348358665FFA92B250C8E(L_12, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GameManager.cs:84>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GameManager.cs:84>
 		return (bool)0;
 	}
 }
@@ -7002,7 +7002,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_Awake_m1368A639B97
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:22>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:22>
 		GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* L_0 = ((GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704_StaticFields*)il2cpp_codegen_static_fields_for(GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704_il2cpp_TypeInfo_var))->___Instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -7013,10 +7013,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_Awake_m1368A639B97
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:24>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:24>
 		((GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704_StaticFields*)il2cpp_codegen_static_fields_for(GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704_il2cpp_TypeInfo_var))->___Instance = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&((GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704_StaticFields*)il2cpp_codegen_static_fields_for(GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704_il2cpp_TypeInfo_var))->___Instance), (void*)__this);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:25>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:25>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
 		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -7026,12 +7026,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_Awake_m1368A639B97
 
 IL_001f:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:29>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:29>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
 		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_3, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:30>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:30>
 		return;
 	}
 }
@@ -7046,15 +7046,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_Start_m7DB655DFB3F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:38>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:39>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:40>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:41>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:42>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:38>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:39>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:40>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:41>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:42>
 		Action_1_t61953204BFE962922BA541482E3ECC9BB03FC8EE* L_0 = (Action_1_t61953204BFE962922BA541482E3ECC9BB03FC8EE*)il2cpp_codegen_object_new(Action_1_t61953204BFE962922BA541482E3ECC9BB03FC8EE_il2cpp_TypeInfo_var);
 		Action_1__ctor_mE9CC44390354758F587960FB48CF3560FCFAEAAC(L_0, __this, (intptr_t)((void*)GoogleAdMobController_U3CStartU3Eb__7_0_m7A36F73EFBFC359B5CB1AFBE37493161F863413D_RuntimeMethod_var), NULL);
 		MobileAds_Initialize_m9151E3C38E0FAD4439DA5020A217BAB90ABB76AD(L_0, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:43>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:43>
 		return;
 	}
 }
@@ -7075,7 +7075,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_LoadBanner_mFA6303
 	}
 	AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* V_0 = NULL;
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:51>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:51>
 		BannerView_t203A90A6D41B56EC7208F121D6EE7E7283A590BB* L_0 = __this->___bannerView;
 		if (!L_0)
 		{
@@ -7083,7 +7083,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_LoadBanner_mFA6303
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:53>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:53>
 		BannerView_t203A90A6D41B56EC7208F121D6EE7E7283A590BB* L_1 = __this->___bannerView;
 		NullCheck(L_1);
 		BannerView_Destroy_mCD660269DF04D3EA92CC22EC1045B00C1E6CDC01(L_1, NULL);
@@ -7091,7 +7091,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_LoadBanner_mFA6303
 
 IL_0013:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:56>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:56>
 		String_t* L_2 = __this->___bannerID;
 		il2cpp_codegen_runtime_class_init_inline(AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158_il2cpp_TypeInfo_var);
 		AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* L_3 = ((AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158_StaticFields*)il2cpp_codegen_static_fields_for(AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158_il2cpp_TypeInfo_var))->___Banner;
@@ -7099,40 +7099,40 @@ IL_0013:
 		BannerView__ctor_m3C156986754CF612D73D61061B92BE3468FF6FDC(L_4, L_2, L_3, 1, NULL);
 		__this->___bannerView = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___bannerView), (void*)L_4);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:59>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:60>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:61>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:62>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:63>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:59>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:60>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:61>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:62>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:63>
 		BannerView_t203A90A6D41B56EC7208F121D6EE7E7283A590BB* L_5 = __this->___bannerView;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_6, __this, (intptr_t)((void*)GoogleAdMobController_U3CLoadBannerU3Eb__8_0_m88E1FD0A9078CACD975482809D61A93D156BA81C_RuntimeMethod_var), NULL);
 		NullCheck(L_5);
 		BannerView_add_OnBannerAdLoaded_mF3A6AA44B521D6AFF697B4FDF73C02139F1DEAE6(L_5, L_6, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:66>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:67>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:68>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:69>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:70>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:71>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:72>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:73>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:74>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:66>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:67>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:68>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:69>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:70>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:71>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:72>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:73>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:74>
 		BannerView_t203A90A6D41B56EC7208F121D6EE7E7283A590BB* L_7 = __this->___bannerView;
 		Action_1_t841B459F75B339DA7C5B42D7EA2E177BAE679C4C* L_8 = (Action_1_t841B459F75B339DA7C5B42D7EA2E177BAE679C4C*)il2cpp_codegen_object_new(Action_1_t841B459F75B339DA7C5B42D7EA2E177BAE679C4C_il2cpp_TypeInfo_var);
 		Action_1__ctor_m794289405040AEF1424E63473399FB09A6A5B449(L_8, __this, (intptr_t)((void*)GoogleAdMobController_U3CLoadBannerU3Eb__8_1_m58368DF964903AC7BF37B22CF1A4CFFF6545A59A_RuntimeMethod_var), NULL);
 		NullCheck(L_7);
 		BannerView_add_OnBannerAdLoadFailed_m90B2772E9E91E19DA78644420A09DB4EC190597C(L_7, L_8, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:76>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:76>
 		AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* L_9 = (AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D*)il2cpp_codegen_object_new(AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D_il2cpp_TypeInfo_var);
 		AdRequest__ctor_mC05DE470CAF8233EFC60787797696650D6CCC3AC(L_9, NULL);
 		V_0 = L_9;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:77>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:77>
 		BannerView_t203A90A6D41B56EC7208F121D6EE7E7283A590BB* L_10 = __this->___bannerView;
 		AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* L_11 = V_0;
 		NullCheck(L_10);
 		BannerView_LoadAd_m56BF83CC97DE20C40457B9452D0ABEFD97933FFF(L_10, L_11, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:78>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:78>
 		return;
 	}
 }
@@ -7148,7 +7148,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_CheckAndShowBanner
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:83>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:83>
 		BannerView_t203A90A6D41B56EC7208F121D6EE7E7283A590BB* L_0 = __this->___bannerView;
 		if (!L_0)
 		{
@@ -7165,24 +7165,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_CheckAndShowBanner
 
 IL_0010:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:85>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:85>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral779C060BCFB4A2E4AA373B1016D596C90FC479AC, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:86>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:86>
 		GoogleAdMobController_LoadBanner_mFA6303459806F6CCA206CE090320856A8AF2FEBF(__this, NULL);
 		return;
 	}
 
 IL_0021:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:90>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:90>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralDA2FD23C8B892D643F89249FFAF5ACFC50BA0E09, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:91>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:91>
 		BannerView_t203A90A6D41B56EC7208F121D6EE7E7283A590BB* L_2 = __this->___bannerView;
 		NullCheck(L_2);
 		BannerView_Show_m90ACC1B7ED13065667AB7948722F0B2CBD3A84AE(L_2, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:93>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:93>
 		return;
 	}
 }
@@ -7190,7 +7190,7 @@ IL_0021:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_HideBanner_mC4D392BCC0F6A70327903780F5029442DEB859E7 (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:97>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:97>
 		BannerView_t203A90A6D41B56EC7208F121D6EE7E7283A590BB* L_0 = __this->___bannerView;
 		if (!L_0)
 		{
@@ -7198,7 +7198,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_HideBanner_mC4D392
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:99>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:99>
 		BannerView_t203A90A6D41B56EC7208F121D6EE7E7283A590BB* L_1 = __this->___bannerView;
 		NullCheck(L_1);
 		BannerView_Hide_m54630CB9110A9D38DFC00BC047B775C778EA22BD(L_1, NULL);
@@ -7206,7 +7206,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_HideBanner_mC4D392
 
 IL_0013:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:101>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:101>
 		return;
 	}
 }
@@ -7214,7 +7214,7 @@ IL_0013:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_DestroyBannerAd_mC7C3C8CA0F1747ABDC067FD48A824A921690DE12 (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:105>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:105>
 		BannerView_t203A90A6D41B56EC7208F121D6EE7E7283A590BB* L_0 = __this->___bannerView;
 		if (!L_0)
 		{
@@ -7222,20 +7222,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_DestroyBannerAd_mC
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:107>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:107>
 		BannerView_t203A90A6D41B56EC7208F121D6EE7E7283A590BB* L_1 = __this->___bannerView;
 		NullCheck(L_1);
 		BannerView_Destroy_mCD660269DF04D3EA92CC22EC1045B00C1E6CDC01(L_1, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:108>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:108>
 		__this->___bannerView = (BannerView_t203A90A6D41B56EC7208F121D6EE7E7283A590BB*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___bannerView), (void*)(BannerView_t203A90A6D41B56EC7208F121D6EE7E7283A590BB*)NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:109>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:109>
 		__this->___isBannerLoaded = (bool)0;
 	}
 
 IL_0021:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:111>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:111>
 		return;
 	}
 }
@@ -7251,7 +7251,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_LoadInterstitial_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:119>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:119>
 		InterstitialAd_t41640B3957C2B66FA5F6F38A4805393B6B013FEC* L_0 = __this->___interstitial;
 		if (!L_0)
 		{
@@ -7259,38 +7259,38 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_LoadInterstitial_m
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:121>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:121>
 		InterstitialAd_t41640B3957C2B66FA5F6F38A4805393B6B013FEC* L_1 = __this->___interstitial;
 		NullCheck(L_1);
 		InterstitialAd_Destroy_m5C5C9367FF6A3500C3B61FD2BDBE5B6AF2FF0778(L_1, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:122>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:122>
 		__this->___interstitial = (InterstitialAd_t41640B3957C2B66FA5F6F38A4805393B6B013FEC*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___interstitial), (void*)(InterstitialAd_t41640B3957C2B66FA5F6F38A4805393B6B013FEC*)NULL);
 	}
 
 IL_001a:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:125>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:126>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:127>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:128>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:129>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:130>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:131>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:132>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:133>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:134>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:135>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:136>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:137>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:138>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:125>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:126>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:127>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:128>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:129>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:130>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:131>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:132>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:133>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:134>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:135>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:136>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:137>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:138>
 		String_t* L_2 = __this->___interstitialID;
 		AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* L_3 = (AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D*)il2cpp_codegen_object_new(AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D_il2cpp_TypeInfo_var);
 		AdRequest__ctor_mC05DE470CAF8233EFC60787797696650D6CCC3AC(L_3, NULL);
 		Action_2_t6D103D50D92EED8806671DABC525008F7D560A68* L_4 = (Action_2_t6D103D50D92EED8806671DABC525008F7D560A68*)il2cpp_codegen_object_new(Action_2_t6D103D50D92EED8806671DABC525008F7D560A68_il2cpp_TypeInfo_var);
 		Action_2__ctor_mEBCBF2FC848DA79D39227A5344136BFA0FF2A65C(L_4, __this, (intptr_t)((void*)GoogleAdMobController_U3CLoadInterstitialU3Eb__12_0_m3C3D8893A12C4590776813A41A5F72D200B93EB1_RuntimeMethod_var), NULL);
 		InterstitialAd_Load_m7582DD601991C297C7E7E61BBE53B639466A73A1(L_2, L_3, L_4, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:139>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:139>
 		return;
 	}
 }
@@ -7298,7 +7298,7 @@ IL_001a:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_ShowInterstitialAd_m5848A2DED111A1B9F71B3ECAABB759E5C90678E1 (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:143>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:143>
 		InterstitialAd_t41640B3957C2B66FA5F6F38A4805393B6B013FEC* L_0 = __this->___interstitial;
 		if (!L_0)
 		{
@@ -7316,20 +7316,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_ShowInterstitialAd
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:145>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:145>
 		InterstitialAd_t41640B3957C2B66FA5F6F38A4805393B6B013FEC* L_3 = __this->___interstitial;
 		NullCheck(L_3);
 		InterstitialAd_Show_m70188D3BE2543E7A0B58579A5991DA5A9E11CBAB(L_3, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:146>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:146>
 		__this->___interstitial = (InterstitialAd_t41640B3957C2B66FA5F6F38A4805393B6B013FEC*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___interstitial), (void*)(InterstitialAd_t41640B3957C2B66FA5F6F38A4805393B6B013FEC*)NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:147>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:147>
 		GoogleAdMobController_LoadInterstitial_m913A5CA8EA8823227D52C25E04C1701E05AA35CA(__this, NULL);
 	}
 
 IL_002d:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:149>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:149>
 		return;
 	}
 }
@@ -7344,10 +7344,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController__ctor_mA8BE9BBCF92
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:17>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:17>
 		__this->___bannerID = _stringLiteralE1B77BC58FA1C48C0D7C320A13D9EED379EF317F;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___bannerID), (void*)_stringLiteralE1B77BC58FA1C48C0D7C320A13D9EED379EF317F);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:18>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:18>
 		__this->___interstitialID = _stringLiteralC6264F3E99DD53581133B065E278BB5734C025F8;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___interstitialID), (void*)_stringLiteralC6264F3E99DD53581133B065E278BB5734C025F8);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
@@ -7358,11 +7358,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController__ctor_mA8BE9BBCF92
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CStartU3Eb__7_0_m7A36F73EFBFC359B5CB1AFBE37493161F863413D (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, InitializationStatus_t550D061D96119B8458B9FC389FBA74A1DBEB1DDD* ___0_initStatus, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:40>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:40>
 		GoogleAdMobController_LoadBanner_mFA6303459806F6CCA206CE090320856A8AF2FEBF(__this, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:41>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:41>
 		GoogleAdMobController_LoadInterstitial_m913A5CA8EA8823227D52C25E04C1701E05AA35CA(__this, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:42>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:42>
 		return;
 	}
 }
@@ -7377,12 +7377,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CLoadBannerU3Eb_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:61>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:61>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral8B115A9345A0CF331C3760F25932599A19F061D9, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:62>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:62>
 		__this->___isBannerLoaded = (bool)1;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:63>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:63>
 		return;
 	}
 }
@@ -7398,7 +7398,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CLoadBannerU3Eb_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:68>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:68>
 		LoadAdError_t22654493F27C801157B803019F04E69E66CD4A62* L_0 = ___0_error;
 		NullCheck(L_0);
 		String_t* L_1;
@@ -7407,11 +7407,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CLoadBannerU3Eb_
 		L_2 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralC59600CAF1D6D533B5E134C615B55D2AFC8E1B11, L_1, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_2, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:69>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:69>
 		__this->___isBannerLoaded = (bool)0;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:73>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:73>
 		MonoBehaviour_Invoke_mF724350C59362B0F1BFE26383209A274A29A63FB(__this, _stringLiteral3CA93F869E7315FBAB9605366F3AD870CB25FB4C, (5.0f), NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:74>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:74>
 		return;
 	}
 }
@@ -7427,7 +7427,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CLoadInterstitia
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:128>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:128>
 		LoadAdError_t22654493F27C801157B803019F04E69E66CD4A62* L_0 = ___1_error;
 		if (!L_0)
 		{
@@ -7435,7 +7435,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CLoadInterstitia
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:130>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:130>
 		LoadAdError_t22654493F27C801157B803019F04E69E66CD4A62* L_1 = ___1_error;
 		NullCheck(L_1);
 		String_t* L_2;
@@ -7444,19 +7444,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CLoadInterstitia
 		L_3 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral151458804BCEBFEB7254D7CA64BE7C6493B21148, L_2, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_3, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:133>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:133>
 		MonoBehaviour_Invoke_mF724350C59362B0F1BFE26383209A274A29A63FB(__this, _stringLiteral99970918908B7AB9E9260641F9AB05B45675FABF, (10.0f), NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:134>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:134>
 		return;
 	}
 
 IL_0029:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:137>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:137>
 		InterstitialAd_t41640B3957C2B66FA5F6F38A4805393B6B013FEC* L_4 = ___0_ad;
 		__this->___interstitial = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___interstitial), (void*)L_4);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/GoogleAdMobController.cs:138>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/GoogleAdMobController.cs:138>
 		return;
 	}
 }
@@ -7478,7 +7478,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Cutted_Awake_mDD4A989344F7540B830C61F199
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Cutted.cs:10>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Cutted.cs:10>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_0);
@@ -7486,7 +7486,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Cutted_Awake_mDD4A989344F7540B830C61F199
 		L_1 = GameObject_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m2D7F86C77ECF9B82AAC077B511F1004280571B90(L_0, GameObject_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m2D7F86C77ECF9B82AAC077B511F1004280571B90_RuntimeMethod_var);
 		__this->___body = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___body), (void*)L_1);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Cutted.cs:11>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Cutted.cs:11>
 		return;
 	}
 }
@@ -7496,7 +7496,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Cutted_Start_mDFCADBA39968090DCC172668A8
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Cutted.cs:15>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Cutted.cs:15>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_0);
@@ -7506,7 +7506,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Cutted_Start_mDFCADBA39968090DCC172668A8
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
 		L_2 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Cutted.cs:16>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Cutted.cs:16>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_3 = __this->___body;
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_4 = L_3;
 		NullCheck(L_4);
@@ -7520,7 +7520,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Cutted_Start_mDFCADBA39968090DCC172668A8
 		float L_11 = L_10.___z;
 		NullCheck(L_4);
 		Rigidbody_set_mass_mC7F886DEDB57C742A16F8B6B779F69AFE164CA4B(L_4, ((float)il2cpp_codegen_multiply(L_5, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_7, L_9)), L_11)))), NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Cutted.cs:17>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Cutted.cs:17>
 		return;
 	}
 }
@@ -7534,7 +7534,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Cutted_FixedUpdate_mE8628A37B564224CC807
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Cutted.cs:21>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Cutted.cs:21>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_0);
@@ -7550,7 +7550,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Cutted_FixedUpdate_mE8628A37B564224CC807
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Cutted.cs:23>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Cutted.cs:23>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
 		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -7559,7 +7559,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Cutted_FixedUpdate_mE8628A37B564224CC807
 
 IL_0027:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Cutted.cs:25>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Cutted.cs:25>
 		return;
 	}
 }
@@ -7583,7 +7583,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Cutted__ctor_mF9BEEAE3C66DC4E69D6F7CF1E3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dynamic_set_offset_m6EB1D8D61EC58FE0C030505332FC0F15F010E8A5 (Dynamic_t0B0643611D0093E465B34BC3A6BA659234EA17BD* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Dynamic.cs:5>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Dynamic.cs:5>
 		float L_0 = ___0_value;
 		__this->___U3CoffsetU3Ek__BackingField = L_0;
 		return;
@@ -7593,7 +7593,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dynamic_set_offset_m6EB1D8D61EC58FE0C030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Dynamic_get_offset_mACB538017FC4D90DDDF4D997F33D6B0D4D9B8C99 (Dynamic_t0B0643611D0093E465B34BC3A6BA659234EA17BD* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Dynamic.cs:5>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Dynamic.cs:5>
 		float L_0 = __this->___U3CoffsetU3Ek__BackingField;
 		return L_0;
 	}
@@ -7602,7 +7602,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Dynamic_get_offset_mACB538017FC4D90DDDF
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dynamic_set_y_m9C2700BC3F3BE7F853E377A9F4CF503BF4C19D18 (Dynamic_t0B0643611D0093E465B34BC3A6BA659234EA17BD* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Dynamic.cs:6>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Dynamic.cs:6>
 		float L_0 = ___0_value;
 		__this->___U3CyU3Ek__BackingField = L_0;
 		return;
@@ -7612,7 +7612,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dynamic_set_y_m9C2700BC3F3BE7F853E377A9F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Dynamic_get_y_m8A5A04667685963C3F8604411E1EA384DD20AAA5 (Dynamic_t0B0643611D0093E465B34BC3A6BA659234EA17BD* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Dynamic.cs:6>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Dynamic.cs:6>
 		float L_0 = __this->___U3CyU3Ek__BackingField;
 		return L_0;
 	}
@@ -7627,12 +7627,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dynamic_Awake_m67C9FAAEDEA20ACCF86EE974C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Dynamic.cs:13>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Dynamic.cs:13>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_0;
 		L_0 = Component_GetComponent_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_m1C9FCB4BBE56BEC6BDEF6E4BA1E5DFF91614D7CE(__this, Component_GetComponent_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_m1C9FCB4BBE56BEC6BDEF6E4BA1E5DFF91614D7CE_RuntimeMethod_var);
 		__this->___animator = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___animator), (void*)L_0);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Dynamic.cs:14>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Dynamic.cs:14>
 		return;
 	}
 }
@@ -7644,7 +7644,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dynamic_LateUpdate_mE360FE234956DEBC06A8
 	float G_B3_0 = 0.0f;
 	float G_B6_0 = 0.0f;
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Dynamic.cs:18>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Dynamic.cs:18>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_0);
@@ -7655,7 +7655,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dynamic_LateUpdate_mE360FE234956DEBC06A8
 		L_2 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_1, NULL);
 		float L_3 = L_2.___x;
 		V_0 = L_3;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Dynamic.cs:19>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Dynamic.cs:19>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
 		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_4);
@@ -7666,7 +7666,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dynamic_LateUpdate_mE360FE234956DEBC06A8
 		L_6 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_5, NULL);
 		float L_7 = L_6.___z;
 		V_1 = L_7;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Dynamic.cs:21>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Dynamic.cs:21>
 		bool L_8 = __this->___moveLeft;
 		if (L_8)
 		{
@@ -7690,7 +7690,7 @@ IL_003e:
 IL_003f:
 	{
 		V_0 = G_B3_0;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Dynamic.cs:22>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Dynamic.cs:22>
 		bool L_12 = __this->___moveLeft;
 		if (L_12)
 		{
@@ -7714,9 +7714,9 @@ IL_004b:
 IL_0053:
 	{
 		V_1 = G_B6_0;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Dynamic.cs:24>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Dynamic.cs:25>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Dynamic.cs:26>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Dynamic.cs:24>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Dynamic.cs:25>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Dynamic.cs:26>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16;
 		L_16 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_16);
@@ -7731,7 +7731,7 @@ IL_0053:
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_21), L_18, L_19, L_20, NULL);
 		NullCheck(L_17);
 		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_17, L_21, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Dynamic.cs:27>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Dynamic.cs:27>
 		return;
 	}
 }
@@ -7745,15 +7745,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dynamic_SetDirection_mB19468B1D40DBD2F2F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Dynamic.cs:31>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Dynamic.cs:31>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_0 = __this->___animator;
 		bool L_1 = ___0_left;
 		NullCheck(L_0);
 		Animator_SetBool_m6F8D4FAF0770CD4EC1F54406249785DE7391E42B(L_0, _stringLiteralAE24C5BE9B741FFFA87D2A951BFE7EA0440461CD, L_1, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Dynamic.cs:32>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Dynamic.cs:32>
 		bool L_2 = ___0_left;
 		__this->___moveLeft = L_2;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Dynamic.cs:33>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Dynamic.cs:33>
 		return;
 	}
 }
@@ -7767,11 +7767,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dynamic_Move_mB6529767DFDC37027E500B7EBC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Dynamic.cs:37>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Dynamic.cs:37>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_0 = __this->___animator;
 		NullCheck(L_0);
 		Animator_SetTrigger_mC9CD54D627C8843EF6E159E167449D216EF6EB30(L_0, _stringLiteral378F2A2277727E3F33599E270749A10E7C2B55E1, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Dynamic.cs:38>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Dynamic.cs:38>
 		return;
 	}
 }
@@ -7785,15 +7785,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dynamic_Stop_m7A589FD1DED484531D9C8BBD14
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Dynamic.cs:42>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Dynamic.cs:42>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_0 = __this->___animator;
 		NullCheck(L_0);
 		Animator_ResetTrigger_m8DCA67D5A6B56702E3FAD4E18243E194B71297CC(L_0, _stringLiteral378F2A2277727E3F33599E270749A10E7C2B55E1, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Dynamic.cs:43>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Dynamic.cs:43>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_1 = __this->___animator;
 		NullCheck(L_1);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_1, (bool)0, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Dynamic.cs:44>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Dynamic.cs:44>
 		return;
 	}
 }
@@ -7824,7 +7824,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Plane_Awake_mCAA69FDDD3249B8FE6F7ECBAE7D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:24>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:24>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_0);
@@ -7835,7 +7835,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Plane_Awake_mCAA69FDDD3249B8FE6F7ECBAE7D
 		L_2 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_1, NULL);
 		__this->___holeTransform = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___holeTransform), (void*)L_2);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:25>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:25>
 		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_3;
 		L_3 = Component_GetComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m0EDA0079FA3617687C4A28623B79A37D618D9CFB(__this, Component_GetComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m0EDA0079FA3617687C4A28623B79A37D618D9CFB_RuntimeMethod_var);
 		NullCheck(L_3);
@@ -7843,7 +7843,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Plane_Awake_mCAA69FDDD3249B8FE6F7ECBAE7D
 		L_4 = Renderer_get_material_m5BA2A00816C4CC66580D4B2E409CF10718C15656(L_3, NULL);
 		__this->___planeMaterial = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___planeMaterial), (void*)L_4);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:26>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:26>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = __this->___holeTransform;
 		NullCheck(L_5);
 		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_6;
@@ -7853,10 +7853,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Plane_Awake_mCAA69FDDD3249B8FE6F7ECBAE7D
 		L_7 = Renderer_get_material_m5BA2A00816C4CC66580D4B2E409CF10718C15656(L_6, NULL);
 		__this->___holeMaterial = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___holeMaterial), (void*)L_7);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:28>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:29>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:30>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:31>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:28>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:29>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:30>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:31>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_8;
 		L_8 = Component_GetComponent_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_m1C9FCB4BBE56BEC6BDEF6E4BA1E5DFF91614D7CE(__this, Component_GetComponent_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_m1C9FCB4BBE56BEC6BDEF6E4BA1E5DFF91614D7CE_RuntimeMethod_var);
 		NullCheck(L_8);
@@ -7872,7 +7872,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Plane_Awake_mCAA69FDDD3249B8FE6F7ECBAE7D
 		float L_13;
 		L_13 = AnimationClip_get_length_mAD91A1C134662285F26886489AC2D8E0EC79AF41(L_12, NULL);
 		__this->___animationDuration = L_13;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:32>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:32>
 		return;
 	}
 }
@@ -7880,11 +7880,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Plane_Awake_mCAA69FDDD3249B8FE6F7ECBAE7D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Plane_Start_m593A5FEEC9645FA50D945A9487343668011445AF (Plane_tCB686BBEA7E2C1F0444A9C2025CC0D0C30D34AC6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:36>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:37>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:38>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:39>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:40>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:36>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:37>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:38>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:39>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:40>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
@@ -7914,11 +7914,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Plane_Start_m593A5FEEC9645FA50D945A94873
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_12), L_4, L_7, L_11, NULL);
 		NullCheck(L_0);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_0, L_12, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:42>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:43>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:44>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:45>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:46>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:42>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:43>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:44>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:45>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:46>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13 = __this->___holeTransform;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_14;
 		L_14 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -7946,7 +7946,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Plane_Start_m593A5FEEC9645FA50D945A94873
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_25), L_17, L_20, L_24, NULL);
 		NullCheck(L_13);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_13, L_25, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:47>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:47>
 		return;
 	}
 }
@@ -7955,20 +7955,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Plane_AddRenderQueue_m85CB53725CB3BD7E82
 {
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:51>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:51>
 		int32_t L_0 = ___0_platformIndex;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(((int32_t)3012), ((int32_t)il2cpp_codegen_multiply(L_0, 2))));
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:52>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:52>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_1 = __this->___holeMaterial;
 		int32_t L_2 = V_0;
 		NullCheck(L_1);
 		Material_set_renderQueue_mFBB72A781DCCF0D4B85670B597788EC2D02D1C14(L_1, ((int32_t)il2cpp_codegen_subtract(L_2, 1)), NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:53>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:53>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = __this->___planeMaterial;
 		int32_t L_4 = V_0;
 		NullCheck(L_3);
 		Material_set_renderQueue_mFBB72A781DCCF0D4B85670B597788EC2D02D1C14(L_3, L_4, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:54>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:54>
 		return;
 	}
 }
@@ -7995,7 +7995,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Plane_AnimateScale_mDEA004A708
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Plane_GetPlaneSize_m6DCB46E1770EACF6682D7C187F194837686754B7 (Plane_tCB686BBEA7E2C1F0444A9C2025CC0D0C30D34AC6* __this, float ___0_side, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:92>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:92>
 		float L_0 = ___0_side;
 		float L_1 = __this->___borderMargin;
 		return ((float)il2cpp_codegen_add(L_0, ((float)(L_1/(10.0f)))));
@@ -8005,7 +8005,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Plane_GetPlaneSize_m6DCB46E1770EACF6682
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Plane_GetHoleSize_m9F5FE558D36B9E67FBF3F22917093549D0698ACE (Plane_tCB686BBEA7E2C1F0444A9C2025CC0D0C30D34AC6* __this, float ___0_side, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:95>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:95>
 		float L_0 = ___0_side;
 		float L_1 = ___0_side;
 		float L_2;
@@ -8023,7 +8023,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Plane_Destroy_m1E92072E2E37C3B413428B58A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:98>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:98>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		float L_1 = __this->___animationDuration;
@@ -8036,9 +8036,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Plane_Destroy_m1E92072E2E37C3B413428B58A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Plane__ctor_m89DB519904A5F5E172AEC872065424D85237213A (Plane_tCB686BBEA7E2C1F0444A9C2025CC0D0C30D34AC6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:7>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:7>
 		__this->___borderMargin = (0.100000001f);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:10>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:10>
 		__this->___scaleFactor = (1.5f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -8101,23 +8101,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CAnimateScaleU3Ed__12_MoveNext_m0584E0
 IL_001a:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:58>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:58>
 		float L_4;
 		L_4 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		__this->___U3CstartTimeU3E5__2 = L_4;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:59>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:59>
 		Plane_tCB686BBEA7E2C1F0444A9C2025CC0D0C30D34AC6* L_5 = V_1;
 		NullCheck(L_5);
 		float L_6 = L_5->___scaleFactor;
 		V_2 = ((float)il2cpp_codegen_multiply((0.119999997f), L_6));
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:60>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:60>
 		float L_7;
 		L_7 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		Plane_tCB686BBEA7E2C1F0444A9C2025CC0D0C30D34AC6* L_8 = V_1;
 		NullCheck(L_8);
 		float L_9 = L_8->___animationDuration;
 		__this->___U3CendTimeU3E5__3 = ((float)il2cpp_codegen_add(L_7, L_9));
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:62>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:62>
 		Plane_tCB686BBEA7E2C1F0444A9C2025CC0D0C30D34AC6* L_10 = V_1;
 		NullCheck(L_10);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11 = L_10->___holeTransform;
@@ -8125,7 +8125,7 @@ IL_001a:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
 		L_12 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_11, NULL);
 		__this->___U3CcurrentHoleScaleU3E5__4 = L_12;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:63>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:63>
 		Plane_tCB686BBEA7E2C1F0444A9C2025CC0D0C30D34AC6* L_13 = V_1;
 		NullCheck(L_13);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_14;
@@ -8134,11 +8134,11 @@ IL_001a:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15;
 		L_15 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_14, NULL);
 		__this->___U3CcurrentPlaneScaleU3E5__5 = L_15;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:65>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:66>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:67>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:68>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:69>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:65>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:66>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:67>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:68>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:69>
 		Plane_tCB686BBEA7E2C1F0444A9C2025CC0D0C30D34AC6* L_16 = V_1;
 		float L_17 = V_2;
 		NullCheck(L_16);
@@ -8161,11 +8161,11 @@ IL_001a:
 		memset((&L_26), 0, sizeof(L_26));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_26), L_18, L_22, L_25, NULL);
 		__this->___U3CtargetPlaneScaleU3E5__6 = L_26;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:71>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:72>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:73>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:74>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:75>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:71>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:72>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:73>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:74>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:75>
 		Plane_tCB686BBEA7E2C1F0444A9C2025CC0D0C30D34AC6* L_27 = V_1;
 		float L_28 = V_2;
 		NullCheck(L_27);
@@ -8192,7 +8192,7 @@ IL_001a:
 
 IL_00c1:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:79>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:79>
 		float L_38;
 		L_38 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		float L_39 = __this->___U3CstartTimeU3E5__2;
@@ -8200,7 +8200,7 @@ IL_00c1:
 		NullCheck(L_40);
 		float L_41 = L_40->___animationDuration;
 		V_3 = ((float)(((float)il2cpp_codegen_subtract(L_38, L_39))/L_41));
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:81>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:81>
 		Plane_tCB686BBEA7E2C1F0444A9C2025CC0D0C30D34AC6* L_42 = V_1;
 		NullCheck(L_42);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_43;
@@ -8212,7 +8212,7 @@ IL_00c1:
 		L_47 = Vector3_Slerp_m6CA14E5B6F6217802BAA0ADD2C9D086C741BA09C_inline(L_44, L_45, L_46, NULL);
 		NullCheck(L_43);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_43, L_47, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:82>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:82>
 		Plane_tCB686BBEA7E2C1F0444A9C2025CC0D0C30D34AC6* L_48 = V_1;
 		NullCheck(L_48);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_49 = L_48->___holeTransform;
@@ -8223,7 +8223,7 @@ IL_00c1:
 		L_53 = Vector3_Slerp_m6CA14E5B6F6217802BAA0ADD2C9D086C741BA09C_inline(L_50, L_51, L_52, NULL);
 		NullCheck(L_49);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_49, L_53, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:84>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:84>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 1;
@@ -8237,7 +8237,7 @@ IL_011f:
 
 IL_0126:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:77>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:77>
 		float L_54;
 		L_54 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		float L_55 = __this->___U3CendTimeU3E5__3;
@@ -8247,14 +8247,14 @@ IL_0126:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:87>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:87>
 		Plane_tCB686BBEA7E2C1F0444A9C2025CC0D0C30D34AC6* L_56 = V_1;
 		NullCheck(L_56);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_57 = L_56->___holeTransform;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_58 = __this->___U3CtargetHoleScaleU3E5__7;
 		NullCheck(L_57);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_57, L_58, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:88>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:88>
 		Plane_tCB686BBEA7E2C1F0444A9C2025CC0D0C30D34AC6* L_59 = V_1;
 		NullCheck(L_59);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_60;
@@ -8262,7 +8262,7 @@ IL_0126:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_61 = __this->___U3CtargetPlaneScaleU3E5__6;
 		NullCheck(L_60);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_60, L_61, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Plane.cs:89>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Plane.cs:89>
 		return (bool)0;
 	}
 }
@@ -8309,16 +8309,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreManager_set_current_mAC75DD4B068292
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ScoreManager.cs:10>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ScoreManager.cs:10>
 		int32_t L_0 = ___0_value;
 		__this->___score = L_0;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ScoreManager.cs:11>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ScoreManager.cs:11>
 		int32_t L_1 = ___0_value;
 		int32_t L_2 = __this->___best;
 		int32_t L_3;
 		L_3 = Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline(L_1, L_2, NULL);
 		__this->___best = L_3;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ScoreManager.cs:13>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ScoreManager.cs:13>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_4 = __this->___bestText;
 		int32_t L_5 = __this->___best;
 		int32_t L_6 = L_5;
@@ -8327,14 +8327,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreManager_set_current_mAC75DD4B068292
 		L_8 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral97B51684BC858BD7759A596F35182EAD0F79D614, L_7, NULL);
 		NullCheck(L_4);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_4, L_8);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ScoreManager.cs:14>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ScoreManager.cs:14>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_9 = __this->___currentText;
 		int32_t* L_10 = (int32_t*)(&__this->___score);
 		String_t* L_11;
 		L_11 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_10, NULL);
 		NullCheck(L_9);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_9, L_11);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ScoreManager.cs:15>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ScoreManager.cs:15>
 		return;
 	}
 }
@@ -8342,7 +8342,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreManager_set_current_mAC75DD4B068292
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ScoreManager_get_current_m0158936352624E5F1457DCBEB03F0D90984ACA2B (ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ScoreManager.cs:18>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ScoreManager.cs:18>
 		int32_t L_0 = __this->___score;
 		return L_0;
 	}
@@ -8360,7 +8360,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreManager_Awake_mB3BB0D0448D4C240C457
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ScoreManager.cs:30>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ScoreManager.cs:30>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_0);
@@ -8371,7 +8371,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreManager_Awake_mB3BB0D0448D4C240C457
 		L_2 = Component_GetComponent_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_mB85C5C0EEF6535E3FC0DBFC14E39FA5A51B6F888(L_1, Component_GetComponent_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_mB85C5C0EEF6535E3FC0DBFC14E39FA5A51B6F888_RuntimeMethod_var);
 		__this->___bestText = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___bestText), (void*)L_2);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ScoreManager.cs:31>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ScoreManager.cs:31>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
 		L_3 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_3);
@@ -8382,7 +8382,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreManager_Awake_mB3BB0D0448D4C240C457
 		L_5 = Component_GetComponent_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_mB85C5C0EEF6535E3FC0DBFC14E39FA5A51B6F888(L_4, Component_GetComponent_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_mB85C5C0EEF6535E3FC0DBFC14E39FA5A51B6F888_RuntimeMethod_var);
 		__this->___currentText = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentText), (void*)L_5);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ScoreManager.cs:32>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ScoreManager.cs:32>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_6 = __this->___currentText;
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_7 = __this->___bestText;
 		il2cpp_codegen_runtime_class_init_inline(ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_il2cpp_TypeInfo_var);
@@ -8396,7 +8396,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreManager_Awake_mB3BB0D0448D4C240C457
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_11 = V_0;
 		NullCheck(L_6);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_6, L_11);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ScoreManager.cs:33>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ScoreManager.cs:33>
 		return;
 	}
 }
@@ -8404,13 +8404,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreManager_Awake_mB3BB0D0448D4C240C457
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreManager_ShowCurrent_m52D892AB1DD6A5686CCD7ED537115E14019B5D21 (ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ScoreManager.cs:37>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ScoreManager.cs:37>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___currentText;
 		RuntimeObject* L_1;
 		L_1 = ScoreManager_Fade_m0F116B94226C42334DE4548C4FE29C71AB143A27(__this, L_0, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_2;
 		L_2 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_1, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ScoreManager.cs:38>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ScoreManager.cs:38>
 		return;
 	}
 }
@@ -8418,13 +8418,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreManager_ShowCurrent_m52D892AB1DD6A5
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreManager_ShowBest_m69AF5CBBA13FB39FCAF2746938DA93AC59014D21 (ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ScoreManager.cs:42>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ScoreManager.cs:42>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___bestText;
 		RuntimeObject* L_1;
 		L_1 = ScoreManager_Fade_m0F116B94226C42334DE4548C4FE29C71AB143A27(__this, L_0, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_2;
 		L_2 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_1, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ScoreManager.cs:43>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ScoreManager.cs:43>
 		return;
 	}
 }
@@ -8432,19 +8432,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreManager_ShowBest_m69AF5CBBA13FB39FC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreManager_Hide_m119EF2AC98F4C3BAAF0D6CB673C91FFD1D8E802C (ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ScoreManager.cs:47>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ScoreManager.cs:47>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___currentText;
 		RuntimeObject* L_1;
 		L_1 = ScoreManager_Fade_m0F116B94226C42334DE4548C4FE29C71AB143A27(__this, L_0, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_2;
 		L_2 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_1, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ScoreManager.cs:48>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ScoreManager.cs:48>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_3 = __this->___bestText;
 		RuntimeObject* L_4;
 		L_4 = ScoreManager_Fade_m0F116B94226C42334DE4548C4FE29C71AB143A27(__this, L_3, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_5;
 		L_5 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_4, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ScoreManager.cs:49>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ScoreManager.cs:49>
 		return;
 	}
 }
@@ -8484,7 +8484,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B G_B3_0;
 	memset((&G_B3_0), 0, sizeof(G_B3_0));
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ScoreManager.cs:70>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ScoreManager.cs:70>
 		float L_0 = ___0_alpha;
 		if ((((float)L_0) == ((float)(0.0f))))
 		{
@@ -8524,7 +8524,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B G_B3_0;
 	memset((&G_B3_0), 0, sizeof(G_B3_0));
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ScoreManager.cs:73>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ScoreManager.cs:73>
 		float L_0 = ___0_alpha;
 		if ((((float)L_0) == ((float)(0.0f))))
 		{
@@ -8616,15 +8616,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CFadeU3Ed__11_MoveNext_mE6E0673FD73039
 IL_001a:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ScoreManager.cs:53>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ScoreManager.cs:53>
 		float L_4;
 		L_4 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		__this->___U3CstartTimeU3E5__2 = L_4;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ScoreManager.cs:54>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ScoreManager.cs:54>
 		float L_5;
 		L_5 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		__this->___U3CendTimeU3E5__3 = ((float)il2cpp_codegen_add(L_5, (0.5f)));
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ScoreManager.cs:56>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ScoreManager.cs:56>
 		ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* L_6 = V_1;
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_7 = __this->___score;
 		NullCheck(L_7);
@@ -8635,7 +8635,7 @@ IL_001a:
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_10;
 		L_10 = ScoreManager_GetTargetColor_mFB915640BA23EDFE0777B37FADF22A3469898FE3(L_6, L_9, NULL);
 		__this->___U3CtargetU3E5__4 = L_10;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ScoreManager.cs:57>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ScoreManager.cs:57>
 		ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* L_11 = V_1;
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_12 = __this->___score;
 		NullCheck(L_12);
@@ -8651,12 +8651,12 @@ IL_001a:
 
 IL_0077:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ScoreManager.cs:61>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ScoreManager.cs:61>
 		float L_16;
 		L_16 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		float L_17 = __this->___U3CstartTimeU3E5__2;
 		V_2 = ((float)(((float)il2cpp_codegen_subtract(L_16, L_17))/(0.5f)));
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ScoreManager.cs:62>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ScoreManager.cs:62>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_18 = __this->___score;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_19 = __this->___U3CcurrentU3E5__5;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_20 = __this->___U3CtargetU3E5__4;
@@ -8665,7 +8665,7 @@ IL_0077:
 		L_22 = Color_Lerp_mE79F87889843ECDC188E4CB5B5E1F1B2256E5EBE_inline(L_19, L_20, L_21, NULL);
 		NullCheck(L_18);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_18, L_22);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ScoreManager.cs:63>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ScoreManager.cs:63>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 1;
@@ -8679,7 +8679,7 @@ IL_00b7:
 
 IL_00be:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ScoreManager.cs:59>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ScoreManager.cs:59>
 		float L_23;
 		L_23 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		float L_24 = __this->___U3CendTimeU3E5__3;
@@ -8689,12 +8689,12 @@ IL_00be:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ScoreManager.cs:66>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ScoreManager.cs:66>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_25 = __this->___score;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_26 = __this->___U3CtargetU3E5__4;
 		NullCheck(L_25);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_25, L_26);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ScoreManager.cs:67>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ScoreManager.cs:67>
 		return (bool)0;
 	}
 }
@@ -8763,7 +8763,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StackManager_get_isLeft_mBEF1BC53905DA80
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:35>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:35>
 		int32_t L_0;
 		L_0 = StackManager_get_Platforms_m69C25D627A5376CEDF1FE88F64B7ADC3DA72D213(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -8782,7 +8782,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t StackManager_get_Platforms_m69C25D627
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:41>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:41>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_0 = __this->___platforms;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -8828,7 +8828,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StackManager_SetPlatformColor_m45E3B4937
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:63>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:63>
 		int32_t L_0;
 		L_0 = StackManager_get_Platforms_m69C25D627A5376CEDF1FE88F64B7ADC3DA72D213(__this, NULL);
 		int32_t L_1 = ___0_last;
@@ -8836,7 +8836,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StackManager_SetPlatformColor_m45E3B4937
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2;
 		L_2 = ColorManager_GetPlatformColor_m60638A56231177F9B49C6816937541B760C18944(((int32_t)il2cpp_codegen_subtract(L_0, L_1)), NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:64>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:64>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_3 = __this->___platforms;
 		int32_t L_4;
 		L_4 = StackManager_get_Platforms_m69C25D627A5376CEDF1FE88F64B7ADC3DA72D213(__this, NULL);
@@ -8852,7 +8852,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StackManager_SetPlatformColor_m45E3B4937
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_8 = V_0;
 		NullCheck(L_7);
 		Material_SetColor_mFAB32FAA44461E46FD707B34184EC080CBB3539F(L_7, _stringLiteral47A3FAF17D89549FD0F0ECA7370B81F7C80DFCDE, L_8, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:65>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:65>
 		return;
 	}
 }
@@ -8860,11 +8860,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StackManager_SetPlatformColor_m45E3B4937
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StackManager_StopDynamicPlatform_m17F51CB7194F725F369A8A2EA379A6E58A3DA292 (StackManager_tF998678EAEF40C57CB6736713252C040C4DECC19* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:69>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:69>
 		Dynamic_t0B0643611D0093E465B34BC3A6BA659234EA17BD* L_0 = __this->___dynamicPlatformManager;
 		NullCheck(L_0);
 		Dynamic_Stop_m7A589FD1DED484531D9C8BBD140CF992D01AFF0C(L_0, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:70>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:70>
 		bool L_1;
 		L_1 = StackManager_CalculatePlatformDistance_m25E9ED5FCAA318CF5646EDB4792DF24EA86C6790(__this, NULL);
 		return L_1;
@@ -8930,11 +8930,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StackManager_CalculatePlatformDistance_m
 	memset((&G_B29_2), 0, sizeof(G_B29_2));
 	StackManager_tF998678EAEF40C57CB6736713252C040C4DECC19* G_B29_3 = NULL;
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:75>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:75>
 		bool L_0;
 		L_0 = StackManager_get_isLeft_mBEF1BC53905DA80BB3FC4BF475C56D9980E9BEB8(__this, NULL);
 		V_0 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:77>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:77>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_1 = __this->___platforms;
 		int32_t L_2;
 		L_2 = StackManager_get_Platforms_m69C25D627A5376CEDF1FE88F64B7ADC3DA72D213(__this, NULL);
@@ -8942,7 +8942,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StackManager_CalculatePlatformDistance_m
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
 		L_3 = List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979(L_1, ((int32_t)il2cpp_codegen_subtract(L_2, 2)), List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
 		V_1 = L_3;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:78>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:78>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_4 = __this->___platforms;
 		int32_t L_5;
 		L_5 = StackManager_get_Platforms_m69C25D627A5376CEDF1FE88F64B7ADC3DA72D213(__this, NULL);
@@ -8950,7 +8950,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StackManager_CalculatePlatformDistance_m
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
 		L_6 = List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979(L_4, ((int32_t)il2cpp_codegen_subtract(L_5, 1)), List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
 		V_2 = L_6;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:80>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:80>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = V_2;
 		NullCheck(L_7);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
@@ -8959,7 +8959,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StackManager_CalculatePlatformDistance_m
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
 		L_9 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_8, NULL);
 		V_3 = L_9;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:81>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:81>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = V_2;
 		NullCheck(L_10);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11;
@@ -8977,7 +8977,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StackManager_CalculatePlatformDistance_m
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16;
 		L_16 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_12, L_15, NULL);
 		V_4 = L_16;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:83>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:83>
 		bool L_17 = V_0;
 		if (L_17)
 		{
@@ -9003,10 +9003,10 @@ IL_006e:
 		float L_22;
 		L_22 = fabsf(G_B3_0);
 		V_5 = L_22;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:85>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:86>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:87>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:88>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:85>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:86>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:87>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:88>
 		bool L_23 = V_0;
 		if (L_23)
 		{
@@ -9068,7 +9068,7 @@ IL_009b:
 IL_00ab:
 	{
 		V_6 = ((float)(((float)il2cpp_codegen_add(G_B9_1, G_B9_0))/(2.0f)));
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:90>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:90>
 		float L_37 = V_5;
 		float L_38 = V_6;
 		if ((!(((float)L_37) <= ((float)L_38))))
@@ -9077,7 +9077,7 @@ IL_00ab:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:92>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:92>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_39 = V_3;
 		float L_40 = L_39.___x;
 		bool L_41 = V_0;
@@ -9104,7 +9104,7 @@ IL_00cd:
 IL_00cf:
 	{
 		V_7 = ((float)il2cpp_codegen_subtract(G_B13_1, G_B13_0));
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:93>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:93>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_43 = V_3;
 		float L_44 = L_43.___z;
 		bool L_45 = V_0;
@@ -9131,7 +9131,7 @@ IL_00df:
 IL_00e4:
 	{
 		V_8 = ((float)il2cpp_codegen_subtract(G_B16_1, G_B16_0));
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:95>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:95>
 		bool L_47 = V_0;
 		if (L_47)
 		{
@@ -9155,7 +9155,7 @@ IL_00ee:
 IL_00f7:
 	{
 		V_9 = G_B19_0;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:96>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:96>
 		bool L_52 = V_0;
 		if (L_52)
 		{
@@ -9179,7 +9179,7 @@ IL_0107:
 IL_0109:
 	{
 		V_10 = G_B22_0;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:98>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:98>
 		bool L_57 = V_0;
 		if (L_57)
 		{
@@ -9202,7 +9202,7 @@ IL_0114:
 	{
 		float L_60 = __this->___tollerance;
 		V_11 = (bool)((((int32_t)((!(((float)G_B25_0) <= ((float)L_60)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:100>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:100>
 		bool L_61 = V_11;
 		if (L_61)
 		{
@@ -9210,14 +9210,14 @@ IL_0114:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:102>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:102>
 		__this->___perfectPlatformsCount = 0;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:104>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:105>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:106>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:107>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:108>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:109>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:104>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:105>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:106>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:107>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:108>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:109>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_62 = V_2;
 		NullCheck(L_62);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_63;
@@ -9273,14 +9273,14 @@ IL_0158:
 
 IL_0163:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:113>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:113>
 		int32_t L_73 = __this->___perfectPlatformsCount;
 		__this->___perfectPlatformsCount = ((int32_t)il2cpp_codegen_add(L_73, 1));
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:114>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:114>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_74 = V_3;
 		float L_75 = L_74.___x;
 		V_7 = L_75;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:115>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:115>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_76 = V_3;
 		float L_77 = L_76.___z;
 		V_8 = L_77;
@@ -9288,11 +9288,11 @@ IL_0163:
 
 IL_0181:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:118>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:119>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:120>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:121>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:122>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:118>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:119>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:120>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:121>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:122>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_78 = V_2;
 		NullCheck(L_78);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_79;
@@ -9309,16 +9309,16 @@ IL_0181:
 		float L_85;
 		L_85 = StackManager_CalculateStaticPlatform_m71C50464F77B806BE6CB37D64F7409CC06A49B8D(__this, L_80, L_82, L_83, L_84, NULL);
 		V_12 = L_85;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:124>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:124>
 		bool L_86 = V_11;
 		RuntimeObject* L_87;
 		L_87 = StackManager_SpawnPlanes_mC6F58133D72B51B155777B7FDEFA84411EA84C5D(__this, L_86, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_88;
 		L_88 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_87, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:125>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:125>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_89 = V_2;
 		StackManager_DestroyDynamicPlatform_mC3BE3C5B0915A4EC0CA447D3578BCA7294ED249C(__this, L_89, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:126>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:126>
 		float L_90 = V_7;
 		float L_91 = V_8;
 		float L_92 = V_12;
@@ -9328,22 +9328,22 @@ IL_0181:
 
 IL_01c2:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:130>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:130>
 		CameraAnimation_tC43E1D7148F1572460D451309CE54B4B4703E250* L_93 = __this->___cameraAnimation;
 		int32_t L_94;
 		L_94 = StackManager_get_Platforms_m69C25D627A5376CEDF1FE88F64B7ADC3DA72D213(__this, NULL);
 		NullCheck(L_93);
 		UnityEvent_3_Invoke_m7B05EA5FECD37B162B4BCE29050C5C7B870027EA(L_93, L_94, (bool)1, (bool)0, UnityEvent_3_Invoke_m7B05EA5FECD37B162B4BCE29050C5C7B870027EA_RuntimeMethod_var);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:131>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:131>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_95 = V_2;
 		StackManager_ConvertDynamicPlatform_m80048D7916C66B721889BD5E57040AEF87E69CF2(__this, L_95, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:132>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:132>
 		return (bool)1;
 	}
 
 IL_01de:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:135>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:135>
 		ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* L_96 = __this->___score;
 		ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* L_97 = L_96;
 		NullCheck(L_97);
@@ -9353,7 +9353,7 @@ IL_01de:
 		int32_t L_99 = V_13;
 		NullCheck(L_97);
 		ScoreManager_set_current_mAC75DD4B0682922527FF43BDDC199B560D387450(L_97, ((int32_t)il2cpp_codegen_add(L_99, 1)), NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:136>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:136>
 		return (bool)0;
 	}
 }
@@ -9379,8 +9379,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StackManager_CalculateCuttedPlatform_mED
 	float G_B9_2 = 0.0f;
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* G_B9_3 = NULL;
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:141>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:142>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:141>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:142>
 		bool L_0;
 		L_0 = StackManager_get_isLeft_mBEF1BC53905DA80BB3FC4BF475C56D9980E9BEB8(__this, NULL);
 		if (L_0)
@@ -9409,11 +9409,11 @@ IL_0012:
 		float L_7;
 		L_7 = StackManager_GetPlatfromOffset_m4CE5466BE8C9CD65CF6E62926393D929BC8807C5(__this, L_5, L_6, (-2.0f), (1.0f), NULL);
 		V_0 = ((float)il2cpp_codegen_multiply(G_B3_0, L_7));
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:144>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:145>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:146>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:147>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:148>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:144>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:145>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:146>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:147>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:148>
 		bool L_8;
 		L_8 = StackManager_get_isLeft_mBEF1BC53905DA80BB3FC4BF475C56D9980E9BEB8(__this, NULL);
 		if (L_8)
@@ -9481,12 +9481,12 @@ IL_0056:
 IL_005e:
 	{
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline(G_B9_3, G_B9_2, G_B9_1, G_B9_0, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:150>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:150>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22 = V_1;
 		float L_23 = ___3_width;
 		float L_24 = ___4_depth;
 		StackManager_SpawnCuttedPlatform_m883B40B397C9291783CA155AABFE1685720879AF(__this, L_22, L_23, L_24, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:151>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:151>
 		return;
 	}
 }
@@ -9512,8 +9512,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float StackManager_CalculateStaticPlatform_m7
 	float G_B9_2 = 0.0f;
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* G_B9_3 = NULL;
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:155>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:156>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:155>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:156>
 		bool L_0;
 		L_0 = StackManager_get_isLeft_mBEF1BC53905DA80BB3FC4BF475C56D9980E9BEB8(__this, NULL);
 		if (L_0)
@@ -9553,11 +9553,11 @@ IL_0025:
 		float L_12;
 		L_12 = StackManager_GetPlatfromOffset_m4CE5466BE8C9CD65CF6E62926393D929BC8807C5(__this, L_10, L_11, (-4.0f), (2.0f), NULL);
 		V_0 = ((float)(G_B3_0/L_12));
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:158>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:159>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:160>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:161>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:162>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:158>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:159>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:160>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:161>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:162>
 		bool L_13;
 		L_13 = StackManager_get_isLeft_mBEF1BC53905DA80BB3FC4BF475C56D9980E9BEB8(__this, NULL);
 		if (L_13)
@@ -9637,12 +9637,12 @@ IL_007d:
 IL_008a:
 	{
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline(G_B9_3, G_B9_2, G_B9_1, G_B9_0, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:164>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:164>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_31 = V_1;
 		float L_32 = ___2_width;
 		float L_33 = ___3_depth;
 		StackManager_SpawnStaticPlatform_m4A70CC07036D10AC742E332120C4AB0837103CC7(__this, L_31, L_32, L_33, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:165>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:165>
 		bool L_34;
 		L_34 = StackManager_get_isLeft_mBEF1BC53905DA80BB3FC4BF475C56D9980E9BEB8(__this, NULL);
 		if (L_34)
@@ -9674,10 +9674,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float StackManager_GetPlatfromOffset_m4CE5466
 	}
 	int32_t G_B3_0 = 0;
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:169>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:170>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:171>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:172>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:169>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:170>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:171>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:172>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___1_dynamicPosition;
 		float L_1 = L_0.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___0_staticPosition;
@@ -9727,7 +9727,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StackManager_SpawnStaticPlatform_m4A70CC
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:176>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:176>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___staticPrefab;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___0_position;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_2;
@@ -9738,18 +9738,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StackManager_SpawnStaticPlatform_m4A70CC
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
 		L_4 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_mD136E37F696C00A3A1D4F65724ACAE903E385181(L_0, L_1, L_2, L_3, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_mD136E37F696C00A3A1D4F65724ACAE903E385181_RuntimeMethod_var);
 		V_0 = L_4;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:177>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:177>
 		float L_5 = ___1_width;
 		float L_6 = __this->___platformHeight;
 		float L_7 = ___2_depth;
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_1), L_5, L_6, L_7, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:179>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:179>
 		CameraAnimation_tC43E1D7148F1572460D451309CE54B4B4703E250* L_8 = __this->___cameraAnimation;
 		int32_t L_9;
 		L_9 = StackManager_get_Platforms_m69C25D627A5376CEDF1FE88F64B7ADC3DA72D213(__this, NULL);
 		NullCheck(L_8);
 		UnityEvent_3_Invoke_m7B05EA5FECD37B162B4BCE29050C5C7B870027EA(L_8, L_9, (bool)0, (bool)0, UnityEvent_3_Invoke_m7B05EA5FECD37B162B4BCE29050C5C7B870027EA_RuntimeMethod_var);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:180>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:180>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = V_0;
 		NullCheck(L_10);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11;
@@ -9757,14 +9757,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StackManager_SpawnStaticPlatform_m4A70CC
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = V_1;
 		NullCheck(L_11);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_11, L_12, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:182>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:182>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_13 = __this->___platforms;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = V_0;
 		NullCheck(L_13);
 		List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_inline(L_13, L_14, List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_RuntimeMethod_var);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:183>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:183>
 		StackManager_SetPlatformColor_m45E3B4937C4C3836C0B5C183FC1FEB2D3EBEE35B(__this, 2, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:184>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:184>
 		return;
 	}
 }
@@ -9782,7 +9782,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StackManager_SpawnDynamicPlatform_m9F892
 	}
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_0 = NULL;
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:188>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:188>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___dynamicPrefab;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
@@ -9794,7 +9794,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StackManager_SpawnDynamicPlatform_m9F892
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
 		L_4 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_mD136E37F696C00A3A1D4F65724ACAE903E385181(L_0, L_1, L_2, L_3, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_mD136E37F696C00A3A1D4F65724ACAE903E385181_RuntimeMethod_var);
 		V_0 = L_4;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:189>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:189>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = V_0;
 		NullCheck(L_5);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
@@ -9807,43 +9807,43 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StackManager_SpawnDynamicPlatform_m9F892
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_10), L_7, L_8, L_9, NULL);
 		NullCheck(L_6);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_6, L_10, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:191>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:191>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = V_0;
 		NullCheck(L_11);
 		Dynamic_t0B0643611D0093E465B34BC3A6BA659234EA17BD* L_12;
 		L_12 = GameObject_GetComponent_TisDynamic_t0B0643611D0093E465B34BC3A6BA659234EA17BD_mD29D1A8CB23B2F9D8AEC76674918E85CF2B86F3E(L_11, GameObject_GetComponent_TisDynamic_t0B0643611D0093E465B34BC3A6BA659234EA17BD_mD29D1A8CB23B2F9D8AEC76674918E85CF2B86F3E_RuntimeMethod_var);
 		__this->___dynamicPlatformManager = L_12;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___dynamicPlatformManager), (void*)L_12);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:192>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:192>
 		Dynamic_t0B0643611D0093E465B34BC3A6BA659234EA17BD* L_13 = __this->___dynamicPlatformManager;
 		int32_t L_14;
 		L_14 = StackManager_get_Platforms_m69C25D627A5376CEDF1FE88F64B7ADC3DA72D213(__this, NULL);
 		float L_15 = __this->___platformHeight;
 		NullCheck(L_13);
 		Dynamic_set_y_m9C2700BC3F3BE7F853E377A9F4CF503BF4C19D18_inline(L_13, ((float)il2cpp_codegen_multiply(((float)L_14), L_15)), NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:194>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:194>
 		Dynamic_t0B0643611D0093E465B34BC3A6BA659234EA17BD* L_16 = __this->___dynamicPlatformManager;
 		bool L_17;
 		L_17 = StackManager_get_isLeft_mBEF1BC53905DA80BB3FC4BF475C56D9980E9BEB8(__this, NULL);
 		NullCheck(L_16);
 		Dynamic_SetDirection_mB19468B1D40DBD2F2F14D8D9CB6F50AA9379526C(L_16, L_17, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:195>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:195>
 		Dynamic_t0B0643611D0093E465B34BC3A6BA659234EA17BD* L_18 = __this->___dynamicPlatformManager;
 		float L_19 = ___2_offset;
 		NullCheck(L_18);
 		Dynamic_set_offset_m6EB1D8D61EC58FE0C030505332FC0F15F010E8A5_inline(L_18, L_19, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:196>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:196>
 		Dynamic_t0B0643611D0093E465B34BC3A6BA659234EA17BD* L_20 = __this->___dynamicPlatformManager;
 		NullCheck(L_20);
 		Dynamic_Move_mB6529767DFDC37027E500B7EBCCE9B091498E958(L_20, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:198>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:198>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_21 = __this->___platforms;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22 = V_0;
 		NullCheck(L_21);
 		List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_inline(L_21, L_22, List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_RuntimeMethod_var);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:199>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:199>
 		StackManager_SetPlatformColor_m45E3B4937C4C3836C0B5C183FC1FEB2D3EBEE35B(__this, 1, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:200>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:200>
 		return;
 	}
 }
@@ -9863,7 +9863,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StackManager_SpawnCuttedPlatform_m883B40
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:204>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:204>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___cuttedPrefab;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___0_position;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_2;
@@ -9873,7 +9873,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StackManager_SpawnCuttedPlatform_m883B40
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
 		L_4 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_mD136E37F696C00A3A1D4F65724ACAE903E385181(L_0, L_1, L_2, L_3, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_mD136E37F696C00A3A1D4F65724ACAE903E385181_RuntimeMethod_var);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:205>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:205>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = L_4;
 		NullCheck(L_5);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
@@ -9886,14 +9886,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StackManager_SpawnCuttedPlatform_m883B40
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_10), L_7, L_8, L_9, NULL);
 		NullCheck(L_6);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_6, L_10, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:207>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:207>
 		int32_t L_11;
 		L_11 = StackManager_get_Platforms_m69C25D627A5376CEDF1FE88F64B7ADC3DA72D213(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_il2cpp_TypeInfo_var);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_12;
 		L_12 = ColorManager_GetPlatformColor_m60638A56231177F9B49C6816937541B760C18944(((int32_t)il2cpp_codegen_subtract(L_11, 1)), NULL);
 		V_0 = L_12;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:208>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:208>
 		NullCheck(L_5);
 		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_13;
 		L_13 = GameObject_GetComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m7FF948365C38BC39333D82B235A7C4EAD219960D(L_5, GameObject_GetComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m7FF948365C38BC39333D82B235A7C4EAD219960D_RuntimeMethod_var);
@@ -9903,7 +9903,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StackManager_SpawnCuttedPlatform_m883B40
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_15 = V_0;
 		NullCheck(L_14);
 		Material_SetColor_mFAB32FAA44461E46FD707B34184EC080CBB3539F(L_14, _stringLiteral47A3FAF17D89549FD0F0ECA7370B81F7C80DFCDE, L_15, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:209>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:209>
 		return;
 	}
 }
@@ -9915,7 +9915,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StackManager_ConvertDynamicPlatform_m800
 	float V_1 = 0.0f;
 	float V_2 = 0.0f;
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:213>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:213>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_dynamicPlatform;
 		NullCheck(L_0);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
@@ -9924,7 +9924,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StackManager_ConvertDynamicPlatform_m800
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
 		L_2 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:215>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:215>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = ___0_dynamicPlatform;
 		NullCheck(L_3);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
@@ -9934,7 +9934,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StackManager_ConvertDynamicPlatform_m800
 		L_5 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_4, NULL);
 		float L_6 = L_5.___x;
 		V_1 = L_6;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:216>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:216>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = ___0_dynamicPlatform;
 		NullCheck(L_7);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
@@ -9944,15 +9944,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StackManager_ConvertDynamicPlatform_m800
 		L_9 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_8, NULL);
 		float L_10 = L_9.___z;
 		V_2 = L_10;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:218>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:218>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = V_0;
 		float L_12 = V_1;
 		float L_13 = V_2;
 		StackManager_SpawnCuttedPlatform_m883B40B397C9291783CA155AABFE1685720879AF(__this, L_11, L_12, L_13, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:219>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:219>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = ___0_dynamicPlatform;
 		StackManager_DestroyDynamicPlatform_mC3BE3C5B0915A4EC0CA447D3578BCA7294ED249C(__this, L_14, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:220>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:220>
 		return;
 	}
 }
@@ -9967,17 +9967,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StackManager_DestroyDynamicPlatform_mC3B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:224>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:224>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_0 = __this->___platforms;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = ___0_dynamicPlatform;
 		NullCheck(L_0);
 		bool L_2;
 		L_2 = List_1_Remove_mCCE85D4D5326536C4B214C73D07030F4CCD18485(L_0, L_1, List_1_Remove_mCCE85D4D5326536C4B214C73D07030F4CCD18485_RuntimeMethod_var);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:225>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:225>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = ___0_dynamicPlatform;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_3, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:226>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:226>
 		return;
 	}
 }
@@ -9999,7 +9999,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StackManager_SpawnPlane_m3E0C7F785051B28
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_2 = NULL;
 	Plane_tCB686BBEA7E2C1F0444A9C2025CC0D0C30D34AC6* V_3 = NULL;
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:230>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:230>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_staticTransform;
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
@@ -10007,19 +10007,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StackManager_SpawnPlane_m3E0C7F785051B28
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
 		L_2 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_1, (0.100000001f), NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:231>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:231>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = ___0_staticTransform;
 		NullCheck(L_3);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
 		L_4 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_3, NULL);
 		V_1 = L_4;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:232>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:232>
 		float* L_5 = (float*)(&(&V_1)->___y);
 		float* L_6 = L_5;
 		float L_7 = *((float*)L_6);
 		float L_8 = __this->___platformHeight;
 		*((float*)L_6) = (float)((float)il2cpp_codegen_subtract(L_7, ((float)(L_8/(2.0f)))));
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:234>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:234>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->___planePrefab;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = V_1;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_11;
@@ -10030,7 +10030,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StackManager_SpawnPlane_m3E0C7F785051B28
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13;
 		L_13 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_mD136E37F696C00A3A1D4F65724ACAE903E385181(L_9, L_10, L_11, L_12, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_mD136E37F696C00A3A1D4F65724ACAE903E385181_RuntimeMethod_var);
 		V_2 = L_13;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:235>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:235>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = V_2;
 		NullCheck(L_14);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_15;
@@ -10044,7 +10044,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StackManager_SpawnPlane_m3E0C7F785051B28
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_20), L_17, (1.0f), L_19, NULL);
 		NullCheck(L_15);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_15, L_20, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:237>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:237>
 		int32_t L_21 = ___1_index;
 		if ((((int32_t)L_21) <= ((int32_t)0)))
 		{
@@ -10052,20 +10052,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StackManager_SpawnPlane_m3E0C7F785051B28
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:239>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:239>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22 = V_2;
 		NullCheck(L_22);
 		Plane_tCB686BBEA7E2C1F0444A9C2025CC0D0C30D34AC6* L_23;
 		L_23 = GameObject_GetComponent_TisPlane_tCB686BBEA7E2C1F0444A9C2025CC0D0C30D34AC6_m5E5576EC01DA2D9526330C7CFA8D614437C20144(L_22, GameObject_GetComponent_TisPlane_tCB686BBEA7E2C1F0444A9C2025CC0D0C30D34AC6_m5E5576EC01DA2D9526330C7CFA8D614437C20144_RuntimeMethod_var);
 		V_3 = L_23;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:240>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:240>
 		Plane_tCB686BBEA7E2C1F0444A9C2025CC0D0C30D34AC6* L_24 = V_3;
 		NullCheck(L_24);
 		RuntimeObject* L_25;
 		L_25 = Plane_AnimateScale_mDEA004A708D11E103E9192CE9E26998C2C542432(L_24, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_26;
 		L_26 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_25, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:241>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:241>
 		Plane_tCB686BBEA7E2C1F0444A9C2025CC0D0C30D34AC6* L_27 = V_3;
 		int32_t L_28 = ___1_index;
 		NullCheck(L_27);
@@ -10074,7 +10074,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StackManager_SpawnPlane_m3E0C7F785051B28
 
 IL_0087:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:243>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:243>
 		return;
 	}
 }
@@ -10134,7 +10134,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StackManager_Reset_mAF2BE4B3FAF7FEDA06F8
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:286>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:286>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_0);
@@ -10144,7 +10144,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StackManager_Reset_mAF2BE4B3FAF7FEDA06F8
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
 		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:287>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:287>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = V_0;
 		NullCheck(L_3);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
@@ -10152,14 +10152,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StackManager_Reset_mAF2BE4B3FAF7FEDA06F8
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = __this->___firstPlatformPosition;
 		NullCheck(L_4);
 		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_4, L_5, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:289>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:289>
 		V_1 = 1;
 		goto IL_0041;
 	}
 
 IL_0027:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:291>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:291>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
 		L_6 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		int32_t L_7 = V_1;
@@ -10171,14 +10171,14 @@ IL_0027:
 		L_9 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_8, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_9, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:289>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:289>
 		int32_t L_10 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_10, 1));
 	}
 
 IL_0041:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:289>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:289>
 		int32_t L_11 = V_1;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12;
 		L_12 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -10191,23 +10191,23 @@ IL_0041:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:294>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:294>
 		CameraAnimation_tC43E1D7148F1572460D451309CE54B4B4703E250* L_14 = __this->___cameraAnimation;
 		NullCheck(L_14);
 		UnityEvent_3_Invoke_m7B05EA5FECD37B162B4BCE29050C5C7B870027EA(L_14, 0, (bool)1, (bool)0, UnityEvent_3_Invoke_m7B05EA5FECD37B162B4BCE29050C5C7B870027EA_RuntimeMethod_var);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:295>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:295>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = V_0;
 		NullCheck(L_15);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_15, (bool)0, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:297>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:297>
 		ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* L_16 = __this->___score;
 		NullCheck(L_16);
 		ScoreManager_set_current_mAC75DD4B0682922527FF43BDDC199B560D387450(L_16, 0, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:298>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:298>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_17 = __this->___platforms;
 		NullCheck(L_17);
 		List_1_Clear_m32D399BDD753B5BD6CE27560249096418F3F0867_inline(L_17, List_1_Clear_m32D399BDD753B5BD6CE27560249096418F3F0867_RuntimeMethod_var);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:299>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:299>
 		return;
 	}
 }
@@ -10223,17 +10223,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StackManager__ctor_mC4EE92D872A15F704485
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:12>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:12>
 		CameraAnimation_tC43E1D7148F1572460D451309CE54B4B4703E250* L_0 = (CameraAnimation_tC43E1D7148F1572460D451309CE54B4B4703E250*)il2cpp_codegen_object_new(CameraAnimation_tC43E1D7148F1572460D451309CE54B4B4703E250_il2cpp_TypeInfo_var);
 		CameraAnimation__ctor_mB75773DCD482A09D143141385C234A666A5081F2(L_0, NULL);
 		__this->___cameraAnimation = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___cameraAnimation), (void*)L_0);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:14>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:14>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_1 = (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*)il2cpp_codegen_object_new(List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_il2cpp_TypeInfo_var);
 		List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC(L_1, List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC_RuntimeMethod_var);
 		__this->___platforms = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___platforms), (void*)L_1);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:17>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:17>
 		__this->___tollerance = (0.0250000004f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -10304,7 +10304,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CCreateFirstPlatformU3Ed__17_MoveNext_
 IL_001a:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:47>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:47>
 		StackManager_tF998678EAEF40C57CB6736713252C040C4DECC19* L_4 = V_1;
 		NullCheck(L_4);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
@@ -10316,14 +10316,14 @@ IL_001a:
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
 		L_7 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_6, NULL);
 		V_2 = L_7;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:48>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:48>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = V_2;
 		NullCheck(L_8);
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_9;
 		L_9 = GameObject_GetComponent_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_mB84A0931B2081CCADE7C5D459B2A8FAA6D3D3BD3(L_8, GameObject_GetComponent_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_mB84A0931B2081CCADE7C5D459B2A8FAA6D3D3BD3_RuntimeMethod_var);
 		__this->___U3CanimatorU3E5__2 = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CanimatorU3E5__2), (void*)L_9);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:50>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:50>
 		StackManager_tF998678EAEF40C57CB6736713252C040C4DECC19* L_10 = V_1;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = V_2;
 		NullCheck(L_11);
@@ -10334,7 +10334,7 @@ IL_001a:
 		L_13 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_12, NULL);
 		NullCheck(L_10);
 		L_10->___firstPlatformPosition = L_13;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:51>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:51>
 		StackManager_tF998678EAEF40C57CB6736713252C040C4DECC19* L_14 = V_1;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = V_2;
 		NullCheck(L_15);
@@ -10346,22 +10346,22 @@ IL_001a:
 		float L_18 = L_17.___y;
 		NullCheck(L_14);
 		L_14->___platformHeight = L_18;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:53>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:53>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = V_2;
 		NullCheck(L_19);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_19, (bool)1, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:54>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:54>
 		StackManager_tF998678EAEF40C57CB6736713252C040C4DECC19* L_20 = V_1;
 		NullCheck(L_20);
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_21 = L_20->___platforms;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22 = V_2;
 		NullCheck(L_21);
 		List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_inline(L_21, L_22, List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_RuntimeMethod_var);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:55>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:55>
 		StackManager_tF998678EAEF40C57CB6736713252C040C4DECC19* L_23 = V_1;
 		NullCheck(L_23);
 		StackManager_SetPlatformColor_m45E3B4937C4C3836C0B5C183FC1FEB2D3EBEE35B(L_23, 1, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:57>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:57>
 		float L_24 = __this->___delay;
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_25 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_25, L_24, NULL);
@@ -10374,11 +10374,11 @@ IL_001a:
 IL_009a:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:58>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:58>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_26 = __this->___U3CanimatorU3E5__2;
 		NullCheck(L_26);
 		Animator_SetTrigger_mC9CD54D627C8843EF6E159E167449D216EF6EB30(L_26, _stringLiteral378F2A2277727E3F33599E270749A10E7C2B55E1, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:59>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:59>
 		return (bool)0;
 	}
 }
@@ -10479,11 +10479,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CExplodeU3Ed__31_MoveNext_m97B9E4B2DF2
 IL_001a:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:261>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:261>
 		V_2 = 0;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:262>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:262>
 		V_3 = (0.0f);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:264>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:264>
 		StackManager_tF998678EAEF40C57CB6736713252C040C4DECC19* L_4 = V_1;
 		NullCheck(L_4);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
@@ -10497,7 +10497,7 @@ IL_001a:
 
 IL_003a:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:266>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:266>
 		StackManager_tF998678EAEF40C57CB6736713252C040C4DECC19* L_7 = V_1;
 		NullCheck(L_7);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
@@ -10510,7 +10510,7 @@ IL_003a:
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11;
 		L_11 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_10, NULL);
 		V_6 = L_11;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:267>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:267>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = V_6;
 		NullCheck(L_12);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13;
@@ -10520,7 +10520,7 @@ IL_003a:
 		L_14 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_13, NULL);
 		float L_15 = L_14.___y;
 		V_3 = L_15;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:269>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:269>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = V_6;
 		NullCheck(L_16);
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_17;
@@ -10534,14 +10534,14 @@ IL_003a:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:271>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:271>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = V_6;
 		NullCheck(L_19);
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_20;
 		L_20 = GameObject_AddComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m03A761629A3F71B0248F1B26EF612F592B757093(L_19, GameObject_AddComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m03A761629A3F71B0248F1B26EF612F592B757093_RuntimeMethod_var);
 		NullCheck(L_20);
 		Rigidbody_set_mass_mC7F886DEDB57C742A16F8B6B779F69AFE164CA4B(L_20, (10.0f), NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:272>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:272>
 		int32_t L_21 = V_2;
 		int32_t L_22 = ((int32_t)il2cpp_codegen_add(L_21, 1));
 		V_2 = L_22;
@@ -10553,14 +10553,14 @@ IL_003a:
 
 IL_0088:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:264>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:264>
 		int32_t L_23 = V_5;
 		V_5 = ((int32_t)il2cpp_codegen_subtract(L_23, 1));
 	}
 
 IL_008e:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:264>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:264>
 		int32_t L_24 = V_5;
 		if ((((int32_t)L_24) > ((int32_t)0)))
 		{
@@ -10570,10 +10570,10 @@ IL_008e:
 
 IL_0093:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:276>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:276>
 		float L_25 = V_3;
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_4), (0.100000001f), L_25, (0.100000001f), NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:277>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:277>
 		StackManager_tF998678EAEF40C57CB6736713252C040C4DECC19* L_26 = V_1;
 		NullCheck(L_26);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_27 = L_26->___spherePrefab;
@@ -10589,7 +10589,7 @@ IL_0093:
 		L_32 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_mD136E37F696C00A3A1D4F65724ACAE903E385181(L_27, L_28, L_29, L_31, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_mD136E37F696C00A3A1D4F65724ACAE903E385181_RuntimeMethod_var);
 		__this->___U3CsphereU3E5__2 = L_32;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CsphereU3E5__2), (void*)L_32);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:279>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:279>
 		StackManager_tF998678EAEF40C57CB6736713252C040C4DECC19* L_33 = V_1;
 		NullCheck(L_33);
 		CameraAnimation_tC43E1D7148F1572460D451309CE54B4B4703E250* L_34 = L_33->___cameraAnimation;
@@ -10599,7 +10599,7 @@ IL_0093:
 		L_36 = StackManager_get_Platforms_m69C25D627A5376CEDF1FE88F64B7ADC3DA72D213(L_35, NULL);
 		NullCheck(L_34);
 		UnityEvent_3_Invoke_m7B05EA5FECD37B162B4BCE29050C5C7B870027EA(L_34, L_36, (bool)1, (bool)1, UnityEvent_3_Invoke_m7B05EA5FECD37B162B4BCE29050C5C7B870027EA_RuntimeMethod_var);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:280>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:280>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_37 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_37, (0.100000001f), NULL);
 		__this->___U3CU3E2__current = L_37;
@@ -10611,11 +10611,11 @@ IL_0093:
 IL_00ef:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:281>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:281>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_38 = __this->___U3CsphereU3E5__2;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_38, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:282>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:282>
 		return (bool)0;
 	}
 }
@@ -10707,7 +10707,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CSpawnPlanesU3Ed__30_MoveNext_m3974809
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:247>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:247>
 		StackManager_tF998678EAEF40C57CB6736713252C040C4DECC19* L_4 = V_1;
 		NullCheck(L_4);
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_5 = L_4->___platforms;
@@ -10723,14 +10723,14 @@ IL_0017:
 		L_9 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_8, NULL);
 		__this->___U3CstaticTransformU3E5__2 = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CstaticTransformU3E5__2), (void*)L_9);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:248>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:248>
 		StackManager_tF998678EAEF40C57CB6736713252C040C4DECC19* L_10 = V_1;
 		NullCheck(L_10);
 		int32_t L_11 = L_10->___perfectPlatformsCount;
 		int32_t L_12;
 		L_12 = Mathf_Min_m888083F74FF5655778F0403BB5E9608BEFDEA8CB_inline(((int32_t)il2cpp_codegen_subtract(L_11, 3)), 5, NULL);
 		__this->___U3CanimatedPlanesU3E5__3 = L_12;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:250>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:250>
 		bool L_13 = __this->___matched;
 		if (!L_13)
 		{
@@ -10738,7 +10738,7 @@ IL_0017:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:250>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:250>
 		StackManager_tF998678EAEF40C57CB6736713252C040C4DECC19* L_14 = V_1;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_15 = __this->___U3CstaticTransformU3E5__2;
 		NullCheck(L_14);
@@ -10747,14 +10747,14 @@ IL_0017:
 
 IL_0065:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:252>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:252>
 		__this->___U3CpU3E5__4 = 1;
 		goto IL_00b8;
 	}
 
 IL_006e:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:254>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:254>
 		int32_t L_16 = __this->___U3CpU3E5__4;
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_17 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_17, ((float)il2cpp_codegen_multiply(((float)L_16), (0.0500000007f))), NULL);
@@ -10767,13 +10767,13 @@ IL_006e:
 IL_008f:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:255>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:255>
 		StackManager_tF998678EAEF40C57CB6736713252C040C4DECC19* L_18 = V_1;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_19 = __this->___U3CstaticTransformU3E5__2;
 		int32_t L_20 = __this->___U3CpU3E5__4;
 		NullCheck(L_18);
 		StackManager_SpawnPlane_m3E0C7F785051B28066AC2AF7C1F217670B6C0E31(L_18, L_19, L_20, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:252>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:252>
 		int32_t L_21 = __this->___U3CpU3E5__4;
 		V_2 = L_21;
 		int32_t L_22 = V_2;
@@ -10782,7 +10782,7 @@ IL_008f:
 
 IL_00b8:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:252>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:252>
 		int32_t L_23 = __this->___U3CpU3E5__4;
 		int32_t L_24 = __this->___U3CanimatedPlanesU3E5__3;
 		if ((((int32_t)L_23) <= ((int32_t)L_24)))
@@ -10791,7 +10791,7 @@ IL_00b8:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/StackManager.cs:257>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/StackManager.cs:257>
 		return (bool)0;
 	}
 }
@@ -10849,7 +10849,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TitleManager_Awake_m685F75149A9390CDFD7F
 	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* V_2 = NULL;
 	RuntimeObject* V_3 = NULL;
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:13>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:13>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_0);
@@ -10892,23 +10892,23 @@ IL_0077:
 
 IL_000e_1:
 			{
-				//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:13>
+				//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:13>
 				RuntimeObject* L_5 = V_0;
 				NullCheck(L_5);
 				RuntimeObject* L_6;
 				L_6 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(1, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_5);
-				//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:15>
+				//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:15>
 				NullCheck(((Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)CastclassClass((RuntimeObject*)L_6, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var)));
 				Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_7;
 				L_7 = Component_GetComponent_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_mB85C5C0EEF6535E3FC0DBFC14E39FA5A51B6F888(((Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)CastclassClass((RuntimeObject*)L_6, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var)), Component_GetComponent_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_mB85C5C0EEF6535E3FC0DBFC14E39FA5A51B6F888_RuntimeMethod_var);
 				V_1 = L_7;
-				//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:16>
+				//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:16>
 				Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_8 = V_1;
 				NullCheck(L_8);
 				RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_9;
 				L_9 = Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4(L_8, Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4_RuntimeMethod_var);
 				V_2 = L_9;
-				//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:18>
+				//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:18>
 				List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B* L_10 = __this->___initialPositions;
 				RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_11 = V_2;
 				NullCheck(L_11);
@@ -10918,7 +10918,7 @@ IL_000e_1:
 				L_13 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_12, (0.5f), NULL);
 				NullCheck(L_10);
 				List_1_Add_mB5FDF069171C4CB1778BFAC3B9015A22EA7DFBCD_inline(L_10, L_13, List_1_Add_mB5FDF069171C4CB1778BFAC3B9015A22EA7DFBCD_RuntimeMethod_var);
-				//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:19>
+				//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:19>
 				Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_14 = V_1;
 				il2cpp_codegen_runtime_class_init_inline(ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_il2cpp_TypeInfo_var);
 				Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_15 = ((ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_StaticFields*)il2cpp_codegen_static_fields_for(ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_il2cpp_TypeInfo_var))->___TRANSPARENT;
@@ -10926,7 +10926,7 @@ IL_000e_1:
 				L_16 = Color32_op_Implicit_m47CBB138122B400E0B1F4BFD7C30A6C2C00FCA3E_inline(L_15, NULL);
 				NullCheck(L_14);
 				VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_14, L_16);
-				//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:20>
+				//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:20>
 				List_1_tF2BD894424997346355BE3D3F0A728DBF10DCF48* L_17 = __this->___titles;
 				Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_18 = V_1;
 				NullCheck(L_17);
@@ -10935,7 +10935,7 @@ IL_000e_1:
 
 IL_005d_1:
 			{
-				//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:13>
+				//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:13>
 				RuntimeObject* L_19 = V_0;
 				NullCheck(L_19);
 				bool L_20;
@@ -10957,7 +10957,7 @@ IL_005d_1:
 
 IL_0078:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:22>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:22>
 		return;
 	}
 }
@@ -10996,9 +10996,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TitleManager_FadeIn_m599B82DD8C2B1D9E7B7
 	memset((&V_0), 0, sizeof(V_0));
 	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* V_1 = NULL;
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:36>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:36>
 		TitleManager_Reset_mCA26DCE2C9F0064C656FB08BEB85FDB3464C158C(__this, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:38>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:38>
 		List_1_tF2BD894424997346355BE3D3F0A728DBF10DCF48* L_0 = __this->___titles;
 		NullCheck(L_0);
 		Enumerator_tBDE8A591E834C7B4748BA5ABD2CA972CF8AC5BC7 L_1;
@@ -11023,11 +11023,11 @@ FINALLY_003b:
 
 IL_0014_1:
 			{
-				//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:38>
+				//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:38>
 				Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_2;
 				L_2 = Enumerator_get_Current_m3FBB45A9D466C2F3DCB30B5122BF671B5A999591_inline((&V_0), Enumerator_get_Current_m3FBB45A9D466C2F3DCB30B5122BF671B5A999591_RuntimeMethod_var);
 				V_1 = L_2;
-				//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:40>
+				//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:40>
 				Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_3 = V_1;
 				RuntimeObject* L_4;
 				L_4 = TitleManager_Animate_m2E2B3C4118A1BAEE4E9ED3E2283A04DDB452DA64(__this, L_3, (bool)1, (0.5f), NULL);
@@ -11037,7 +11037,7 @@ IL_0014_1:
 
 IL_0030_1:
 			{
-				//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:38>
+				//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:38>
 				bool L_6;
 				L_6 = Enumerator_MoveNext_mBBE56CBC8530028C06050F2F7081AE7D0709745C((&V_0), Enumerator_MoveNext_mBBE56CBC8530028C06050F2F7081AE7D0709745C_RuntimeMethod_var);
 				if (L_6)
@@ -11057,7 +11057,7 @@ IL_0030_1:
 
 IL_0049:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:42>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:42>
 		return;
 	}
 }
@@ -11077,7 +11077,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TitleManager_FadeOut_m80AF29B819FAAF75E9
 	memset((&V_0), 0, sizeof(V_0));
 	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* V_1 = NULL;
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:46>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:46>
 		List_1_tF2BD894424997346355BE3D3F0A728DBF10DCF48* L_0 = __this->___titles;
 		NullCheck(L_0);
 		Enumerator_tBDE8A591E834C7B4748BA5ABD2CA972CF8AC5BC7 L_1;
@@ -11102,11 +11102,11 @@ FINALLY_0035:
 
 IL_000e_1:
 			{
-				//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:46>
+				//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:46>
 				Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_2;
 				L_2 = Enumerator_get_Current_m3FBB45A9D466C2F3DCB30B5122BF671B5A999591_inline((&V_0), Enumerator_get_Current_m3FBB45A9D466C2F3DCB30B5122BF671B5A999591_RuntimeMethod_var);
 				V_1 = L_2;
-				//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:48>
+				//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:48>
 				Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_3 = V_1;
 				RuntimeObject* L_4;
 				L_4 = TitleManager_Animate_m2E2B3C4118A1BAEE4E9ED3E2283A04DDB452DA64(__this, L_3, (bool)0, (0.5f), NULL);
@@ -11116,7 +11116,7 @@ IL_000e_1:
 
 IL_002a_1:
 			{
-				//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:46>
+				//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:46>
 				bool L_6;
 				L_6 = Enumerator_MoveNext_mBBE56CBC8530028C06050F2F7081AE7D0709745C((&V_0), Enumerator_MoveNext_mBBE56CBC8530028C06050F2F7081AE7D0709745C_RuntimeMethod_var);
 				if (L_6)
@@ -11136,7 +11136,7 @@ IL_002a_1:
 
 IL_0043:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:50>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:50>
 		return;
 	}
 }
@@ -11155,25 +11155,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TitleManager_Reset_mCA26DCE2C9F0064C656F
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:54>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:54>
 		V_0 = 0;
 		goto IL_003a;
 	}
 
 IL_0004:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:56>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:56>
 		List_1_tF2BD894424997346355BE3D3F0A728DBF10DCF48* L_0 = __this->___titles;
 		int32_t L_1 = V_0;
 		NullCheck(L_0);
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_2;
 		L_2 = List_1_get_Item_mD575040BED5E15F408E2E182CAFDF0EF52625E87(L_0, L_1, List_1_get_Item_mD575040BED5E15F408E2E182CAFDF0EF52625E87_RuntimeMethod_var);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:57>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:57>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_3 = L_2;
 		NullCheck(L_3);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_4;
 		L_4 = Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4(L_3, Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4_RuntimeMethod_var);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:59>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:59>
 		List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B* L_5 = __this->___initialPositions;
 		int32_t L_6 = V_0;
 		NullCheck(L_5);
@@ -11181,21 +11181,21 @@ IL_0004:
 		L_7 = List_1_get_Item_m1F8E226CAD72B83C5E75BB66B43025247806B543(L_5, L_6, List_1_get_Item_m1F8E226CAD72B83C5E75BB66B43025247806B543_RuntimeMethod_var);
 		NullCheck(L_4);
 		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_4, L_7, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:60>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:60>
 		il2cpp_codegen_runtime_class_init_inline(ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_il2cpp_TypeInfo_var);
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_8 = ((ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_StaticFields*)il2cpp_codegen_static_fields_for(ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_il2cpp_TypeInfo_var))->___TRANSPARENT;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_9;
 		L_9 = Color32_op_Implicit_m47CBB138122B400E0B1F4BFD7C30A6C2C00FCA3E_inline(L_8, NULL);
 		NullCheck(L_3);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_3, L_9);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:54>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:54>
 		int32_t L_10 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_10, 1));
 	}
 
 IL_003a:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:54>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:54>
 		int32_t L_11 = V_0;
 		List_1_tF2BD894424997346355BE3D3F0A728DBF10DCF48* L_12 = __this->___titles;
 		NullCheck(L_12);
@@ -11207,7 +11207,7 @@ IL_003a:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:62>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:62>
 		return;
 	}
 }
@@ -11252,12 +11252,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TitleManager__ctor_m08406351E7FEB77F80D0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:8>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:8>
 		List_1_tF2BD894424997346355BE3D3F0A728DBF10DCF48* L_0 = (List_1_tF2BD894424997346355BE3D3F0A728DBF10DCF48*)il2cpp_codegen_object_new(List_1_tF2BD894424997346355BE3D3F0A728DBF10DCF48_il2cpp_TypeInfo_var);
 		List_1__ctor_mA63E5569B679BD015D3EEB541EE5D99158BF400E(L_0, List_1__ctor_mA63E5569B679BD015D3EEB541EE5D99158BF400E_RuntimeMethod_var);
 		__this->___titles = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___titles), (void*)L_0);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:9>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:9>
 		List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B* L_1 = (List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B*)il2cpp_codegen_object_new(List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B_il2cpp_TypeInfo_var);
 		List_1__ctor_m88C4BD8AC607DB3585552068F4DC437406358D5F(L_1, List_1__ctor_m88C4BD8AC607DB3585552068F4DC437406358D5F_RuntimeMethod_var);
 		__this->___initialPositions = L_1;
@@ -11336,16 +11336,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CAnimateU3Ed__7_MoveNext_mB22ED56735E5
 IL_0013:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:66>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:66>
 		float L_3;
 		L_3 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		__this->___U3CstartTimeU3E5__2 = L_3;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:67>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:67>
 		float L_4;
 		L_4 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		float L_5 = __this->___duration;
 		__this->___U3CendTimeU3E5__3 = ((float)il2cpp_codegen_add(L_4, L_5));
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:69>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:69>
 		bool L_6 = __this->___visible;
 		if (L_6)
 		{
@@ -11374,7 +11374,7 @@ IL_004c:
 	{
 		NullCheck(G_B6_1);
 		G_B6_1->___U3CtargetU3E5__4 = G_B6_0;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:70>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:70>
 		bool L_9 = __this->___visible;
 		if (L_9)
 		{
@@ -11403,14 +11403,14 @@ IL_0066:
 	{
 		NullCheck(G_B9_1);
 		G_B9_1->___U3CcurrentU3E5__5 = G_B9_0;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:72>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:72>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_12 = __this->___title;
 		NullCheck(L_12);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_13;
 		L_13 = Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4(L_12, Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4_RuntimeMethod_var);
 		__this->___U3CrectU3E5__6 = L_13;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CrectU3E5__6), (void*)L_13);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:73>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:73>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_14 = __this->___U3CrectU3E5__6;
 		NullCheck(L_14);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_15;
@@ -11421,13 +11421,13 @@ IL_0066:
 
 IL_008f:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:77>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:77>
 		float L_16;
 		L_16 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		float L_17 = __this->___U3CstartTimeU3E5__2;
 		float L_18 = __this->___duration;
 		V_1 = ((float)(((float)il2cpp_codegen_subtract(L_16, L_17))/L_18));
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:79>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:79>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_19 = __this->___U3CrectU3E5__6;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_20 = __this->___U3CpositionU3E5__7;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_21;
@@ -11437,7 +11437,7 @@ IL_008f:
 		L_23 = Vector2_LerpUnclamped_mB0B50875D4509E21FF43F4D87610333D55E6A44F_inline(L_20, L_21, L_22, NULL);
 		NullCheck(L_19);
 		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_19, L_23, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:80>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:80>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_24 = __this->___title;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_25 = __this->___U3CcurrentU3E5__5;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_26 = __this->___U3CtargetU3E5__4;
@@ -11448,7 +11448,7 @@ IL_008f:
 		L_29 = Color32_op_Implicit_m47CBB138122B400E0B1F4BFD7C30A6C2C00FCA3E_inline(L_28, NULL);
 		NullCheck(L_24);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_24, L_29);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:82>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:82>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 1;
@@ -11462,7 +11462,7 @@ IL_00f1:
 
 IL_00f8:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:75>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:75>
 		float L_30;
 		L_30 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		float L_31 = __this->___U3CendTimeU3E5__3;
@@ -11472,20 +11472,20 @@ IL_00f8:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:85>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:85>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_32 = __this->___U3CrectU3E5__6;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_33;
 		L_33 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		NullCheck(L_32);
 		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_32, L_33, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:86>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:86>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_34 = __this->___title;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_35 = __this->___U3CtargetU3E5__4;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_36;
 		L_36 = Color32_op_Implicit_m47CBB138122B400E0B1F4BFD7C30A6C2C00FCA3E_inline(L_35, NULL);
 		NullCheck(L_34);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_34, L_36);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:87>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:87>
 		return (bool)0;
 	}
 }
@@ -11582,7 +11582,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CInitializeU3Ed__3_MoveNext_m068B7EE45
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:26>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:26>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_4 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_4, (0.5f), NULL);
 		__this->___U3CU3E2__current = L_4;
@@ -11594,7 +11594,7 @@ IL_0017:
 IL_0037:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:28>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:28>
 		TitleManager_t6030A56D57245C74D7D98F40591DF5246F1BE4CC* L_5 = V_1;
 		NullCheck(L_5);
 		List_1_tF2BD894424997346355BE3D3F0A728DBF10DCF48* L_6 = L_5->___titles;
@@ -11621,11 +11621,11 @@ FINALLY_0073:
 
 IL_004c_1:
 			{
-				//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:28>
+				//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:28>
 				Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_8;
 				L_8 = Enumerator_get_Current_m3FBB45A9D466C2F3DCB30B5122BF671B5A999591_inline((&V_2), Enumerator_get_Current_m3FBB45A9D466C2F3DCB30B5122BF671B5A999591_RuntimeMethod_var);
 				V_3 = L_8;
-				//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:30>
+				//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:30>
 				TitleManager_t6030A56D57245C74D7D98F40591DF5246F1BE4CC* L_9 = V_1;
 				TitleManager_t6030A56D57245C74D7D98F40591DF5246F1BE4CC* L_10 = V_1;
 				Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_11 = V_3;
@@ -11639,7 +11639,7 @@ IL_004c_1:
 
 IL_0068_1:
 			{
-				//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:28>
+				//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:28>
 				bool L_14;
 				L_14 = Enumerator_MoveNext_mBBE56CBC8530028C06050F2F7081AE7D0709745C((&V_2), Enumerator_MoveNext_mBBE56CBC8530028C06050F2F7081AE7D0709745C_RuntimeMethod_var);
 				if (L_14)
@@ -11659,7 +11659,7 @@ IL_0068_1:
 
 IL_0081:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/TitleManager.cs:32>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/TitleManager.cs:32>
 		return (bool)0;
 	}
 }
@@ -11711,7 +11711,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_Awake_m7EC364BDD53CE056E998BAB
 	}
 	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* V_0 = NULL;
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:30>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:30>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_0);
@@ -11722,7 +11722,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_Awake_m7EC364BDD53CE056E998BAB
 		L_2 = Component_GetComponent_TisRawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179_m56775E1085C53732A0C2D919F000176C7BC11C3D(L_1, Component_GetComponent_TisRawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179_m56775E1085C53732A0C2D919F000176C7BC11C3D_RuntimeMethod_var);
 		__this->___background = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___background), (void*)L_2);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:31>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:31>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
 		L_3 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_3);
@@ -11733,7 +11733,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_Awake_m7EC364BDD53CE056E998BAB
 		L_5 = Component_GetComponent_TisRawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179_m56775E1085C53732A0C2D919F000176C7BC11C3D(L_4, Component_GetComponent_TisRawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179_m56775E1085C53732A0C2D919F000176C7BC11C3D_RuntimeMethod_var);
 		__this->___shadow = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___shadow), (void*)L_5);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:32>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:32>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
 		L_6 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_6);
@@ -11741,7 +11741,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_Awake_m7EC364BDD53CE056E998BAB
 		L_7 = Component_GetComponent_TisCanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094_mA3B0428368982ED39ADEBB220EE67D1E99D8B2D2(L_6, Component_GetComponent_TisCanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094_mA3B0428368982ED39ADEBB220EE67D1E99D8B2D2_RuntimeMethod_var);
 		__this->___canvas = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___canvas), (void*)L_7);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:34>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:34>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_8 = __this->___ctaRestart;
 		il2cpp_codegen_runtime_class_init_inline(ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_il2cpp_TypeInfo_var);
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_9 = ((ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_StaticFields*)il2cpp_codegen_static_fields_for(ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_il2cpp_TypeInfo_var))->___TRANSPARENT;
@@ -11749,21 +11749,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_Awake_m7EC364BDD53CE056E998BAB
 		L_10 = Color32_op_Implicit_m47CBB138122B400E0B1F4BFD7C30A6C2C00FCA3E_inline(L_9, NULL);
 		NullCheck(L_8);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_8, L_10);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:35>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:35>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_11 = __this->___ctaStart;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_12 = ((ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_StaticFields*)il2cpp_codegen_static_fields_for(ColorManager_t33024FF376DB419BD8F35B25284B95126E04AD7E_il2cpp_TypeInfo_var))->___TRANSPARENT;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_13;
 		L_13 = Color32_op_Implicit_m47CBB138122B400E0B1F4BFD7C30A6C2C00FCA3E_inline(L_12, NULL);
 		NullCheck(L_11);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_11, L_13);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:37>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:37>
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_14 = (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4*)il2cpp_codegen_object_new(Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4_il2cpp_TypeInfo_var);
 		Texture2D__ctor_m3BA82E87442B7F69E118477069AE11101B9DF796(L_14, 1, 2, NULL);
 		V_0 = L_14;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:39>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:40>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:41>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:42>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:39>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:40>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:41>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:42>
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_15 = V_0;
 		ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* L_16 = (ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389*)(ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389*)SZArrayNew(ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389_il2cpp_TypeInfo_var, (uint32_t)2);
 		ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* L_17 = L_16;
@@ -11780,30 +11780,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_Awake_m7EC364BDD53CE056E998BAB
 		(L_20)->SetAt(static_cast<il2cpp_array_size_t>(1), (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F)L_22);
 		NullCheck(L_15);
 		Texture2D_SetPixels_mAE0CDFA15FA96F840D7FFADC31405D8AF20D9073(L_15, L_20, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:44>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:44>
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_23 = V_0;
 		NullCheck(L_23);
 		Texture2D_Apply_mA014182C9EE0BBF6EEE3B286854F29E50EB972DC(L_23, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:45>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:45>
 		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_24 = __this->___shadow;
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_25 = V_0;
 		NullCheck(L_24);
 		RawImage_set_texture_mC016318C95CC17A826D57DD219DBCB6DFD295C02(L_24, L_25, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:47>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:47>
 		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_26 = __this->___shadow;
 		NullCheck(L_26);
 		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_27;
 		L_27 = RawImage_get_texture_m84CCFDF78F6886F73EBE5A7C78D6E9C3CA903813_inline(L_26, NULL);
 		NullCheck(L_27);
 		Texture_set_wrapMode_m1F74A690E3883EC9C5C371D502D09642F15D0F7E(L_27, 1, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:48>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:48>
 		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_28 = __this->___shadow;
 		NullCheck(L_28);
 		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_29;
 		L_29 = RawImage_get_texture_m84CCFDF78F6886F73EBE5A7C78D6E9C3CA903813_inline(L_28, NULL);
 		NullCheck(L_29);
 		Texture_set_filterMode_mE423E58C0C16D059EA62BA87AD70F44AEA50CCC9(L_29, 1, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:49>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:49>
 		return;
 	}
 }
@@ -11811,12 +11811,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_Awake_m7EC364BDD53CE056E998BAB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_Start_m113F392674AB08A26877728CD36F06332E869080 (UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:53>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:53>
 		RuntimeObject* L_0;
 		L_0 = UIManager_Initialize_mD3AB0E2B5BC421D2FEDAB9D89059028DFF1C6D60(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_1;
 		L_1 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_0, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:54>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:54>
 		return;
 	}
 }
@@ -11850,7 +11850,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_Update_m95D2E80B8F461F15C1B9BD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:68>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:68>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_0 = __this->___canvas;
 		NullCheck(L_0);
 		bool L_1;
@@ -11876,7 +11876,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_Update_m95D2E80B8F461F15C1B9BD
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:70>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:70>
 		bool L_5 = __this->___visibleStart;
 		if (!L_5)
 		{
@@ -11884,7 +11884,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_Update_m95D2E80B8F461F15C1B9BD
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:72>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:72>
 		RuntimeObject* L_6;
 		L_6 = UIManager_HideStart_mE0C303E82EE64DBFA1D2B8CF752A9F0095E4ECC3(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_7;
@@ -11894,7 +11894,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_Update_m95D2E80B8F461F15C1B9BD
 
 IL_003a:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:75>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:75>
 		bool L_8 = __this->___visibleRestart;
 		if (!L_8)
 		{
@@ -11902,13 +11902,13 @@ IL_003a:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:77>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:77>
 		UIManager_HideRestart_m1F21E8302794CA46F5FB19C092730D3CBE51DD5A(__this, NULL);
 	}
 
 IL_0048:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:80>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:80>
 		return;
 	}
 }
@@ -11945,15 +11945,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_OnGameOver_m9C998E2FC9E2A2E03B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:98>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:98>
 		RuntimeObject* L_0;
 		L_0 = UIManager_ShowRestart_mDA4C0D1E86D6F32D883D30154099C5D7874675E8(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_1;
 		L_1 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_0, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:100>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:100>
 		int32_t L_2 = __this->___gameOverCounter;
 		__this->___gameOverCounter = ((int32_t)il2cpp_codegen_add(L_2, 1));
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:101>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:101>
 		int32_t L_3 = __this->___gameOverCounter;
 		if ((((int32_t)L_3) < ((int32_t)3)))
 		{
@@ -11961,9 +11961,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_OnGameOver_m9C998E2FC9E2A2E03B
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:103>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:103>
 		__this->___gameOverCounter = 0;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:104>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:104>
 		GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* L_4 = ((GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704_StaticFields*)il2cpp_codegen_static_fields_for(GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704_il2cpp_TypeInfo_var))->___Instance;
 		NullCheck(L_4);
 		GoogleAdMobController_ShowInterstitialAd_m5848A2DED111A1B9F71B3ECAABB759E5C90678E1(L_4, NULL);
@@ -11971,7 +11971,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_OnGameOver_m9C998E2FC9E2A2E03B
 
 IL_0035:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:106>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:106>
 		return;
 	}
 }
@@ -12017,36 +12017,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* UIManager_HideStart_mE0C303E82
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_HideRestart_m1F21E8302794CA46F5FB19C092730D3CBE51DD5A (UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:136>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:136>
 		__this->___visibleRestart = (bool)0;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:137>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:137>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_0 = __this->___canvas;
 		NullCheck(L_0);
 		CanvasGroup_set_interactable_m86928BB0894EF3F06BC7BE63594272FBA0DAC757(L_0, (bool)0, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:139>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:139>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_1 = __this->___ctaRestart;
 		RuntimeObject* L_2;
 		L_2 = UIManager_FadeCTA_m06D86B6B114BE5BD771FEB38649D32695B74E9DF(__this, L_1, (bool)0, (0.5f), NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_3;
 		L_3 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_2, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:140>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:140>
 		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_4 = __this->___shadow;
 		NullCheck(L_4);
 		VirtualActionInvoker3< float, float, bool >::Invoke(49, L_4, (0.0f), (0.5f), (bool)0);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:142>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:142>
 		RuntimeObject* L_5;
 		L_5 = UIManager_ShowStart_m9D609EE9BF901F7E88DCF3B6B563EC65ED12F5A6(__this, (bool)0, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_6;
 		L_6 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_5, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:143>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:143>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_7 = __this->___restart;
 		NullCheck(L_7);
 		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_7, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:144>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:144>
 		ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* L_8 = __this->___score;
 		NullCheck(L_8);
 		ScoreManager_Hide_m119EF2AC98F4C3BAAF0D6CB673C91FFD1D8E802C(L_8, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:145>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:145>
 		return;
 	}
 }
@@ -12088,12 +12088,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager__ctor_mC9DC2B8984E76F424E73C18
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:23>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:23>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977*)il2cpp_codegen_object_new(UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977_il2cpp_TypeInfo_var);
 		UnityEvent__ctor_m03D3E5121B9A6100351984D0CE3050B909CD3235(L_0, NULL);
 		__this->___start = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___start), (void*)L_0);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:26>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:26>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_1 = (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977*)il2cpp_codegen_object_new(UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977_il2cpp_TypeInfo_var);
 		UnityEvent__ctor_m03D3E5121B9A6100351984D0CE3050B909CD3235(L_1, NULL);
 		__this->___restart = L_1;
@@ -12171,16 +12171,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CFadeCTAU3Ed__21_MoveNext_m8B9DA999450
 IL_0013:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:149>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:149>
 		float L_3;
 		L_3 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		__this->___U3CstartTimeU3E5__2 = L_3;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:150>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:150>
 		float L_4;
 		L_4 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		float L_5 = __this->___duration;
 		__this->___U3CendTimeU3E5__3 = ((float)il2cpp_codegen_add(L_4, L_5));
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:152>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:152>
 		bool L_6 = __this->___visible;
 		if (L_6)
 		{
@@ -12209,7 +12209,7 @@ IL_004c:
 	{
 		NullCheck(G_B6_1);
 		G_B6_1->___U3CtargetU3E5__4 = G_B6_0;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:153>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:153>
 		bool L_9 = __this->___visible;
 		if (L_9)
 		{
@@ -12243,13 +12243,13 @@ IL_0066:
 
 IL_006d:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:157>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:157>
 		float L_12;
 		L_12 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		float L_13 = __this->___U3CstartTimeU3E5__2;
 		float L_14 = __this->___duration;
 		V_1 = ((float)(((float)il2cpp_codegen_subtract(L_12, L_13))/L_14));
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:158>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:158>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_15 = __this->___cta;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_16 = __this->___U3CcurrentU3E5__5;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_17 = __this->___U3CtargetU3E5__4;
@@ -12260,7 +12260,7 @@ IL_006d:
 		L_20 = Color32_op_Implicit_m47CBB138122B400E0B1F4BFD7C30A6C2C00FCA3E_inline(L_19, NULL);
 		NullCheck(L_15);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_15, L_20);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:159>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:159>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 1;
@@ -12274,7 +12274,7 @@ IL_00b3:
 
 IL_00ba:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:155>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:155>
 		float L_21;
 		L_21 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		float L_22 = __this->___U3CendTimeU3E5__3;
@@ -12284,14 +12284,14 @@ IL_00ba:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:162>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:162>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_23 = __this->___cta;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_24 = __this->___U3CtargetU3E5__4;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_25;
 		L_25 = Color32_op_Implicit_m47CBB138122B400E0B1F4BFD7C30A6C2C00FCA3E_inline(L_24, NULL);
 		NullCheck(L_23);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_23, L_25);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:163>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:163>
 		return (bool)0;
 	}
 }
@@ -12381,23 +12381,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CHideStartU3Ed__19_MoveNext_m031C3C640
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:123>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:123>
 		UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* L_4 = V_1;
 		NullCheck(L_4);
 		TitleManager_t6030A56D57245C74D7D98F40591DF5246F1BE4CC* L_5 = L_4->___title;
 		NullCheck(L_5);
 		TitleManager_FadeOut_m80AF29B819FAAF75E9E4658778B50DD6A3BD6CF0(L_5, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:124>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:124>
 		UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* L_6 = V_1;
 		NullCheck(L_6);
 		L_6->___visibleStart = (bool)0;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:125>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:125>
 		UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* L_7 = V_1;
 		NullCheck(L_7);
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_8 = L_7->___canvas;
 		NullCheck(L_8);
 		CanvasGroup_set_interactable_m86928BB0894EF3F06BC7BE63594272FBA0DAC757(L_8, (bool)0, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:127>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:127>
 		UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* L_9 = V_1;
 		UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* L_10 = V_1;
 		UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* L_11 = V_1;
@@ -12409,7 +12409,7 @@ IL_0017:
 		NullCheck(L_9);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_14;
 		L_14 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(L_9, L_13, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:128>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:128>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_15 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_15, (1.0f), NULL);
 		__this->___U3CU3E2__current = L_15;
@@ -12421,19 +12421,19 @@ IL_0017:
 IL_006e:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:130>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:130>
 		UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* L_16 = V_1;
 		NullCheck(L_16);
 		ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* L_17 = L_16->___score;
 		NullCheck(L_17);
 		ScoreManager_ShowCurrent_m52D892AB1DD6A5686CCD7ED537115E14019B5D21(L_17, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:131>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:131>
 		UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* L_18 = V_1;
 		NullCheck(L_18);
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_19 = L_18->___start;
 		NullCheck(L_19);
 		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_19, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:132>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:132>
 		return (bool)0;
 	}
 }
@@ -12523,7 +12523,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CInitializeU3Ed__13_MoveNext_m60FC1B45
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:58>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:58>
 		UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* L_4 = V_1;
 		UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* L_5 = V_1;
 		NullCheck(L_5);
@@ -12534,7 +12534,7 @@ IL_0017:
 		NullCheck(L_4);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_8;
 		L_8 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(L_4, L_7, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:59>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:59>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_9 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_9, (2.5f), NULL);
 		__this->___U3CU3E2__current = L_9;
@@ -12546,19 +12546,19 @@ IL_0017:
 IL_0049:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:61>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:61>
 		UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* L_10 = V_1;
 		NullCheck(L_10);
 		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_11 = L_10->___background;
 		NullCheck(L_11);
 		VirtualActionInvoker3< float, float, bool >::Invoke(49, L_11, (0.0f), (1.0f), (bool)0);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:62>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:62>
 		UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* L_12 = V_1;
 		NullCheck(L_12);
 		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_13 = L_12->___shadow;
 		NullCheck(L_13);
 		VirtualActionInvoker3< float, float, bool >::Invoke(49, L_13, (0.0f), (0.0f), (bool)1);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:63>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:63>
 		UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* L_14 = V_1;
 		UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* L_15 = V_1;
 		NullCheck(L_15);
@@ -12567,7 +12567,7 @@ IL_0049:
 		NullCheck(L_14);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_17;
 		L_17 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(L_14, L_16, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:64>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:64>
 		return (bool)0;
 	}
 }
@@ -12661,7 +12661,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CShowRestartU3Ed__18_MoveNext_m1375509
 IL_0022:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:110>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:110>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_3 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_3, (0.5f), NULL);
 		__this->___U3CU3E2__current = L_3;
@@ -12673,13 +12673,13 @@ IL_0022:
 IL_0042:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:112>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:112>
 		UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* L_4 = V_1;
 		NullCheck(L_4);
 		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_5 = L_4->___shadow;
 		NullCheck(L_5);
 		VirtualActionInvoker3< float, float, bool >::Invoke(49, L_5, (1.0f), (0.5f), (bool)0);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:113>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:113>
 		UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* L_6 = V_1;
 		UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* L_7 = V_1;
 		UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* L_8 = V_1;
@@ -12691,13 +12691,13 @@ IL_0042:
 		NullCheck(L_6);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_11;
 		L_11 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(L_6, L_10, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:114>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:114>
 		UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* L_12 = V_1;
 		NullCheck(L_12);
 		ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* L_13 = L_12->___score;
 		NullCheck(L_13);
 		ScoreManager_ShowBest_m69AF5CBBA13FB39FCAF2746938DA93AC59014D21(L_13, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:116>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:116>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_14 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_14, (0.5f), NULL);
 		__this->___U3CU3E2__current = L_14;
@@ -12709,17 +12709,17 @@ IL_0042:
 IL_009c:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:117>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:117>
 		UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* L_15 = V_1;
 		NullCheck(L_15);
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_16 = L_15->___canvas;
 		NullCheck(L_16);
 		CanvasGroup_set_interactable_m86928BB0894EF3F06BC7BE63594272FBA0DAC757(L_16, (bool)1, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:118>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:118>
 		UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* L_17 = V_1;
 		NullCheck(L_17);
 		L_17->___visibleRestart = (bool)1;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:119>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:119>
 		return (bool)0;
 	}
 }
@@ -12810,9 +12810,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CShowStartU3Ed__15_MoveNext_mBD500BF8C
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:84>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:85>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:86>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:84>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:85>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:86>
 		bool L_4 = __this->___initial;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
 		int32_t L_5;
@@ -12828,7 +12828,7 @@ IL_0017:
 IL_004d:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:88>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:88>
 		UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* L_7 = V_1;
 		UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* L_8 = V_1;
 		UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* L_9 = V_1;
@@ -12840,7 +12840,7 @@ IL_004d:
 		NullCheck(L_7);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_12;
 		L_12 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(L_7, L_11, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:89>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:89>
 		bool L_13 = __this->___initial;
 		if (L_13)
 		{
@@ -12848,7 +12848,7 @@ IL_004d:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:89>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:89>
 		UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* L_14 = V_1;
 		NullCheck(L_14);
 		TitleManager_t6030A56D57245C74D7D98F40591DF5246F1BE4CC* L_15 = L_14->___title;
@@ -12858,17 +12858,17 @@ IL_004d:
 
 IL_0080:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:91>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:91>
 		UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* L_16 = V_1;
 		NullCheck(L_16);
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_17 = L_16->___canvas;
 		NullCheck(L_17);
 		CanvasGroup_set_interactable_m86928BB0894EF3F06BC7BE63594272FBA0DAC757(L_17, (bool)1, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:92>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:92>
 		UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* L_18 = V_1;
 		NullCheck(L_18);
 		L_18->___visibleStart = (bool)1;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/UIManager.cs:93>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/UIManager.cs:93>
 		return (bool)0;
 	}
 }
@@ -13038,7 +13038,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXButtonScript_Start_m0F7F0CFD51694057
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXButtonScript.cs:27>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXButtonScript.cs:27>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral1D5023AE7302543623D57BF8963460D9F09BC3CC, NULL);
 		NullCheck(L_0);
@@ -13046,9 +13046,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXButtonScript_Start_m0F7F0CFD51694057
 		L_1 = GameObject_GetComponent_TisETFXFireProjectile_tFDC9B58792CEE6C48406483625F5B0B0E80F8FA3_mB664808A3C2397E12E4E978928DC98190CE7D791(L_0, GameObject_GetComponent_TisETFXFireProjectile_tFDC9B58792CEE6C48406483625F5B0B0E80F8FA3_mB664808A3C2397E12E4E978928DC98190CE7D791_RuntimeMethod_var);
 		__this->___effectScript = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___effectScript), (void*)L_1);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXButtonScript.cs:28>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXButtonScript.cs:28>
 		ETFXButtonScript_getProjectileNames_mD169E11F6B6E57C5CBD06E7BCB3C4305CA23028B(__this, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXButtonScript.cs:29>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXButtonScript.cs:29>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___Button;
 		NullCheck(L_2);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
@@ -13061,12 +13061,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXButtonScript_Start_m0F7F0CFD51694057
 		L_5 = Component_GetComponent_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_mB85C5C0EEF6535E3FC0DBFC14E39FA5A51B6F888(L_4, Component_GetComponent_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_mB85C5C0EEF6535E3FC0DBFC14E39FA5A51B6F888_RuntimeMethod_var);
 		__this->___MyButtonText = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___MyButtonText), (void*)L_5);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXButtonScript.cs:30>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXButtonScript.cs:30>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_6 = __this->___MyButtonText;
 		String_t* L_7 = __this->___projectileParticleName;
 		NullCheck(L_6);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_6, L_7);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXButtonScript.cs:31>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXButtonScript.cs:31>
 		return;
 	}
 }
@@ -13074,12 +13074,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXButtonScript_Start_m0F7F0CFD51694057
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXButtonScript_Update_m81BD65853D34C93426A7D596C3DE2194AA0DDE65 (ETFXButtonScript_t55538C4C7F789AF8DEB036BD68F3101013C8F4E4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXButtonScript.cs:35>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXButtonScript.cs:35>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___MyButtonText;
 		String_t* L_1 = __this->___projectileParticleName;
 		NullCheck(L_0);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_0, L_1);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXButtonScript.cs:37>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXButtonScript.cs:37>
 		return;
 	}
 }
@@ -13093,7 +13093,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXButtonScript_getProjectileNames_mD16
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXButtonScript.cs:42>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXButtonScript.cs:42>
 		ETFXFireProjectile_tFDC9B58792CEE6C48406483625F5B0B0E80F8FA3* L_0 = __this->___effectScript;
 		NullCheck(L_0);
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_1 = L_0->___projectiles;
@@ -13108,7 +13108,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXButtonScript_getProjectileNames_mD16
 		L_6 = GameObject_GetComponent_TisETFXProjectileScript_tA2947F5586F8DC4C799B267781C47DBC0F53B25B_m629EB575AE5BC0AB98CB2C7A97BBEE5637459436(L_5, GameObject_GetComponent_TisETFXProjectileScript_tA2947F5586F8DC4C799B267781C47DBC0F53B25B_m629EB575AE5BC0AB98CB2C7A97BBEE5637459436_RuntimeMethod_var);
 		__this->___projectileScript = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___projectileScript), (void*)L_6);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXButtonScript.cs:43>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXButtonScript.cs:43>
 		ETFXProjectileScript_tA2947F5586F8DC4C799B267781C47DBC0F53B25B* L_7 = __this->___projectileScript;
 		NullCheck(L_7);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = L_7->___projectileParticle;
@@ -13117,7 +13117,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXButtonScript_getProjectileNames_mD16
 		L_9 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_8, NULL);
 		__this->___projectileParticleName = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___projectileParticleName), (void*)L_9);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXButtonScript.cs:44>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXButtonScript.cs:44>
 		return;
 	}
 }
@@ -13135,22 +13135,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ETFXButtonScript_overButton_m91409E8AD5D
 	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXButtonScript.cs:48>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXButtonScript.cs:48>
 		float L_0 = __this->___buttonsX;
 		float L_1 = __this->___buttonsY;
 		float L_2 = __this->___buttonsSizeX;
 		float L_3 = __this->___buttonsSizeY;
 		il2cpp_codegen_runtime_class_init_inline(Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D_il2cpp_TypeInfo_var);
 		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&V_0), L_0, L_1, L_2, L_3, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXButtonScript.cs:49>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXButtonScript.cs:49>
 		float L_4 = __this->___buttonsX;
 		float L_5 = __this->___buttonsDistance;
 		float L_6 = __this->___buttonsY;
 		float L_7 = __this->___buttonsSizeX;
 		float L_8 = __this->___buttonsSizeY;
 		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&V_1), ((float)il2cpp_codegen_add(L_4, L_5)), L_6, L_7, L_8, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXButtonScript.cs:51>
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXButtonScript.cs:52>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXButtonScript.cs:51>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXButtonScript.cs:52>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
 		L_9 = Input_get_mousePosition_mFF21FBD2647DAE2A23BD4C45571CA95D05A0A42C(NULL);
 		float L_10 = L_9.___x;
@@ -13192,13 +13192,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ETFXButtonScript_overButton_m91409E8AD5D
 
 IL_0097:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXButtonScript.cs:54>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXButtonScript.cs:54>
 		return (bool)1;
 	}
 
 IL_0099:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXButtonScript.cs:57>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXButtonScript.cs:57>
 		return (bool)0;
 	}
 }
@@ -13229,7 +13229,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXFireProjectile_Start_m71FE79B72E21B5
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:22>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:22>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral7DE03E5EBA0308517D1762F2C0DF3B9E2A2F1870, NULL);
 		NullCheck(L_0);
@@ -13237,7 +13237,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXFireProjectile_Start_m71FE79B72E21B5
 		L_1 = GameObject_GetComponent_TisETFXButtonScript_t55538C4C7F789AF8DEB036BD68F3101013C8F4E4_m60831DC90D8EE22CA60EEE0DF9439F0E17CC15E2(L_0, GameObject_GetComponent_TisETFXButtonScript_t55538C4C7F789AF8DEB036BD68F3101013C8F4E4_m60831DC90D8EE22CA60EEE0DF9439F0E17CC15E2_RuntimeMethod_var);
 		__this->___selectedProjectileButton = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___selectedProjectileButton), (void*)L_1);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:23>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:23>
 		return;
 	}
 }
@@ -13259,7 +13259,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXFireProjectile_Update_mA610052D76161
 	Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:29>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:29>
 		bool L_0;
 		L_0 = Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2(((int32_t)275), NULL);
 		if (!L_0)
@@ -13268,13 +13268,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXFireProjectile_Update_mA610052D76161
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:31>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:31>
 		ETFXFireProjectile_nextEffect_m6DB23389E6552F6A459F0CE526A4DCD1820687CE(__this, NULL);
 	}
 
 IL_0012:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:34>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:34>
 		bool L_1;
 		L_1 = Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2(((int32_t)100), NULL);
 		if (!L_1)
@@ -13283,13 +13283,13 @@ IL_0012:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:36>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:36>
 		ETFXFireProjectile_nextEffect_m6DB23389E6552F6A459F0CE526A4DCD1820687CE(__this, NULL);
 	}
 
 IL_0021:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:39>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:39>
 		bool L_2;
 		L_2 = Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2(((int32_t)97), NULL);
 		if (!L_2)
@@ -13298,14 +13298,14 @@ IL_0021:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:41>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:41>
 		ETFXFireProjectile_previousEffect_mA36F8D920BA12504B6A9B7C70997F04E4DAD0492(__this, NULL);
 		goto IL_0044;
 	}
 
 IL_0032:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:43>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:43>
 		bool L_3;
 		L_3 = Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2(((int32_t)276), NULL);
 		if (!L_3)
@@ -13314,13 +13314,13 @@ IL_0032:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:45>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:45>
 		ETFXFireProjectile_previousEffect_mA36F8D920BA12504B6A9B7C70997F04E4DAD0492(__this, NULL);
 	}
 
 IL_0044:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:48>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:48>
 		bool L_4;
 		L_4 = Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2(((int32_t)323), NULL);
 		if (!L_4)
@@ -13329,7 +13329,7 @@ IL_0044:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:50>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:50>
 		il2cpp_codegen_runtime_class_init_inline(EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_il2cpp_TypeInfo_var);
 		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_5;
 		L_5 = EventSystem_get_current_mC87C69FB418563DC2A571A10E2F9DB59A6785016(NULL);
@@ -13342,7 +13342,7 @@ IL_0044:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:52>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:52>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_7;
 		L_7 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
@@ -13360,7 +13360,7 @@ IL_0044:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:54>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:54>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_12 = __this->___projectiles;
 		int32_t L_13 = __this->___currentProjectile;
 		NullCheck(L_12);
@@ -13376,7 +13376,7 @@ IL_0044:
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19;
 		L_19 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4(L_15, L_17, L_18, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
 		V_0 = L_19;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:55>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:55>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20 = V_0;
 		NullCheck(L_20);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_21;
@@ -13386,7 +13386,7 @@ IL_0044:
 		L_23 = RaycastHit_get_point_m02B764612562AFE0F998CC7CFB2EEDE41BA47F39(L_22, NULL);
 		NullCheck(L_21);
 		Transform_LookAt_mFEF7353E4CAEB85D5F7CEEF9276C3B8D6E314C6C(L_21, L_23, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:56>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:56>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24 = V_0;
 		NullCheck(L_24);
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_25;
@@ -13407,7 +13407,7 @@ IL_0044:
 
 IL_00da:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:60>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:60>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_31;
 		L_31 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32;
@@ -13434,7 +13434,7 @@ IL_00da:
 		L_40 = Color_get_yellow_m66637FA14383E8D74F24AE256B577CE1D55D469F_inline(NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_DrawRay_mB172868181856F153732BB56C0BE1C58EE598F53(L_34, L_39, L_40, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:61>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:61>
 		return;
 	}
 }
@@ -13442,7 +13442,7 @@ IL_00da:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXFireProjectile_nextEffect_m6DB23389E6552F6A459F0CE526A4DCD1820687CE (ETFXFireProjectile_tFDC9B58792CEE6C48406483625F5B0B0E80F8FA3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:65>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:65>
 		int32_t L_0 = __this->___currentProjectile;
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_1 = __this->___projectiles;
 		NullCheck(L_1);
@@ -13452,7 +13452,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXFireProjectile_nextEffect_m6DB23389E
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:66>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:66>
 		int32_t L_2 = __this->___currentProjectile;
 		__this->___currentProjectile = ((int32_t)il2cpp_codegen_add(L_2, 1));
 		goto IL_0029;
@@ -13460,17 +13460,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXFireProjectile_nextEffect_m6DB23389E
 
 IL_0022:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:68>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:68>
 		__this->___currentProjectile = 0;
 	}
 
 IL_0029:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:69>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:69>
 		ETFXButtonScript_t55538C4C7F789AF8DEB036BD68F3101013C8F4E4* L_3 = __this->___selectedProjectileButton;
 		NullCheck(L_3);
 		ETFXButtonScript_getProjectileNames_mD169E11F6B6E57C5CBD06E7BCB3C4305CA23028B(L_3, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:70>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:70>
 		return;
 	}
 }
@@ -13478,7 +13478,7 @@ IL_0029:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXFireProjectile_previousEffect_mA36F8D920BA12504B6A9B7C70997F04E4DAD0492 (ETFXFireProjectile_tFDC9B58792CEE6C48406483625F5B0B0E80F8FA3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:74>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:74>
 		int32_t L_0 = __this->___currentProjectile;
 		if ((((int32_t)L_0) <= ((int32_t)0)))
 		{
@@ -13486,7 +13486,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXFireProjectile_previousEffect_mA36F8
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:75>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:75>
 		int32_t L_1 = __this->___currentProjectile;
 		__this->___currentProjectile = ((int32_t)il2cpp_codegen_subtract(L_1, 1));
 		goto IL_0029;
@@ -13494,7 +13494,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXFireProjectile_previousEffect_mA36F8
 
 IL_0019:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:77>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:77>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_2 = __this->___projectiles;
 		NullCheck(L_2);
 		__this->___currentProjectile = ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_2)->max_length)), 1));
@@ -13502,11 +13502,11 @@ IL_0019:
 
 IL_0029:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:78>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:78>
 		ETFXButtonScript_t55538C4C7F789AF8DEB036BD68F3101013C8F4E4* L_3 = __this->___selectedProjectileButton;
 		NullCheck(L_3);
 		ETFXButtonScript_getProjectileNames_mD169E11F6B6E57C5CBD06E7BCB3C4305CA23028B(L_3, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:79>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:79>
 		return;
 	}
 }
@@ -13514,10 +13514,10 @@ IL_0029:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXFireProjectile_AdjustSpeed_m9A00824BF1347E0F8FE0E6126CF794676B7BB8FB (ETFXFireProjectile_tFDC9B58792CEE6C48406483625F5B0B0E80F8FA3* __this, float ___0_newSpeed, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:83>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:83>
 		float L_0 = ___0_newSpeed;
 		__this->___speed = L_0;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:84>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:84>
 		return;
 	}
 }
@@ -13525,7 +13525,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXFireProjectile_AdjustSpeed_m9A00824B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXFireProjectile__ctor_m0454A1D37EA11E608273AB3987BD6D93213A31A8 (ETFXFireProjectile_tFDC9B58792CEE6C48406483625F5B0B0E80F8FA3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:15>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs:15>
 		__this->___speed = (500.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -13543,9 +13543,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXFireProjectile__ctor_m0454A1D37EA11E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXLoopScript_Start_m8B9F608C71269FF287FF5CF6A0D12F728446FE59 (ETFXLoopScript_tCDE8DB0D9E555C12328CE15351C9982ACDE5F78B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXLoopScript.cs:18>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXLoopScript.cs:18>
 		ETFXLoopScript_PlayEffect_mB0F1246770022F592F854F71DA7E1A13C3949DCB(__this, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXLoopScript.cs:19>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXLoopScript.cs:19>
 		return;
 	}
 }
@@ -13559,10 +13559,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXLoopScript_PlayEffect_mB0F1246770022
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXLoopScript.cs:23>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXLoopScript.cs:23>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_0;
 		L_0 = MonoBehaviour_StartCoroutine_m10C4B693B96175C42B0FD00911E072701C220DB4(__this, _stringLiteral92E9796AF13FEEF7EE0A3D7079F97259971BBF9B, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXLoopScript.cs:24>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXLoopScript.cs:24>
 		return;
 	}
 }
@@ -13589,11 +13589,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ETFXLoopScript_EffectLoop_m9BD
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXLoopScript__ctor_m7D358DD45F488706D4E3340A8540A6AF526BB6B7 (ETFXLoopScript_tCDE8DB0D9E555C12328CE15351C9982ACDE5F78B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXLoopScript.cs:9>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXLoopScript.cs:9>
 		__this->___loopTimeLimit = (2.0f);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXLoopScript.cs:13>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXLoopScript.cs:13>
 		__this->___spawnWithoutLight = (bool)1;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXLoopScript.cs:14>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXLoopScript.cs:14>
 		__this->___spawnWithoutSound = (bool)1;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -13665,7 +13665,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CEffectLoopU3Ed__6_MoveNext_m327965464
 IL_001a:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXLoopScript.cs:28>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXLoopScript.cs:28>
 		ETFXLoopScript_tCDE8DB0D9E555C12328CE15351C9982ACDE5F78B* L_4 = V_1;
 		NullCheck(L_4);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = L_4->___chosenEffect;
@@ -13688,7 +13688,7 @@ IL_001a:
 		L_12 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4(L_5, L_8, L_11, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
 		__this->___U3CeffectPlayerU3E5__2 = L_12;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CeffectPlayerU3E5__2), (void*)L_12);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXLoopScript.cs:30>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXLoopScript.cs:30>
 		ETFXLoopScript_tCDE8DB0D9E555C12328CE15351C9982ACDE5F78B* L_13 = V_1;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = __this->___U3CeffectPlayerU3E5__2;
 		NullCheck(L_14);
@@ -13707,7 +13707,7 @@ IL_001a:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXLoopScript.cs:32>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXLoopScript.cs:32>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = __this->___U3CeffectPlayerU3E5__2;
 		NullCheck(L_19);
 		Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* L_20;
@@ -13718,7 +13718,7 @@ IL_001a:
 
 IL_0074:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXLoopScript.cs:37>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXLoopScript.cs:37>
 		ETFXLoopScript_tCDE8DB0D9E555C12328CE15351C9982ACDE5F78B* L_21 = V_1;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22 = __this->___U3CeffectPlayerU3E5__2;
 		NullCheck(L_22);
@@ -13738,7 +13738,7 @@ IL_0074:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXLoopScript.cs:39>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXLoopScript.cs:39>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_27 = __this->___U3CeffectPlayerU3E5__2;
 		NullCheck(L_27);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_28;
@@ -13749,7 +13749,7 @@ IL_0074:
 
 IL_00a0:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXLoopScript.cs:43>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXLoopScript.cs:43>
 		ETFXLoopScript_tCDE8DB0D9E555C12328CE15351C9982ACDE5F78B* L_29 = V_1;
 		NullCheck(L_29);
 		float L_30 = L_29->___loopTimeLimit;
@@ -13764,15 +13764,15 @@ IL_00a0:
 IL_00ba:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXLoopScript.cs:45>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXLoopScript.cs:45>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_32 = __this->___U3CeffectPlayerU3E5__2;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_32, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXLoopScript.cs:46>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXLoopScript.cs:46>
 		ETFXLoopScript_tCDE8DB0D9E555C12328CE15351C9982ACDE5F78B* L_33 = V_1;
 		NullCheck(L_33);
 		ETFXLoopScript_PlayEffect_mB0F1246770022F592F854F71DA7E1A13C3949DCB(L_33, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXLoopScript.cs:47>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXLoopScript.cs:47>
 		return (bool)0;
 	}
 }
@@ -13822,22 +13822,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXMouseOrbit_Start_m883ED864D07ED2B013
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:25>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:25>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Transform_get_eulerAngles_mCAAF48EFCF628F1ED91C2FFE75A4FD19C039DD6A(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:26>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:26>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = V_0;
 		float L_3 = L_2.___y;
 		__this->___rotationYAxis = L_3;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:27>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:27>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = V_0;
 		float L_5 = L_4.___x;
 		__this->___rotationXAxis = L_5;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:29>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:29>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_6;
 		L_6 = Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8(__this, Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8_RuntimeMethod_var);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -13849,7 +13849,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXMouseOrbit_Start_m883ED864D07ED2B013
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:31>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:31>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_8;
 		L_8 = Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8(__this, Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8_RuntimeMethod_var);
 		NullCheck(L_8);
@@ -13858,7 +13858,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXMouseOrbit_Start_m883ED864D07ED2B013
 
 IL_003d:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:33>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:33>
 		return;
 	}
 }
@@ -13884,7 +13884,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXMouseOrbit_LateUpdate_m88BAD2785B344
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_3;
 	memset((&V_3), 0, sizeof(V_3));
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:36>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:36>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___target;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -13895,7 +13895,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXMouseOrbit_LateUpdate_m88BAD2785B344
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:38>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:38>
 		bool L_2;
 		L_2 = Input_GetMouseButton_m4995DD4A2D4F916565C1B1B5AAF7DF17C126B3EA(1, NULL);
 		if (!L_2)
@@ -13904,14 +13904,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXMouseOrbit_LateUpdate_m88BAD2785B344
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:40>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:40>
 		float L_3 = __this->___velocityX;
 		float L_4 = __this->___xSpeed;
 		float L_5;
 		L_5 = Input_GetAxis_m10372E6C5FF591668D2DC5F58C58D213CC598A62(_stringLiteral88BEE283254D7094E258B3A88730F4CC4F1E4AC7, NULL);
 		float L_6 = __this->___distance;
 		__this->___velocityX = ((float)il2cpp_codegen_add(L_3, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_4, L_5)), L_6)), (0.0199999996f)))));
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:41>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:41>
 		float L_7 = __this->___velocityY;
 		float L_8 = __this->___ySpeed;
 		float L_9;
@@ -13921,29 +13921,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXMouseOrbit_LateUpdate_m88BAD2785B344
 
 IL_0067:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:43>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:43>
 		float L_10 = __this->___rotationYAxis;
 		float L_11 = __this->___velocityX;
 		__this->___rotationYAxis = ((float)il2cpp_codegen_add(L_10, L_11));
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:44>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:44>
 		float L_12 = __this->___rotationXAxis;
 		float L_13 = __this->___velocityY;
 		__this->___rotationXAxis = ((float)il2cpp_codegen_subtract(L_12, L_13));
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:45>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:45>
 		float L_14 = __this->___rotationXAxis;
 		float L_15 = __this->___yMinLimit;
 		float L_16 = __this->___yMaxLimit;
 		float L_17;
 		L_17 = ETFXMouseOrbit_ClampAngle_m72AFA6D105B5AF64EFC0DFF57F67AA6FB7E9C26F(L_14, L_15, L_16, NULL);
 		__this->___rotationXAxis = L_17;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:47>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:47>
 		float L_18 = __this->___rotationXAxis;
 		float L_19 = __this->___rotationYAxis;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_20;
 		L_20 = Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline(L_18, L_19, (0.0f), NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:48>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:48>
 		V_0 = L_20;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:50>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:50>
 		float L_21 = __this->___distance;
 		float L_22;
 		L_22 = Input_GetAxis_m10372E6C5FF591668D2DC5F58C58D213CC598A62(_stringLiteralFC6687DC37346CD2569888E29764F727FAF530E0, NULL);
@@ -13952,7 +13952,7 @@ IL_0067:
 		float L_25;
 		L_25 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(((float)il2cpp_codegen_subtract(L_21, ((float)il2cpp_codegen_multiply(L_22, (5.0f))))), L_23, L_24, NULL);
 		__this->___distance = L_25;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:52>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:52>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_26 = __this->___target;
 		NullCheck(L_26);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27;
@@ -13971,7 +13971,7 @@ IL_0067:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:54>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:54>
 		float L_31 = __this->___distance;
 		float L_32;
 		L_32 = RaycastHit_get_distance_m035194B0E9BB6229259CFC43B095A9C8E5011C78((&V_1), NULL);
@@ -13980,10 +13980,10 @@ IL_0067:
 
 IL_0122:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:56>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:56>
 		float L_33 = __this->___distance;
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_2), (0.0f), (0.0f), ((-L_33)), NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:57>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:57>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_34 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_35 = V_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_36;
@@ -13995,19 +13995,19 @@ IL_0122:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_39;
 		L_39 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_36, L_38, NULL);
 		V_3 = L_39;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:59>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:59>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_40;
 		L_40 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_41 = V_0;
 		NullCheck(L_40);
 		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_40, L_41, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:60>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:60>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_42;
 		L_42 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_43 = V_3;
 		NullCheck(L_42);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_42, L_43, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:61>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:61>
 		float L_44 = __this->___velocityX;
 		float L_45;
 		L_45 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
@@ -14015,7 +14015,7 @@ IL_0122:
 		float L_47;
 		L_47 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_44, (0.0f), ((float)il2cpp_codegen_multiply(L_45, L_46)), NULL);
 		__this->___velocityX = L_47;
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:62>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:62>
 		float L_48 = __this->___velocityY;
 		float L_49;
 		L_49 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
@@ -14027,7 +14027,7 @@ IL_0122:
 
 IL_01ae:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:64>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:64>
 		return;
 	}
 }
@@ -14035,7 +14035,7 @@ IL_01ae:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ETFXMouseOrbit_ClampAngle_m72AFA6D105B5AF64EFC0DFF57F67AA6FB7E9C26F (float ___0_angle, float ___1_min, float ___2_max, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:67>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:67>
 		float L_0 = ___0_angle;
 		if ((!(((float)L_0) < ((float)(-360.0f)))))
 		{
@@ -14043,14 +14043,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ETFXMouseOrbit_ClampAngle_m72AFA6D105B5
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:68>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:68>
 		float L_1 = ___0_angle;
 		___0_angle = ((float)il2cpp_codegen_add(L_1, (360.0f)));
 	}
 
 IL_0011:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:69>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:69>
 		float L_2 = ___0_angle;
 		if ((!(((float)L_2) > ((float)(360.0f)))))
 		{
@@ -14058,14 +14058,14 @@ IL_0011:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:70>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:70>
 		float L_3 = ___0_angle;
 		___0_angle = ((float)il2cpp_codegen_subtract(L_3, (360.0f)));
 	}
 
 IL_0022:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:71>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:71>
 		float L_4 = ___0_angle;
 		float L_5 = ___1_min;
 		float L_6 = ___2_max;
@@ -14078,21 +14078,21 @@ IL_0022:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXMouseOrbit__ctor_mCCECFB7E06C2B4F0D1F93D142B8CA91738C63370 (ETFXMouseOrbit_tF90F05A1264D58A68A0292F11E2B905982531AF0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:10>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:10>
 		__this->___distance = (5.0f);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:11>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:11>
 		__this->___xSpeed = (120.0f);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:12>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:12>
 		__this->___ySpeed = (120.0f);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:13>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:13>
 		__this->___yMinLimit = (-20.0f);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:14>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:14>
 		__this->___yMaxLimit = (80.0f);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:15>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:15>
 		__this->___distanceMin = (0.5f);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:16>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:16>
 		__this->___distanceMax = (15.0f);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:17>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs:17>
 		__this->___smoothTime = (2.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -14117,17 +14117,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXTarget_Start_m4453DDD66DCD94DE34E122
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXTarget.cs:18>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXTarget.cs:18>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_0;
 		L_0 = Component_GetComponent_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_mC91ACC92AD57CA6CA00991DAF1DB3830BCE07AF8(__this, Component_GetComponent_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_mC91ACC92AD57CA6CA00991DAF1DB3830BCE07AF8_RuntimeMethod_var);
 		__this->___targetRenderer = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___targetRenderer), (void*)L_0);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXTarget.cs:19>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXTarget.cs:19>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_1;
 		L_1 = Component_GetComponent_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m820398EDBF1D3766C3166A0C323A127662A29A14(__this, Component_GetComponent_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m820398EDBF1D3766C3166A0C323A127662A29A14_RuntimeMethod_var);
 		__this->___targetCollider = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___targetCollider), (void*)L_1);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXTarget.cs:20>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXTarget.cs:20>
 		return;
 	}
 }
@@ -14142,15 +14142,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXTarget_SpawnTarget_m6D2F813642C270F2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXTarget.cs:24>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXTarget.cs:24>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_0 = __this->___targetRenderer;
 		NullCheck(L_0);
 		Renderer_set_enabled_m015E6D7B825528A31182F267234CC6A925F71DA8(L_0, (bool)1, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXTarget.cs:25>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXTarget.cs:25>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_1 = __this->___targetCollider;
 		NullCheck(L_1);
 		Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70(L_1, (bool)1, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXTarget.cs:26>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXTarget.cs:26>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___respawnParticle;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
 		L_3 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -14165,9 +14165,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXTarget_SpawnTarget_m6D2F813642C270F2
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
 		L_7 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4(L_2, L_4, L_6, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXTarget.cs:27>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXTarget.cs:27>
 		Object_Destroy_m064F2A066491D2DC4FFCFBDBE5FCFFB807A04436(L_7, (3.5f), NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXTarget.cs:28>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXTarget.cs:28>
 		return;
 	}
 }
@@ -14183,7 +14183,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXTarget_OnTriggerEnter_m02835C9D449C3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXTarget.cs:32>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXTarget.cs:32>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_0 = ___0_col;
 		NullCheck(L_0);
 		String_t* L_1;
@@ -14196,7 +14196,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXTarget_OnTriggerEnter_m02835C9D449C3
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXTarget.cs:34>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXTarget.cs:34>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___hitParticle;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -14207,7 +14207,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXTarget_OnTriggerEnter_m02835C9D449C3
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXTarget.cs:37>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXTarget.cs:37>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___hitParticle;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
 		L_6 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -14222,17 +14222,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXTarget_OnTriggerEnter_m02835C9D449C3
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10;
 		L_10 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4(L_5, L_7, L_9, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXTarget.cs:38>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXTarget.cs:38>
 		Object_Destroy_m064F2A066491D2DC4FFCFBDBE5FCFFB807A04436(L_10, (2.0f), NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXTarget.cs:39>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXTarget.cs:39>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_11 = __this->___targetRenderer;
 		NullCheck(L_11);
 		Renderer_set_enabled_m015E6D7B825528A31182F267234CC6A925F71DA8(L_11, (bool)0, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXTarget.cs:40>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXTarget.cs:40>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_12 = __this->___targetCollider;
 		NullCheck(L_12);
 		Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70(L_12, (bool)0, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXTarget.cs:41>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXTarget.cs:41>
 		RuntimeObject* L_13;
 		L_13 = ETFXTarget_Respawn_m1E5F54C8F846226F0BCF265F03D4BBAD53F20426(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_14;
@@ -14241,7 +14241,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXTarget_OnTriggerEnter_m02835C9D449C3
 
 IL_006f:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXTarget.cs:44>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXTarget.cs:44>
 		return;
 	}
 }
@@ -14333,7 +14333,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CRespawnU3Ed__7_MoveNext_m98CEBFB0B767
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXTarget.cs:48>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXTarget.cs:48>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_4 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_4, (3.0f), NULL);
 		__this->___U3CU3E2__current = L_4;
@@ -14345,11 +14345,11 @@ IL_0017:
 IL_0037:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXTarget.cs:49>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXTarget.cs:49>
 		ETFXTarget_tFDEC4CD5CA1B096161C895BCC94565CBF1C9B835* L_5 = V_1;
 		NullCheck(L_5);
 		ETFXTarget_SpawnTarget_m6D2F813642C270F2D24D5C8E59FBB9DCEE4F2FA9(L_5, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Demo/Scripts/ETFXTarget.cs:50>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Demo/Scripts/ETFXTarget.cs:50>
 		return (bool)0;
 	}
 }
@@ -14398,7 +14398,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXLightFade_Start_m0D678058F25EBDBD144
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Scripts/ETFXLightFade.cs:18>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Scripts/ETFXLightFade.cs:18>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_0);
@@ -14413,7 +14413,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXLightFade_Start_m0D678058F25EBDBD144
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Scripts/ETFXLightFade.cs:20>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Scripts/ETFXLightFade.cs:20>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
 		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_3);
@@ -14421,7 +14421,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXLightFade_Start_m0D678058F25EBDBD144
 		L_4 = GameObject_GetComponent_TisLight_t1E68479B7782AF2050FAA02A5DC612FD034F18F3_m360B68036A4201772041F6229CE3B2EB21B0C91E(L_3, GameObject_GetComponent_TisLight_t1E68479B7782AF2050FAA02A5DC612FD034F18F3_m360B68036A4201772041F6229CE3B2EB21B0C91E_RuntimeMethod_var);
 		__this->___li = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___li), (void*)L_4);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Scripts/ETFXLightFade.cs:21>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Scripts/ETFXLightFade.cs:21>
 		Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* L_5 = __this->___li;
 		NullCheck(L_5);
 		float L_6;
@@ -14432,7 +14432,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXLightFade_Start_m0D678058F25EBDBD144
 
 IL_0035:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Scripts/ETFXLightFade.cs:24>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Scripts/ETFXLightFade.cs:24>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
 		L_7 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_7);
@@ -14441,7 +14441,7 @@ IL_0035:
 		String_t* L_9;
 		L_9 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral40F46EE1E9B8B2D497BB832A96B0800F6A5E4082, L_8, NULL);
 		MonoBehaviour_print_m9E6FF71C673B651F35DD418C293CFC50C46803B6(L_9, NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Scripts/ETFXLightFade.cs:25>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Scripts/ETFXLightFade.cs:25>
 		return;
 	}
 }
@@ -14456,7 +14456,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXLightFade_Update_mE8F13E85F7C1AD93E0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Scripts/ETFXLightFade.cs:30>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Scripts/ETFXLightFade.cs:30>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_0);
@@ -14471,7 +14471,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXLightFade_Update_mE8F13E85F7C1AD93E0
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Scripts/ETFXLightFade.cs:32>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Scripts/ETFXLightFade.cs:32>
 		Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* L_3 = __this->___li;
 		Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* L_4 = L_3;
 		NullCheck(L_4);
@@ -14483,7 +14483,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXLightFade_Update_mE8F13E85F7C1AD93E0
 		float L_8 = __this->___life;
 		NullCheck(L_4);
 		Light_set_intensity_mE4820C7F39F490B92ED5EA0C3AADA7C0775BE854(L_4, ((float)il2cpp_codegen_subtract(L_5, ((float)il2cpp_codegen_multiply(L_6, ((float)(L_7/L_8)))))), NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Scripts/ETFXLightFade.cs:33>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Scripts/ETFXLightFade.cs:33>
 		bool L_9 = __this->___killAfterLife;
 		if (!L_9)
 		{
@@ -14501,7 +14501,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXLightFade_Update_mE8F13E85F7C1AD93E0
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Scripts/ETFXLightFade.cs:35>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Scripts/ETFXLightFade.cs:35>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12;
 		L_12 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_12);
@@ -14513,7 +14513,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXLightFade_Update_mE8F13E85F7C1AD93E0
 
 IL_0061:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Scripts/ETFXLightFade.cs:37>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Scripts/ETFXLightFade.cs:37>
 		return;
 	}
 }
@@ -14521,9 +14521,9 @@ IL_0061:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXLightFade__ctor_m1ED5D845611A6F5D0DEE7066BD50B26BCD197107 (ETFXLightFade_tDBE243B98772F55E0917A38C92D20E3E16E26C79* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Scripts/ETFXLightFade.cs:9>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Scripts/ETFXLightFade.cs:9>
 		__this->___life = (0.200000003f);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Scripts/ETFXLightFade.cs:10>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Scripts/ETFXLightFade.cs:10>
 		__this->___killAfterLife = (bool)1;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -14547,7 +14547,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXPitchRandomizer_Start_m59C6A78C8AEBF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Scripts/ETFXPitchRandomizer.cs:14>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Scripts/ETFXPitchRandomizer.cs:14>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_0);
@@ -14563,7 +14563,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXPitchRandomizer_Start_m59C6A78C8AEBF
 		L_6 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494(((float)(((-L_4))/(100.0f))), ((float)(L_5/(100.0f))), NULL);
 		NullCheck(L_2);
 		AudioSource_set_pitch_mD14631FC99BF38AAFB356D9C45546BC16CF9E811(L_2, ((float)il2cpp_codegen_multiply(L_3, ((float)il2cpp_codegen_add((1.0f), L_6)))), NULL);
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Scripts/ETFXPitchRandomizer.cs:15>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Scripts/ETFXPitchRandomizer.cs:15>
 		return;
 	}
 }
@@ -14571,7 +14571,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXPitchRandomizer_Start_m59C6A78C8AEBF
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXPitchRandomizer__ctor_m5A7D44A2501727B8D8CFA36DF1DAAD0652A78BD2 (ETFXPitchRandomizer_t9B94C8E4864F0AB2DEF6B4C0B82CCE3472074EEF* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Scripts/ETFXPitchRandomizer.cs:10>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Scripts/ETFXPitchRandomizer.cs:10>
 		__this->___randomPercent = (10.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -14589,7 +14589,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXPitchRandomizer__ctor_m5A7D44A250172
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXRotation_Start_mE170B11ECA9897944DF1D88D87CE6C393707E7D5 (ETFXRotation_t72433929D1B73BD508CF35DC32C38FC1E0BCBB71* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Scripts/ETFXRotation.cs:19>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Scripts/ETFXRotation.cs:19>
 		return;
 	}
 }
@@ -14597,7 +14597,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXRotation_Start_mE170B11ECA9897944DF1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXRotation_Update_mFEF375BFB4CEA01E6D71EF0CC11ADD6014784F6A (ETFXRotation_t72433929D1B73BD508CF35DC32C38FC1E0BCBB71* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Scripts/ETFXRotation.cs:24>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Scripts/ETFXRotation.cs:24>
 		int32_t L_0 = __this->___rotateSpace;
 		if (L_0)
 		{
@@ -14605,7 +14605,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXRotation_Update_mFEF375BFB4CEA01E6D7
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Scripts/ETFXRotation.cs:25>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Scripts/ETFXRotation.cs:25>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
 		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = __this->___rotateVector;
@@ -14619,7 +14619,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXRotation_Update_mFEF375BFB4CEA01E6D7
 
 IL_0023:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Scripts/ETFXRotation.cs:26>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Scripts/ETFXRotation.cs:26>
 		int32_t L_5 = __this->___rotateSpace;
 		if ((!(((uint32_t)L_5) == ((uint32_t)1))))
 		{
@@ -14627,7 +14627,7 @@ IL_0023:
 		}
 	}
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Scripts/ETFXRotation.cs:27>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Scripts/ETFXRotation.cs:27>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
 		L_6 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = __this->___rotateVector;
@@ -14641,7 +14641,7 @@ IL_0023:
 
 IL_0048:
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Scripts/ETFXRotation.cs:28>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Scripts/ETFXRotation.cs:28>
 		return;
 	}
 }
@@ -14649,7 +14649,7 @@ IL_0048:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ETFXRotation__ctor_m819E8377B916CB68CEA35D318A4B1EFED3B1D007 (ETFXRotation_t72433929D1B73BD508CF35DC32C38FC1E0BCBB71* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Epic Toon FX/Scripts/ETFXRotation.cs:10>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Epic Toon FX/Scripts/ETFXRotation.cs:10>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
 		L_0 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		__this->___rotateVector = L_0;
@@ -15026,7 +15026,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color32__ctor_mC9C6B443F0C7C
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Dynamic_get_offset_mACB538017FC4D90DDDF4D997F33D6B0D4D9B8C99_inline (Dynamic_t0B0643611D0093E465B34BC3A6BA659234EA17BD* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Dynamic.cs:5>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Dynamic.cs:5>
 		float L_0 = __this->___U3CoffsetU3Ek__BackingField;
 		return L_0;
 	}
@@ -15035,7 +15035,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Dynamic_get_offset_mACB5380
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Dynamic_get_y_m8A5A04667685963C3F8604411E1EA384DD20AAA5_inline (Dynamic_t0B0643611D0093E465B34BC3A6BA659234EA17BD* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Dynamic.cs:6>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Dynamic.cs:6>
 		float L_0 = __this->___U3CyU3Ek__BackingField;
 		return L_0;
 	}
@@ -15140,7 +15140,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ScoreManager_get_current_m0158936352624E5F1457DCBEB03F0D90984ACA2B_inline (ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/ScoreManager.cs:18>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/ScoreManager.cs:18>
 		int32_t L_0 = __this->___score;
 		return L_0;
 	}
@@ -15163,7 +15163,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Dynamic_set_y_m9C2700BC3F3BE7F853E377A9F4CF503BF4C19D18_inline (Dynamic_t0B0643611D0093E465B34BC3A6BA659234EA17BD* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Dynamic.cs:6>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Dynamic.cs:6>
 		float L_0 = ___0_value;
 		__this->___U3CyU3Ek__BackingField = L_0;
 		return;
@@ -15173,7 +15173,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Dynamic_set_y_m9C2700BC3F3BE
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Dynamic_set_offset_m6EB1D8D61EC58FE0C030505332FC0F15F010E8A5_inline (Dynamic_t0B0643611D0093E465B34BC3A6BA659234EA17BD* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/NewStackGame/Assets/Scripts/Platforms/Dynamic.cs:5>
+		//<source_info:C:/Users/yakup/OneDrive/Belgeler/GitHub/StackBlock/Assets/Scripts/Platforms/Dynamic.cs:5>
 		float L_0 = ___0_value;
 		__this->___U3CoffsetU3Ek__BackingField = L_0;
 		return;

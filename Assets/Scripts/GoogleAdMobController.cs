@@ -14,8 +14,8 @@ public class GoogleAdMobController : MonoBehaviour
     private bool isBannerLoaded = false;
 
     // DÝKKAT: Geliþtirme aþamasýnda kendi gerçek ID'lerin yerine Google Test ID'lerini kullanmalýsýn!
-    private string bannerID = "ca-app-pub-3940256099942544/6300978111";
-    private string interstitialID = "ca-app-pub-3940256099942544/1033173712";
+    private string bannerID = "ca-app-pub-5398339005079750/2544815623";
+    private string interstitialID = "ca-app-pub-5398339005079750/1780743305";
 
     private void Awake()
     {

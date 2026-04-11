@@ -4,11 +4,17 @@ using System.Collections;
 
 public class ScoreManager : MonoBehaviour
 {
+    [SerializeField] private ParticleSystem bestScoreEffect;
+
     [HideInInspector]
     public int current {
         set {
             score = value;
-            best = Mathf.Max(value, best);
+            if (score > best)
+            {
+                best = score;
+                isNewBest = true;
+            }
 
             bestText.text = $"Best: {best}";
             currentText.text = score.ToString();
@@ -24,6 +30,7 @@ public class ScoreManager : MonoBehaviour
 
     private int score = 0;
     private int best = 0;
+    private bool isNewBest = false;
 
     private void Awake()
     {
@@ -40,12 +47,19 @@ public class ScoreManager : MonoBehaviour
     public void ShowBest()
     {
         StartCoroutine(Fade(bestText));
+        bestScoreEffect.Play();
     }
 
     public void Hide()
     {
         StartCoroutine(Fade(currentText));
         StartCoroutine(Fade(bestText));
+    }
+
+    public void ResetState()
+    {
+        current = 0;
+        isNewBest = false;
     }
 
     private IEnumerator Fade(Text score)
