@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: Penc Games
-  productName: StackPuzzleBlastGame
+  productName: StackBlockPuzzleNew
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.43137258, g: 0.15294118, b: 0.41960788, a: 1}
@@ -169,7 +169,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.4
   androidMinAspectRatio: 1
   applicationIdentifier:
-    Android: com.PencGames.StackPuzzleBlastGame
+    Android: com.PencGames.StackBlockPuzzleNew
     Standalone: com.DefaultCompany.3D-Project
   buildNumber:
     Standalone: 0
@@ -273,7 +273,7 @@ PlayerSettings:
   AndroidAllowedArchitectures: -13
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: C:/Users/yakup/OneDrive/Belgeler/GitHub/Keystores/Stack/user.keystore
+  AndroidKeystoreName: C:/Users/yakup/OneDrive/Belgeler/GitHub/Keystores/StackPuzzleBlock/user.keystore
   AndroidKeyaliasName: penc games
   AndroidEnableArmv9SecurityFeatures: 0
   AndroidEnableArm64MTE: 0
