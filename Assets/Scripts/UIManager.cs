@@ -55,6 +55,9 @@ public class UIManager : MonoBehaviour
 
     public IEnumerator Initialize()
     {
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayGameStart();
+
         StartCoroutine(title.Initialize());
         yield return new WaitForSeconds(2.5f);
 

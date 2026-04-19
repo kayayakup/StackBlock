@@ -47,7 +47,14 @@ public class ScoreManager : MonoBehaviour
     public void ShowBest()
     {
         StartCoroutine(Fade(bestText));
-        bestScoreEffect.Play();
+
+        if (isNewBest)
+        {
+            bestScoreEffect.Play();
+
+            if (AudioManager.Instance != null)
+                AudioManager.Instance.PlayNewRecord();
+        }
     }
 
     public void Hide()

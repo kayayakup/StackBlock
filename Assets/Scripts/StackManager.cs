@@ -113,6 +113,9 @@ public class StackManager : MonoBehaviour
                 perfectPlatformsCount++;
                 width = dynamicScale.x;
                 depth = dynamicScale.z;
+
+                if (AudioManager.Instance != null)
+                    AudioManager.Instance.PlayBlockPerfect();
             }
 
             float offset = CalculateStaticPlatform(
@@ -129,6 +132,10 @@ public class StackManager : MonoBehaviour
         {
             cameraAnimation.Invoke(Platforms, true, false);
             ConvertDynamicPlatform(dynamicPlatform);
+
+            if (AudioManager.Instance != null)
+                AudioManager.Instance.PlayLose();
+
             return true;
         }
 
@@ -197,6 +204,9 @@ public class StackManager : MonoBehaviour
 
         platforms.Add(platform);
         SetPlatformColor();
+
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayBlockSpawn();
     }
 
     private void SpawnCuttedPlatform(Vector3 position, float width, float depth)
@@ -206,6 +216,9 @@ public class StackManager : MonoBehaviour
 
         Color platformColor = ColorManager.GetPlatformColor(Platforms - 1);
         platform.GetComponent<MeshRenderer>().material.SetColor("_Color", platformColor);
+
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayBlockCut();
     }
 
     private void ConvertDynamicPlatform(GameObject dynamicPlatform)

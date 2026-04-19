@@ -47,6 +47,9 @@ public class CameraManager : MonoBehaviour
         {
             float offset = (platforms - followPlatform) * 0.2f;
             StartCoroutine(AnimateVertically(initialHeight + offset));
+
+            if (AudioManager.Instance != null)
+                AudioManager.Instance.PlayCameraUp();
         }
         else if (gameOver && zoom > 0.0f)
         {
